@@ -8,6 +8,8 @@ RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 OUTPUTS_DIR = DATA_DIR / "outputs"
 FROZEN_DIR = DATA_DIR / "frozen"
+FROZEN_PREDICTIONS_DIR = FROZEN_DIR / "predictions"
+FROZEN_SIMULATIONS_DIR = FROZEN_DIR / "simulations"
 
 CURRENT_WORLD_CUP_XLSX = RAW_DIR / "mundial_fifa_2026_partidos_hasta_18_jun_2026_estadisticas.xlsx"
 TEAM_HISTORY_XLSX = RAW_DIR / "Estadisticas_ultimos20_selecciones_Mundial2026_v5_48selecciones_FINAL.xlsx"
@@ -49,5 +51,7 @@ OUTPUT_FILES = {
     "group_probabilities": OUTPUTS_DIR / "group_probabilities.json",
     "round_probabilities": OUTPUTS_DIR / "round_probabilities.json",
     "champion_odds": OUTPUTS_DIR / "champion_odds.json",
+    "model_audit": OUTPUTS_DIR / "model_audit.json",
+    "model_calibration": OUTPUTS_DIR / "model_calibration.json",
     "tournament_snapshot": OUTPUTS_DIR / "tournament_snapshot.json",
 }

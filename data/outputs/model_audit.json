@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-06-19T15:06:29.582343+00:00",
+  "model_version": "0.1.0",
+  "matches_audited": 0,
+  "metrics": {
+    "accuracy_1x2": null,
+    "brier_score": null,
+    "log_loss": null,
+    "exact_score_hit_rate": null,
+    "goals_bias": null,
+    "goals_mae": null
+  },
+  "by_confidence_bin": [],
+  "notes": [
+    "Aun no hay partidos auditables porque no existe cruce entre predicciones congeladas y resultados reales.",
+    "El modelo sigue siendo experimental.",
+    "La muestra auditada puede ser pequena para conclusiones definitivas.",
+    "El marcador exacto no es la metrica principal."
+  ]
+}

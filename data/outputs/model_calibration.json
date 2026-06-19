@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-06-19T15:06:29.584640+00:00",
+  "model_version": "0.1.0",
+  "bins": [],
+  "goals": {
+    "mean_predicted_total": null,
+    "mean_actual_total": null,
+    "bias": null,
+    "mae": null
+  }
+}

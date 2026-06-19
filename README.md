@@ -14,6 +14,7 @@ Este repositorio es el pipeline tecnico separado del sitio `edgarsierra.com`. Ge
 - Probabilidad de avanzar desde fase de grupos
 - Probabilidad de llegar a rondas posteriores
 - Probabilidad experimental de campeon
+- Metricas de auditoria cuando existen resultados reales para predicciones congeladas
 
 ## Que NO hace todavia
 
@@ -48,6 +49,7 @@ python -m pip install -e ".[dev]"
 python scripts/01_build_datasets.py
 python scripts/02_generate_predictions.py
 python scripts/03_run_simulation.py
+python scripts/04_audit_results.py
 python scripts/03_export_outputs.py
 ```
 
@@ -59,6 +61,8 @@ data/outputs/team_power_ranking.json
 data/outputs/group_probabilities.json
 data/outputs/round_probabilities.json
 data/outputs/champion_odds.json
+data/outputs/model_audit.json
+data/outputs/model_calibration.json
 data/outputs/tournament_snapshot.json
 data/outputs/model_metadata.json
 ```
@@ -74,6 +78,18 @@ La simulacion de Fase 3 usa resultados reales ya cargados y predicciones pendien
 - los desempates usan puntos, diferencia de goles, goles a favor y fallback estable por `team_id`;
 - las eliminatorias usan un bracket aproximado con siembra estable;
 - `champion_odds.json` es experimental y no debe leerse como certeza ni como cuota de apuestas.
+
+## Auditoria
+
+La auditoria cruza predicciones congeladas con resultados reales verificados. Si todavia no hay cruce entre ambos archivos, los JSON se exportan con `matches_audited = 0` y metricas nulas.
+
+Metricas soportadas:
+
+- accuracy 1X2;
+- Brier score;
+- log loss;
+- hit rate de marcador exacto;
+- sesgo y error absoluto de goles.
 
 ## Tests
 

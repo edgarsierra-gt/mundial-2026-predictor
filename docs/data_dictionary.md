@@ -12,6 +12,7 @@
 - `tournament_schedule.csv`: calendario estructurado de partidos completados y programados.
 - `group_standings_current.csv`: tabla actual por grupo con puntos, goles y ranking.
 - `match_results_real.csv`: resultados reales normalizados para auditoria posterior.
+- `prediction_audit.csv`: cruce auditable entre predicciones congeladas y resultados reales.
 
 ## Public JSON contract
 
@@ -20,5 +21,7 @@
 - `group_probabilities.json`: probabilidad de ganar grupo, quedar segundo, clasificar como tercero, avanzar o quedar eliminado.
 - `round_probabilities.json`: probabilidad de alcanzar R32, R16, cuartos, semifinal, final y campeonato.
 - `champion_odds.json`: ranking experimental de probabilidad de campeon bajo bracket aproximado.
+- `model_audit.json`: resumen publico de metricas de auditoria.
+- `model_calibration.json`: bins de calibracion y sesgo de goles.
 - `tournament_snapshot.json`: snapshot tecnico de estado actual y alcance de simulacion.
 - `model_metadata.json`: version, parametros, fuentes y limitaciones.

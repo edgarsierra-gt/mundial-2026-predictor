@@ -1,0 +1,1 @@
+match_id,prediction_timestamp,result_timestamp,model_version,team_a_id,team_b_id,team_a_goals,team_b_goals,actual_1x2,predicted_1x2,predicted_confidence,hit_1x2,hit_exact_score,brier,log_loss,lambda_a,lambda_b,total_goals_real,goals_error
