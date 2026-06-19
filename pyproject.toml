@@ -1,0 +1,29 @@
+[project]
+name = "mundial-2026-predictor"
+version = "0.1.0"
+description = "Modelo probabilistico para predicciones del Mundial 2026"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas",
+  "numpy",
+  "openpyxl",
+  "pydantic",
+  "python-slugify"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+  "black"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100

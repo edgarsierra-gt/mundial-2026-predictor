@@ -1,0 +1,45 @@
+match_id,date,time_local,group,team_a_id,team_b_id,team_a_name,team_b_name,status,venue,source_url
+2026-06-19_USA_AUS,2026-06-19,1:00 PM,D,USA,AUS,Estados Unidos,Australia,scheduled,"Lumen Field, Seattle, Washington, EUA",manual_user_provided_2026-06-19
+2026-06-19_SCO_MAR,2026-06-19,4:00 PM,C,SCO,MAR,Escocia,Marruecos,scheduled,"Gillette Stadium, Foxborough, Massachusetts, EUA",manual_user_provided_2026-06-19
+2026-06-19_BRA_HTI,2026-06-19,6:30 PM,C,BRA,HTI,Brasil,Haití,scheduled,"Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",manual_user_provided_2026-06-19
+2026-06-19_TUR_PAR,2026-06-19,9:00 PM,D,TUR,PAR,Turquía,Paraguay,scheduled,"Levi's Stadium, Santa Clara, California, EUA",manual_user_provided_2026-06-19
+2026-06-20_NED_SWE,2026-06-20,11:00 AM,F,NED,SWE,Países Bajos,Suecia,scheduled,"NRG Stadium, Houston, Texas, EUA",manual_user_provided_2026-06-19
+2026-06-20_GER_CIV,2026-06-20,2:00 PM,E,GER,CIV,Alemania,Costa de Marfil,scheduled,"BMO Field, Toronto, Canadá",manual_user_provided_2026-06-19
+2026-06-20_ECU_CUW,2026-06-20,6:00 PM,E,ECU,CUW,Ecuador,Curazao,scheduled,"GEHA Field at Arrowhead Stadium, Kansas City, Missouri, EUA",manual_user_provided_2026-06-19
+2026-06-20_TUN_JPN,2026-06-20,10:00 PM,F,TUN,JPN,Túnez,Japón,scheduled,"Estadio BBVA, Guadalupe, México",manual_user_provided_2026-06-19
+2026-06-21_ESP_KSA,2026-06-21,10:00 AM,H,ESP,KSA,España,Arabia Saudí,scheduled,"Mercedes-Benz Stadium, Atlanta, Georgia, EUA",manual_user_provided_2026-06-19
+2026-06-21_BEL_IRI,2026-06-21,1:00 PM,G,BEL,IRI,Bélgica,Irán,scheduled,"SoFi Stadium, Inglewood, California, EUA",manual_user_provided_2026-06-19
+2026-06-21_URU_CPV,2026-06-21,4:00 PM,H,URU,CPV,Uruguay,Cabo Verde,scheduled,"Hard Rock Stadium, Miami Gardens, Florida, EUA",manual_user_provided_2026-06-19
+2026-06-21_NZL_EGY,2026-06-21,7:00 PM,G,NZL,EGY,Nueva Zelanda,Egipto,scheduled,"BC Place, Vancouver, Canadá",manual_user_provided_2026-06-19
+2026-06-22_ARG_AUT,2026-06-22,11:00 AM,J,ARG,AUT,Argentina,Austria,scheduled,"AT&T Stadium, Arlington, Texas, EUA",manual_user_provided_2026-06-19
+2026-06-22_FRA_IRQ,2026-06-22,3:00 PM,I,FRA,IRQ,Francia,Irak,scheduled,"Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",manual_user_provided_2026-06-19
+2026-06-22_NOR_SEN,2026-06-22,6:00 PM,I,NOR,SEN,Noruega,Senegal,scheduled,"MetLife Stadium, East Rutherford, New Jersey, EUA",manual_user_provided_2026-06-19
+2026-06-22_JOR_DZA,2026-06-22,9:00 PM,J,JOR,DZA,Jordania,Argelia,scheduled,"Levi's Stadium, Santa Clara, California, EUA",manual_user_provided_2026-06-19
+2026-06-23_POR_UZB,2026-06-23,11:00 AM,K,POR,UZB,Portugal,Uzbekistán,scheduled,"NRG Stadium, Houston, Texas, EUA",manual_user_provided_2026-06-19
+2026-06-23_ENG_GHA,2026-06-23,2:00 PM,L,ENG,GHA,Inglaterra,Ghana,scheduled,"Gillette Stadium, Foxborough, Massachusetts, EUA",manual_user_provided_2026-06-19
+2026-06-23_PAN_CRO,2026-06-23,5:00 PM,L,PAN,CRO,Panamá,Croacia,scheduled,"BMO Field, Toronto, Canadá",manual_user_provided_2026-06-19
+2026-06-23_COL_COD,2026-06-23,8:00 PM,K,COL,COD,Colombia,RD Congo,scheduled,"Estadio Akron, Guadalajara, México",manual_user_provided_2026-06-19
+2026-06-24_BIH_QAT,2026-06-24,1:00 PM,B,BIH,QAT,Bosnia y Herzegovina,Catar,scheduled,"Lumen Field, Seattle, Washington, EUA",manual_user_provided_2026-06-19
+2026-06-24_SUI_CAN,2026-06-24,1:00 PM,B,SUI,CAN,Suiza,Canadá,scheduled,"BC Place, Vancouver, Canadá",manual_user_provided_2026-06-19
+2026-06-24_MAR_HTI,2026-06-24,4:00 PM,C,MAR,HTI,Marruecos,Haití,scheduled,"Mercedes-Benz Stadium, Atlanta, Georgia, EUA",manual_user_provided_2026-06-19
+2026-06-24_SCO_BRA,2026-06-24,4:00 PM,C,SCO,BRA,Escocia,Brasil,scheduled,"Hard Rock Stadium, Miami Gardens, Florida, EUA",manual_user_provided_2026-06-19
+2026-06-24_CZE_MEX,2026-06-24,7:00 PM,A,CZE,MEX,República Checa,México,scheduled,"Estadio Banorte, Ciudad de México, México",manual_user_provided_2026-06-19
+2026-06-24_RSA_KOR,2026-06-24,7:00 PM,A,RSA,KOR,Sudáfrica,Corea del Sur,scheduled,"Estadio BBVA, Guadalupe, México",manual_user_provided_2026-06-19
+2026-06-25_CUW_CIV,2026-06-25,2:00 PM,E,CUW,CIV,Curazao,Costa de Marfil,scheduled,"Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",manual_user_provided_2026-06-19
+2026-06-25_ECU_GER,2026-06-25,2:00 PM,E,ECU,GER,Ecuador,Alemania,scheduled,"MetLife Stadium, East Rutherford, New Jersey, EUA",manual_user_provided_2026-06-19
+2026-06-25_JPN_SWE,2026-06-25,5:00 PM,F,JPN,SWE,Japón,Suecia,scheduled,"AT&T Stadium, Arlington, Texas, EUA",manual_user_provided_2026-06-19
+2026-06-25_TUN_NED,2026-06-25,5:00 PM,F,TUN,NED,Túnez,Países Bajos,scheduled,"GEHA Field at Arrowhead Stadium, Kansas City, Missouri, EUA",manual_user_provided_2026-06-19
+2026-06-25_PAR_AUS,2026-06-25,8:00 PM,D,PAR,AUS,Paraguay,Australia,scheduled,"Levi's Stadium, Santa Clara, California, EUA",manual_user_provided_2026-06-19
+2026-06-25_TUR_USA,2026-06-25,8:00 PM,D,TUR,USA,Turquía,Estados Unidos,scheduled,"SoFi Stadium, Inglewood, California, EUA",manual_user_provided_2026-06-19
+2026-06-26_NOR_FRA,2026-06-26,1:00 PM,I,NOR,FRA,Noruega,Francia,scheduled,"Gillette Stadium, Foxborough, Massachusetts, EUA",manual_user_provided_2026-06-19
+2026-06-26_SEN_IRQ,2026-06-26,1:00 PM,I,SEN,IRQ,Senegal,Irak,scheduled,"BMO Field, Toronto, Canadá",manual_user_provided_2026-06-19
+2026-06-26_CPV_KSA,2026-06-26,6:00 PM,H,CPV,KSA,Cabo Verde,Arabia Saudí,scheduled,"NRG Stadium, Houston, Texas, EUA",manual_user_provided_2026-06-19
+2026-06-26_URU_ESP,2026-06-26,6:00 PM,H,URU,ESP,Uruguay,España,scheduled,"Estadio Akron, Guadalajara, México",manual_user_provided_2026-06-19
+2026-06-26_EGY_IRI,2026-06-26,9:00 PM,G,EGY,IRI,Egipto,Irán,scheduled,"Lumen Field, Seattle, Washington, EUA",manual_user_provided_2026-06-19
+2026-06-26_NZL_BEL,2026-06-26,9:00 PM,G,NZL,BEL,Nueva Zelanda,Bélgica,scheduled,"BC Place, Vancouver, Canadá",manual_user_provided_2026-06-19
+2026-06-27_CRO_GHA,2026-06-27,3:00 PM,L,CRO,GHA,Croacia,Ghana,scheduled,"Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",manual_user_provided_2026-06-19
+2026-06-27_PAN_ENG,2026-06-27,3:00 PM,L,PAN,ENG,Panamá,Inglaterra,scheduled,"MetLife Stadium, East Rutherford, New Jersey, EUA",manual_user_provided_2026-06-19
+2026-06-27_COL_POR,2026-06-27,5:30 PM,K,COL,POR,Colombia,Portugal,scheduled,"Hard Rock Stadium, Miami Gardens, Florida, EUA",manual_user_provided_2026-06-19
+2026-06-27_COD_UZB,2026-06-27,5:30 PM,K,COD,UZB,RD Congo,Uzbekistán,scheduled,"Mercedes-Benz Stadium, Atlanta, Georgia, EUA",manual_user_provided_2026-06-19
+2026-06-27_DZA_AUT,2026-06-27,8:00 PM,J,DZA,AUT,Argelia,Austria,scheduled,"GEHA Field at Arrowhead Stadium, Kansas City, Missouri, EUA",manual_user_provided_2026-06-19
+2026-06-27_JOR_ARG,2026-06-27,8:00 PM,J,JOR,ARG,Jordania,Argentina,scheduled,"AT&T Stadium, Arlington, Texas, EUA",manual_user_provided_2026-06-19

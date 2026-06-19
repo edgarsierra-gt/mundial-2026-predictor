@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Keep source workbooks local/private by default.
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.docx
+!data/raw/.gitkeep
+
+data/interim/*
+!data/interim/.gitkeep

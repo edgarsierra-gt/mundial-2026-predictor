@@ -1,0 +1,2427 @@
+{
+  "generated_at": "2026-06-19T07:09:18.321413+00:00",
+  "model_version": "0.1.0",
+  "model_mode": "goals_only",
+  "matches": [
+    {
+      "match_id": "2026-06-19_USA_AUS",
+      "date": "2026-06-19",
+      "time_local": "1:00 PM",
+      "group": "D",
+      "venue": "Lumen Field, Seattle, Washington, EUA",
+      "team_a": {
+        "id": "USA",
+        "name": "Estados Unidos",
+        "slug": "estados-unidos"
+      },
+      "team_b": {
+        "id": "AUS",
+        "name": "Australia",
+        "slug": "australia"
+      },
+      "expected_goals": {
+        "team_a": 0.985048,
+        "team_b": 1.626912
+      },
+      "probabilities": {
+        "team_a_win": 0.228822,
+        "draw": 0.247428,
+        "team_b_win": 0.52375
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.119406
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.119406
+        },
+        {
+          "score": "1-1",
+          "probability": 0.117621
+        },
+        {
+          "score": "0-2",
+          "probability": 0.097132
+        },
+        {
+          "score": "1-2",
+          "probability": 0.095679
+        },
+        {
+          "score": "0-0",
+          "probability": 0.073394
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-19_SCO_MAR",
+      "date": "2026-06-19",
+      "time_local": "4:00 PM",
+      "group": "C",
+      "venue": "Gillette Stadium, Foxborough, Massachusetts, EUA",
+      "team_a": {
+        "id": "SCO",
+        "name": "Escocia",
+        "slug": "escocia"
+      },
+      "team_b": {
+        "id": "MAR",
+        "name": "Marruecos",
+        "slug": "marruecos"
+      },
+      "expected_goals": {
+        "team_a": 0.539172,
+        "team_b": 1.223619
+      },
+      "probabilities": {
+        "team_a_win": 0.163498,
+        "draw": 0.304851,
+        "team_b_win": 0.531651
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.209932
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.209932
+        },
+        {
+          "score": "0-0",
+          "probability": 0.171566
+        },
+        {
+          "score": "0-2",
+          "probability": 0.128438
+        },
+        {
+          "score": "1-1",
+          "probability": 0.113189
+        },
+        {
+          "score": "1-0",
+          "probability": 0.092504
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-19_BRA_HTI",
+      "date": "2026-06-19",
+      "time_local": "6:30 PM",
+      "group": "C",
+      "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",
+      "team_a": {
+        "id": "BRA",
+        "name": "Brasil",
+        "slug": "brasil"
+      },
+      "team_b": {
+        "id": "HTI",
+        "name": "Haití",
+        "slug": "haiti"
+      },
+      "expected_goals": {
+        "team_a": 1.414831,
+        "team_b": 1.209211
+      },
+      "probabilities": {
+        "team_a_win": 0.417456,
+        "draw": 0.260865,
+        "team_b_win": 0.321679
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.124054
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.124054
+        },
+        {
+          "score": "1-0",
+          "probability": 0.102591
+        },
+        {
+          "score": "2-1",
+          "probability": 0.087757
+        },
+        {
+          "score": "0-1",
+          "probability": 0.087681
+        },
+        {
+          "score": "1-2",
+          "probability": 0.075004
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-19_TUR_PAR",
+      "date": "2026-06-19",
+      "time_local": "9:00 PM",
+      "group": "D",
+      "venue": "Levi's Stadium, Santa Clara, California, EUA",
+      "team_a": {
+        "id": "TUR",
+        "name": "Turquía",
+        "slug": "turquia"
+      },
+      "team_b": {
+        "id": "PAR",
+        "name": "Paraguay",
+        "slug": "paraguay"
+      },
+      "expected_goals": {
+        "team_a": 1.61341,
+        "team_b": 1.007156
+      },
+      "probabilities": {
+        "team_a_win": 0.515022,
+        "draw": 0.248653,
+        "team_b_win": 0.236326
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.11824
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.11824
+        },
+        {
+          "score": "1-0",
+          "probability": 0.1174
+        },
+        {
+          "score": "2-1",
+          "probability": 0.095385
+        },
+        {
+          "score": "2-0",
+          "probability": 0.094707
+        },
+        {
+          "score": "0-1",
+          "probability": 0.073286
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-20_NED_SWE",
+      "date": "2026-06-20",
+      "time_local": "11:00 AM",
+      "group": "F",
+      "venue": "NRG Stadium, Houston, Texas, EUA",
+      "team_a": {
+        "id": "NED",
+        "name": "Países Bajos",
+        "slug": "paises-bajos"
+      },
+      "team_b": {
+        "id": "SWE",
+        "name": "Suecia",
+        "slug": "suecia"
+      },
+      "expected_goals": {
+        "team_a": 2.327863,
+        "team_b": 1.5539
+      },
+      "probabilities": {
+        "team_a_win": 0.549732,
+        "draw": 0.196973,
+        "team_b_win": 0.253295
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "2-1",
+        "probability": 0.086856
+      },
+      "top_scores": [
+        {
+          "score": "2-1",
+          "probability": 0.086856
+        },
+        {
+          "score": "1-1",
+          "probability": 0.074623
+        },
+        {
+          "score": "2-2",
+          "probability": 0.067483
+        },
+        {
+          "score": "3-1",
+          "probability": 0.067396
+        },
+        {
+          "score": "1-2",
+          "probability": 0.057978
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-20_GER_CIV",
+      "date": "2026-06-20",
+      "time_local": "2:00 PM",
+      "group": "E",
+      "venue": "BMO Field, Toronto, Canadá",
+      "team_a": {
+        "id": "GER",
+        "name": "Alemania",
+        "slug": "alemania"
+      },
+      "team_b": {
+        "id": "CIV",
+        "name": "Costa de Marfil",
+        "slug": "costa-de-marfil"
+      },
+      "expected_goals": {
+        "team_a": 1.055424,
+        "team_b": 1.137494
+      },
+      "probabilities": {
+        "team_a_win": 0.333544,
+        "draw": 0.291556,
+        "team_b_win": 0.3749
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.13397
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.13397
+        },
+        {
+          "score": "0-1",
+          "probability": 0.126934
+        },
+        {
+          "score": "1-0",
+          "probability": 0.117776
+        },
+        {
+          "score": "0-0",
+          "probability": 0.111591
+        },
+        {
+          "score": "1-2",
+          "probability": 0.076195
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-20_ECU_CUW",
+      "date": "2026-06-20",
+      "time_local": "6:00 PM",
+      "group": "E",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri, EUA",
+      "team_a": {
+        "id": "ECU",
+        "name": "Ecuador",
+        "slug": "ecuador"
+      },
+      "team_b": {
+        "id": "CUW",
+        "name": "Curazao",
+        "slug": "curazao"
+      },
+      "expected_goals": {
+        "team_a": 1.196642,
+        "team_b": 0.55917
+      },
+      "probabilities": {
+        "team_a_win": 0.517655,
+        "draw": 0.309209,
+        "team_b_win": 0.173136
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.206741
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.206741
+        },
+        {
+          "score": "0-0",
+          "probability": 0.172768
+        },
+        {
+          "score": "2-0",
+          "probability": 0.123698
+        },
+        {
+          "score": "1-1",
+          "probability": 0.115603
+        },
+        {
+          "score": "0-1",
+          "probability": 0.096606
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-20_TUN_JPN",
+      "date": "2026-06-20",
+      "time_local": "10:00 PM",
+      "group": "F",
+      "venue": "Estadio BBVA, Guadalupe, México",
+      "team_a": {
+        "id": "TUN",
+        "name": "Túnez",
+        "slug": "tunez"
+      },
+      "team_b": {
+        "id": "JPN",
+        "name": "Japón",
+        "slug": "japon"
+      },
+      "expected_goals": {
+        "team_a": 0.695985,
+        "team_b": 1.989765
+      },
+      "probabilities": {
+        "team_a_win": 0.120787,
+        "draw": 0.200795,
+        "team_b_win": 0.678419
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.135673
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.135673
+        },
+        {
+          "score": "0-2",
+          "probability": 0.134979
+        },
+        {
+          "score": "1-1",
+          "probability": 0.094427
+        },
+        {
+          "score": "1-2",
+          "probability": 0.093943
+        },
+        {
+          "score": "0-3",
+          "probability": 0.089526
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-21_ESP_KSA",
+      "date": "2026-06-21",
+      "time_local": "10:00 AM",
+      "group": "H",
+      "venue": "Mercedes-Benz Stadium, Atlanta, Georgia, EUA",
+      "team_a": {
+        "id": "ESP",
+        "name": "España",
+        "slug": "espana"
+      },
+      "team_b": {
+        "id": "KSA",
+        "name": "Arabia Saudí",
+        "slug": "arabia-saudi"
+      },
+      "expected_goals": {
+        "team_a": 1.763622,
+        "team_b": 0.552669
+      },
+      "probabilities": {
+        "team_a_win": 0.668659,
+        "draw": 0.220928,
+        "team_b_win": 0.110412
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.173978
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.173978
+        },
+        {
+          "score": "2-0",
+          "probability": 0.153416
+        },
+        {
+          "score": "0-0",
+          "probability": 0.098648
+        },
+        {
+          "score": "1-1",
+          "probability": 0.096152
+        },
+        {
+          "score": "3-0",
+          "probability": 0.090189
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-21_BEL_IRI",
+      "date": "2026-06-21",
+      "time_local": "1:00 PM",
+      "group": "G",
+      "venue": "SoFi Stadium, Inglewood, California, EUA",
+      "team_a": {
+        "id": "BEL",
+        "name": "Bélgica",
+        "slug": "belgica"
+      },
+      "team_b": {
+        "id": "IRI",
+        "name": "Irán",
+        "slug": "iran"
+      },
+      "expected_goals": {
+        "team_a": 1.465356,
+        "team_b": 1.176737
+      },
+      "probabilities": {
+        "team_a_win": 0.437771,
+        "draw": 0.258261,
+        "team_b_win": 0.303967
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.122797
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.122797
+        },
+        {
+          "score": "1-0",
+          "probability": 0.104354
+        },
+        {
+          "score": "2-1",
+          "probability": 0.089971
+        },
+        {
+          "score": "0-1",
+          "probability": 0.0838
+        },
+        {
+          "score": "2-0",
+          "probability": 0.076458
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-21_URU_CPV",
+      "date": "2026-06-21",
+      "time_local": "4:00 PM",
+      "group": "H",
+      "venue": "Hard Rock Stadium, Miami Gardens, Florida, EUA",
+      "team_a": {
+        "id": "URU",
+        "name": "Uruguay",
+        "slug": "uruguay"
+      },
+      "team_b": {
+        "id": "CPV",
+        "name": "Cabo Verde",
+        "slug": "cabo-verde"
+      },
+      "expected_goals": {
+        "team_a": 0.405134,
+        "team_b": 0.768852
+      },
+      "probabilities": {
+        "team_a_win": 0.177995,
+        "draw": 0.413186,
+        "team_b_win": 0.408819
+      },
+      "predicted_result": "draw",
+      "most_likely_score": {
+        "score": "0-0",
+        "probability": 0.309132
+      },
+      "top_scores": [
+        {
+          "score": "0-0",
+          "probability": 0.309132
+        },
+        {
+          "score": "0-1",
+          "probability": 0.237677
+        },
+        {
+          "score": "1-0",
+          "probability": 0.12524
+        },
+        {
+          "score": "1-1",
+          "probability": 0.096291
+        },
+        {
+          "score": "0-2",
+          "probability": 0.091369
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-21_NZL_EGY",
+      "date": "2026-06-21",
+      "time_local": "7:00 PM",
+      "group": "G",
+      "venue": "BC Place, Vancouver, Canadá",
+      "team_a": {
+        "id": "NZL",
+        "name": "Nueva Zelanda",
+        "slug": "nueva-zelanda"
+      },
+      "team_b": {
+        "id": "EGY",
+        "name": "Egipto",
+        "slug": "egipto"
+      },
+      "expected_goals": {
+        "team_a": 1.05117,
+        "team_b": 1.133729
+      },
+      "probabilities": {
+        "team_a_win": 0.333071,
+        "draw": 0.292191,
+        "team_b_win": 0.374738
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.134059
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.134059
+        },
+        {
+          "score": "0-1",
+          "probability": 0.127533
+        },
+        {
+          "score": "1-0",
+          "probability": 0.118246
+        },
+        {
+          "score": "0-0",
+          "probability": 0.11249
+        },
+        {
+          "score": "1-2",
+          "probability": 0.075993
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-22_ARG_AUT",
+      "date": "2026-06-22",
+      "time_local": "11:00 AM",
+      "group": "J",
+      "venue": "AT&T Stadium, Arlington, Texas, EUA",
+      "team_a": {
+        "id": "ARG",
+        "name": "Argentina",
+        "slug": "argentina"
+      },
+      "team_b": {
+        "id": "AUT",
+        "name": "Austria",
+        "slug": "austria"
+      },
+      "expected_goals": {
+        "team_a": 1.060021,
+        "team_b": 0.557717
+      },
+      "probabilities": {
+        "team_a_win": 0.474137,
+        "draw": 0.334121,
+        "team_b_win": 0.191742
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.210252
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.210252
+        },
+        {
+          "score": "0-0",
+          "probability": 0.198347
+        },
+        {
+          "score": "1-1",
+          "probability": 0.117261
+        },
+        {
+          "score": "2-0",
+          "probability": 0.111436
+        },
+        {
+          "score": "0-1",
+          "probability": 0.110622
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-22_FRA_IRQ",
+      "date": "2026-06-22",
+      "time_local": "3:00 PM",
+      "group": "I",
+      "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",
+      "team_a": {
+        "id": "FRA",
+        "name": "Francia",
+        "slug": "francia"
+      },
+      "team_b": {
+        "id": "IRQ",
+        "name": "Irak",
+        "slug": "irak"
+      },
+      "expected_goals": {
+        "team_a": 2.094637,
+        "team_b": 0.689569
+      },
+      "probabilities": {
+        "team_a_win": 0.700432,
+        "draw": 0.188961,
+        "team_b_win": 0.110607
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "2-0",
+        "probability": 0.135571
+      },
+      "top_scores": [
+        {
+          "score": "2-0",
+          "probability": 0.135571
+        },
+        {
+          "score": "1-0",
+          "probability": 0.129446
+        },
+        {
+          "score": "3-0",
+          "probability": 0.094657
+        },
+        {
+          "score": "2-1",
+          "probability": 0.093485
+        },
+        {
+          "score": "1-1",
+          "probability": 0.089262
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-22_NOR_SEN",
+      "date": "2026-06-22",
+      "time_local": "6:00 PM",
+      "group": "I",
+      "venue": "MetLife Stadium, East Rutherford, New Jersey, EUA",
+      "team_a": {
+        "id": "NOR",
+        "name": "Noruega",
+        "slug": "noruega"
+      },
+      "team_b": {
+        "id": "SEN",
+        "name": "Senegal",
+        "slug": "senegal"
+      },
+      "expected_goals": {
+        "team_a": 2.099386,
+        "team_b": 1.199016
+      },
+      "probabilities": {
+        "team_a_win": 0.580225,
+        "draw": 0.207743,
+        "team_b_win": 0.212032
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "2-1",
+        "probability": 0.097645
+      },
+      "top_scores": [
+        {
+          "score": "2-1",
+          "probability": 0.097645
+        },
+        {
+          "score": "1-1",
+          "probability": 0.093022
+        },
+        {
+          "score": "2-0",
+          "probability": 0.081438
+        },
+        {
+          "score": "1-0",
+          "probability": 0.077582
+        },
+        {
+          "score": "3-1",
+          "probability": 0.068332
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-22_JOR_DZA",
+      "date": "2026-06-22",
+      "time_local": "9:00 PM",
+      "group": "J",
+      "venue": "Levi's Stadium, Santa Clara, California, EUA",
+      "team_a": {
+        "id": "JOR",
+        "name": "Jordania",
+        "slug": "jordania"
+      },
+      "team_b": {
+        "id": "DZA",
+        "name": "Argelia",
+        "slug": "argelia"
+      },
+      "expected_goals": {
+        "team_a": 0.614114,
+        "team_b": 1.995408
+      },
+      "probabilities": {
+        "team_a_win": 0.104088,
+        "draw": 0.19545,
+        "team_b_win": 0.700463
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.146836
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.146836
+        },
+        {
+          "score": "0-2",
+          "probability": 0.146499
+        },
+        {
+          "score": "0-3",
+          "probability": 0.097442
+        },
+        {
+          "score": "1-1",
+          "probability": 0.090174
+        },
+        {
+          "score": "1-2",
+          "probability": 0.089967
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-23_POR_UZB",
+      "date": "2026-06-23",
+      "time_local": "11:00 AM",
+      "group": "K",
+      "venue": "NRG Stadium, Houston, Texas, EUA",
+      "team_a": {
+        "id": "POR",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "team_b": {
+        "id": "UZB",
+        "name": "Uzbekistán",
+        "slug": "uzbekistan"
+      },
+      "expected_goals": {
+        "team_a": 1.696485,
+        "team_b": 0.771627
+      },
+      "probabilities": {
+        "team_a_win": 0.594625,
+        "draw": 0.237738,
+        "team_b_win": 0.167637
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.143778
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.143778
+        },
+        {
+          "score": "2-0",
+          "probability": 0.121959
+        },
+        {
+          "score": "1-1",
+          "probability": 0.110943
+        },
+        {
+          "score": "2-1",
+          "probability": 0.094107
+        },
+        {
+          "score": "0-0",
+          "probability": 0.084751
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-23_ENG_GHA",
+      "date": "2026-06-23",
+      "time_local": "2:00 PM",
+      "group": "L",
+      "venue": "Gillette Stadium, Foxborough, Massachusetts, EUA",
+      "team_a": {
+        "id": "ENG",
+        "name": "Inglaterra",
+        "slug": "inglaterra"
+      },
+      "team_b": {
+        "id": "GHA",
+        "name": "Ghana",
+        "slug": "ghana"
+      },
+      "expected_goals": {
+        "team_a": 1.811994,
+        "team_b": 0.483851
+      },
+      "probabilities": {
+        "team_a_win": 0.697974,
+        "draw": 0.210305,
+        "team_b_win": 0.091721
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.182446
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.182446
+        },
+        {
+          "score": "2-0",
+          "probability": 0.165295
+        },
+        {
+          "score": "0-0",
+          "probability": 0.100688
+        },
+        {
+          "score": "3-0",
+          "probability": 0.099838
+        },
+        {
+          "score": "1-1",
+          "probability": 0.088277
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-23_PAN_CRO",
+      "date": "2026-06-23",
+      "time_local": "5:00 PM",
+      "group": "L",
+      "venue": "BMO Field, Toronto, Canadá",
+      "team_a": {
+        "id": "PAN",
+        "name": "Panamá",
+        "slug": "panama"
+      },
+      "team_b": {
+        "id": "CRO",
+        "name": "Croacia",
+        "slug": "croacia"
+      },
+      "expected_goals": {
+        "team_a": 1.505474,
+        "team_b": 1.595231
+      },
+      "probabilities": {
+        "team_a_win": 0.361441,
+        "draw": 0.238246,
+        "team_b_win": 0.400313
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.108121
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.108121
+        },
+        {
+          "score": "1-2",
+          "probability": 0.086239
+        },
+        {
+          "score": "2-1",
+          "probability": 0.081387
+        },
+        {
+          "score": "0-1",
+          "probability": 0.071818
+        },
+        {
+          "score": "1-0",
+          "probability": 0.067778
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-23_COL_COD",
+      "date": "2026-06-23",
+      "time_local": "8:00 PM",
+      "group": "K",
+      "venue": "Estadio Akron, Guadalajara, México",
+      "team_a": {
+        "id": "COL",
+        "name": "Colombia",
+        "slug": "colombia"
+      },
+      "team_b": {
+        "id": "COD",
+        "name": "DR Congo",
+        "slug": "dr-congo"
+      },
+      "expected_goals": {
+        "team_a": 0.965379,
+        "team_b": 0.91212
+      },
+      "probabilities": {
+        "team_a_win": 0.354115,
+        "draw": 0.320389,
+        "team_b_win": 0.325496
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "0-0",
+        "probability": 0.152972
+      },
+      "top_scores": [
+        {
+          "score": "0-0",
+          "probability": 0.152972
+        },
+        {
+          "score": "1-0",
+          "probability": 0.147676
+        },
+        {
+          "score": "0-1",
+          "probability": 0.139529
+        },
+        {
+          "score": "1-1",
+          "probability": 0.134699
+        },
+        {
+          "score": "2-0",
+          "probability": 0.071282
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-24_BIH_QAT",
+      "date": "2026-06-24",
+      "time_local": "1:00 PM",
+      "group": "B",
+      "venue": "Lumen Field, Seattle, Washington, EUA",
+      "team_a": {
+        "id": "BIH",
+        "name": "Bosnia y Herzegovina",
+        "slug": "bosnia-y-herzegovina"
+      },
+      "team_b": {
+        "id": "QAT",
+        "name": "Catar",
+        "slug": "catar"
+      },
+      "expected_goals": {
+        "team_a": 1.379313,
+        "team_b": 0.626024
+      },
+      "probabilities": {
+        "team_a_win": 0.552422,
+        "draw": 0.278491,
+        "team_b_win": 0.169087
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.185679
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.185679
+        },
+        {
+          "score": "0-0",
+          "probability": 0.134617
+        },
+        {
+          "score": "2-0",
+          "probability": 0.128055
+        },
+        {
+          "score": "1-1",
+          "probability": 0.116239
+        },
+        {
+          "score": "0-1",
+          "probability": 0.084273
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-24_SUI_CAN",
+      "date": "2026-06-24",
+      "time_local": "1:00 PM",
+      "group": "B",
+      "venue": "BC Place, Vancouver, Canadá",
+      "team_a": {
+        "id": "SUI",
+        "name": "Suiza",
+        "slug": "suiza"
+      },
+      "team_b": {
+        "id": "CAN",
+        "name": "Canadá",
+        "slug": "canada"
+      },
+      "expected_goals": {
+        "team_a": 0.796187,
+        "team_b": 1.005835
+      },
+      "probabilities": {
+        "team_a_win": 0.27986,
+        "draw": 0.325999,
+        "team_b_win": 0.394141
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.165928
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.165928
+        },
+        {
+          "score": "0-0",
+          "probability": 0.164965
+        },
+        {
+          "score": "1-1",
+          "probability": 0.13211
+        },
+        {
+          "score": "1-0",
+          "probability": 0.131343
+        },
+        {
+          "score": "0-2",
+          "probability": 0.083448
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-24_MAR_HTI",
+      "date": "2026-06-24",
+      "time_local": "4:00 PM",
+      "group": "C",
+      "venue": "Mercedes-Benz Stadium, Atlanta, Georgia, EUA",
+      "team_a": {
+        "id": "MAR",
+        "name": "Marruecos",
+        "slug": "marruecos"
+      },
+      "team_b": {
+        "id": "HTI",
+        "name": "Haití",
+        "slug": "haiti"
+      },
+      "expected_goals": {
+        "team_a": 1.451874,
+        "team_b": 0.541868
+      },
+      "probabilities": {
+        "team_a_win": 0.595973,
+        "draw": 0.266338,
+        "team_b_win": 0.137688
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.197728
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.197728
+        },
+        {
+          "score": "2-0",
+          "probability": 0.143538
+        },
+        {
+          "score": "0-0",
+          "probability": 0.136188
+        },
+        {
+          "score": "1-1",
+          "probability": 0.107142
+        },
+        {
+          "score": "2-1",
+          "probability": 0.077778
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-24_SCO_BRA",
+      "date": "2026-06-24",
+      "time_local": "4:00 PM",
+      "group": "C",
+      "venue": "Hard Rock Stadium, Miami Gardens, Florida, EUA",
+      "team_a": {
+        "id": "SCO",
+        "name": "Escocia",
+        "slug": "escocia"
+      },
+      "team_b": {
+        "id": "BRA",
+        "name": "Brasil",
+        "slug": "brasil"
+      },
+      "expected_goals": {
+        "team_a": 1.203197,
+        "team_b": 1.1924
+      },
+      "probabilities": {
+        "team_a_win": 0.36416,
+        "draw": 0.27692,
+        "team_b_win": 0.358919
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.130728
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.130728
+        },
+        {
+          "score": "1-0",
+          "probability": 0.109634
+        },
+        {
+          "score": "0-1",
+          "probability": 0.10865
+        },
+        {
+          "score": "0-0",
+          "probability": 0.091119
+        },
+        {
+          "score": "2-1",
+          "probability": 0.078646
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-24_CZE_MEX",
+      "date": "2026-06-24",
+      "time_local": "7:00 PM",
+      "group": "A",
+      "venue": "Estadio Banorte, Ciudad de México, México",
+      "team_a": {
+        "id": "CZE",
+        "name": "República Checa",
+        "slug": "republica-checa"
+      },
+      "team_b": {
+        "id": "MEX",
+        "name": "México",
+        "slug": "mexico"
+      },
+      "expected_goals": {
+        "team_a": 0.645703,
+        "team_b": 1.13134
+      },
+      "probabilities": {
+        "team_a_win": 0.209631,
+        "draw": 0.317178,
+        "team_b_win": 0.473192
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.191353
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.191353
+        },
+        {
+          "score": "0-0",
+          "probability": 0.169138
+        },
+        {
+          "score": "1-1",
+          "probability": 0.123557
+        },
+        {
+          "score": "1-0",
+          "probability": 0.109213
+        },
+        {
+          "score": "0-2",
+          "probability": 0.108242
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-24_RSA_KOR",
+      "date": "2026-06-24",
+      "time_local": "7:00 PM",
+      "group": "A",
+      "venue": "Estadio BBVA, Guadalupe, México",
+      "team_a": {
+        "id": "RSA",
+        "name": "Sudáfrica",
+        "slug": "sudafrica"
+      },
+      "team_b": {
+        "id": "KOR",
+        "name": "Corea del Sur",
+        "slug": "corea-del-sur"
+      },
+      "expected_goals": {
+        "team_a": 0.82204,
+        "team_b": 1.145784
+      },
+      "probabilities": {
+        "team_a_win": 0.262173,
+        "draw": 0.305839,
+        "team_b_win": 0.431989
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.160136
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.160136
+        },
+        {
+          "score": "0-0",
+          "probability": 0.139761
+        },
+        {
+          "score": "1-1",
+          "probability": 0.131638
+        },
+        {
+          "score": "1-0",
+          "probability": 0.114889
+        },
+        {
+          "score": "0-2",
+          "probability": 0.091741
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-25_CUW_CIV",
+      "date": "2026-06-25",
+      "time_local": "2:00 PM",
+      "group": "E",
+      "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",
+      "team_a": {
+        "id": "CUW",
+        "name": "Curazao",
+        "slug": "curazao"
+      },
+      "team_b": {
+        "id": "CIV",
+        "name": "Costa de Marfil",
+        "slug": "costa-de-marfil"
+      },
+      "expected_goals": {
+        "team_a": 0.658029,
+        "team_b": 2.135403
+      },
+      "probabilities": {
+        "team_a_win": 0.101535,
+        "draw": 0.182662,
+        "team_b_win": 0.715803
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-2",
+        "probability": 0.139612
+      },
+      "top_scores": [
+        {
+          "score": "0-2",
+          "probability": 0.139612
+        },
+        {
+          "score": "0-1",
+          "probability": 0.130759
+        },
+        {
+          "score": "0-3",
+          "probability": 0.099376
+        },
+        {
+          "score": "1-2",
+          "probability": 0.091869
+        },
+        {
+          "score": "1-1",
+          "probability": 0.086043
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-25_ECU_GER",
+      "date": "2026-06-25",
+      "time_local": "2:00 PM",
+      "group": "E",
+      "venue": "MetLife Stadium, East Rutherford, New Jersey, EUA",
+      "team_a": {
+        "id": "ECU",
+        "name": "Ecuador",
+        "slug": "ecuador"
+      },
+      "team_b": {
+        "id": "GER",
+        "name": "Alemania",
+        "slug": "alemania"
+      },
+      "expected_goals": {
+        "team_a": 0.637432,
+        "team_b": 0.896862
+      },
+      "probabilities": {
+        "team_a_win": 0.246026,
+        "draw": 0.357645,
+        "team_b_win": 0.396329
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-0",
+        "probability": 0.215608
+      },
+      "top_scores": [
+        {
+          "score": "0-0",
+          "probability": 0.215608
+        },
+        {
+          "score": "0-1",
+          "probability": 0.193371
+        },
+        {
+          "score": "1-0",
+          "probability": 0.137435
+        },
+        {
+          "score": "1-1",
+          "probability": 0.123261
+        },
+        {
+          "score": "0-2",
+          "probability": 0.086713
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-25_JPN_SWE",
+      "date": "2026-06-25",
+      "time_local": "5:00 PM",
+      "group": "F",
+      "venue": "AT&T Stadium, Arlington, Texas, EUA",
+      "team_a": {
+        "id": "JPN",
+        "name": "Japón",
+        "slug": "japon"
+      },
+      "team_b": {
+        "id": "SWE",
+        "name": "Suecia",
+        "slug": "suecia"
+      },
+      "expected_goals": {
+        "team_a": 2.054043,
+        "team_b": 1.006651
+      },
+      "probabilities": {
+        "team_a_win": 0.615325,
+        "draw": 0.207002,
+        "team_b_win": 0.177673
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "2-1",
+        "probability": 0.099529
+      },
+      "top_scores": [
+        {
+          "score": "2-1",
+          "probability": 0.099529
+        },
+        {
+          "score": "2-0",
+          "probability": 0.098872
+        },
+        {
+          "score": "1-1",
+          "probability": 0.096911
+        },
+        {
+          "score": "1-0",
+          "probability": 0.09627
+        },
+        {
+          "score": "3-1",
+          "probability": 0.068146
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-25_TUN_NED",
+      "date": "2026-06-25",
+      "time_local": "5:00 PM",
+      "group": "F",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri, EUA",
+      "team_a": {
+        "id": "TUN",
+        "name": "Túnez",
+        "slug": "tunez"
+      },
+      "team_b": {
+        "id": "NED",
+        "name": "Países Bajos",
+        "slug": "paises-bajos"
+      },
+      "expected_goals": {
+        "team_a": 1.074346,
+        "team_b": 2.255016
+      },
+      "probabilities": {
+        "team_a_win": 0.168682,
+        "draw": 0.191758,
+        "team_b_win": 0.639559
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "1-2",
+        "probability": 0.097889
+      },
+      "top_scores": [
+        {
+          "score": "1-2",
+          "probability": 0.097889
+        },
+        {
+          "score": "0-2",
+          "probability": 0.091115
+        },
+        {
+          "score": "1-1",
+          "probability": 0.086819
+        },
+        {
+          "score": "0-1",
+          "probability": 0.080811
+        },
+        {
+          "score": "1-3",
+          "probability": 0.07358
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-25_PAR_AUS",
+      "date": "2026-06-25",
+      "time_local": "8:00 PM",
+      "group": "D",
+      "venue": "Levi's Stadium, Santa Clara, California, EUA",
+      "team_a": {
+        "id": "PAR",
+        "name": "Paraguay",
+        "slug": "paraguay"
+      },
+      "team_b": {
+        "id": "AUS",
+        "name": "Australia",
+        "slug": "australia"
+      },
+      "expected_goals": {
+        "team_a": 0.624661,
+        "team_b": 1.285034
+      },
+      "probabilities": {
+        "team_a_win": 0.181008,
+        "draw": 0.293129,
+        "team_b_win": 0.525862
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.190348
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.190348
+        },
+        {
+          "score": "0-0",
+          "probability": 0.148127
+        },
+        {
+          "score": "0-2",
+          "probability": 0.122302
+        },
+        {
+          "score": "1-1",
+          "probability": 0.118903
+        },
+        {
+          "score": "1-0",
+          "probability": 0.092529
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-25_TUR_USA",
+      "date": "2026-06-25",
+      "time_local": "8:00 PM",
+      "group": "D",
+      "venue": "SoFi Stadium, Inglewood, California, EUA",
+      "team_a": {
+        "id": "TUR",
+        "name": "Turquía",
+        "slug": "turquia"
+      },
+      "team_b": {
+        "id": "USA",
+        "name": "Estados Unidos",
+        "slug": "estados-unidos"
+      },
+      "expected_goals": {
+        "team_a": 2.042652,
+        "team_b": 1.588218
+      },
+      "probabilities": {
+        "team_a_win": 0.484336,
+        "draw": 0.213164,
+        "team_b_win": 0.3025
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "2-1",
+        "probability": 0.087809
+      },
+      "top_scores": [
+        {
+          "score": "2-1",
+          "probability": 0.087809
+        },
+        {
+          "score": "1-1",
+          "probability": 0.085976
+        },
+        {
+          "score": "2-2",
+          "probability": 0.06973
+        },
+        {
+          "score": "1-2",
+          "probability": 0.068274
+        },
+        {
+          "score": "3-1",
+          "probability": 0.059788
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-26_NOR_FRA",
+      "date": "2026-06-26",
+      "time_local": "1:00 PM",
+      "group": "I",
+      "venue": "Gillette Stadium, Foxborough, Massachusetts, EUA",
+      "team_a": {
+        "id": "NOR",
+        "name": "Noruega",
+        "slug": "noruega"
+      },
+      "team_b": {
+        "id": "FRA",
+        "name": "Francia",
+        "slug": "francia"
+      },
+      "expected_goals": {
+        "team_a": 2.104453,
+        "team_b": 1.376755
+      },
+      "probabilities": {
+        "team_a_win": 0.541946,
+        "draw": 0.209597,
+        "team_b_win": 0.248457
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "2-1",
+        "probability": 0.093841
+      },
+      "top_scores": [
+        {
+          "score": "2-1",
+          "probability": 0.093841
+        },
+        {
+          "score": "1-1",
+          "probability": 0.089183
+        },
+        {
+          "score": "2-0",
+          "probability": 0.068161
+        },
+        {
+          "score": "3-1",
+          "probability": 0.065828
+        },
+        {
+          "score": "1-0",
+          "probability": 0.064778
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-26_SEN_IRQ",
+      "date": "2026-06-26",
+      "time_local": "1:00 PM",
+      "group": "I",
+      "venue": "BMO Field, Toronto, Canadá",
+      "team_a": {
+        "id": "SEN",
+        "name": "Senegal",
+        "slug": "senegal"
+      },
+      "team_b": {
+        "id": "IRQ",
+        "name": "Irak",
+        "slug": "irak"
+      },
+      "expected_goals": {
+        "team_a": 1.82422,
+        "team_b": 0.687909
+      },
+      "probabilities": {
+        "team_a_win": 0.645762,
+        "draw": 0.219634,
+        "team_b_win": 0.134604
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.147954
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.147954
+        },
+        {
+          "score": "2-0",
+          "probability": 0.13495
+        },
+        {
+          "score": "1-1",
+          "probability": 0.101779
+        },
+        {
+          "score": "2-1",
+          "probability": 0.092833
+        },
+        {
+          "score": "3-0",
+          "probability": 0.08206
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-26_CPV_KSA",
+      "date": "2026-06-26",
+      "time_local": "6:00 PM",
+      "group": "H",
+      "venue": "NRG Stadium, Houston, Texas, EUA",
+      "team_a": {
+        "id": "CPV",
+        "name": "Cabo Verde",
+        "slug": "cabo-verde"
+      },
+      "team_b": {
+        "id": "KSA",
+        "name": "Arabia Saudí",
+        "slug": "arabia-saudi"
+      },
+      "expected_goals": {
+        "team_a": 1.05098,
+        "team_b": 0.507967
+      },
+      "probabilities": {
+        "team_a_win": 0.485136,
+        "draw": 0.338568,
+        "team_b_win": 0.176296
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.221082
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.221082
+        },
+        {
+          "score": "0-0",
+          "probability": 0.210358
+        },
+        {
+          "score": "2-0",
+          "probability": 0.116176
+        },
+        {
+          "score": "1-1",
+          "probability": 0.112302
+        },
+        {
+          "score": "0-1",
+          "probability": 0.106855
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-26_URU_ESP",
+      "date": "2026-06-26",
+      "time_local": "6:00 PM",
+      "group": "H",
+      "venue": "Estadio Akron, Guadalajara, México",
+      "team_a": {
+        "id": "URU",
+        "name": "Uruguay",
+        "slug": "uruguay"
+      },
+      "team_b": {
+        "id": "ESP",
+        "name": "España",
+        "slug": "espana"
+      },
+      "expected_goals": {
+        "team_a": 0.440787,
+        "team_b": 1.290191
+      },
+      "probabilities": {
+        "team_a_win": 0.126432,
+        "draw": 0.293095,
+        "team_b_win": 0.580473
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.228509
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.228509
+        },
+        {
+          "score": "0-0",
+          "probability": 0.177113
+        },
+        {
+          "score": "0-2",
+          "probability": 0.14741
+        },
+        {
+          "score": "1-1",
+          "probability": 0.100724
+        },
+        {
+          "score": "1-0",
+          "probability": 0.078069
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-26_EGY_IRI",
+      "date": "2026-06-26",
+      "time_local": "9:00 PM",
+      "group": "G",
+      "venue": "Lumen Field, Seattle, Washington, EUA",
+      "team_a": {
+        "id": "EGY",
+        "name": "Egipto",
+        "slug": "egipto"
+      },
+      "team_b": {
+        "id": "IRI",
+        "name": "Irán",
+        "slug": "iran"
+      },
+      "expected_goals": {
+        "team_a": 0.685399,
+        "team_b": 1.018569
+      },
+      "probabilities": {
+        "team_a_win": 0.241018,
+        "draw": 0.33296,
+        "team_b_win": 0.426023
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.185339
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.185339
+        },
+        {
+          "score": "0-0",
+          "probability": 0.18196
+        },
+        {
+          "score": "1-1",
+          "probability": 0.127031
+        },
+        {
+          "score": "1-0",
+          "probability": 0.124715
+        },
+        {
+          "score": "0-2",
+          "probability": 0.09439
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-26_NZL_BEL",
+      "date": "2026-06-26",
+      "time_local": "9:00 PM",
+      "group": "G",
+      "venue": "BC Place, Vancouver, Canadá",
+      "team_a": {
+        "id": "NZL",
+        "name": "Nueva Zelanda",
+        "slug": "nueva-zelanda"
+      },
+      "team_b": {
+        "id": "BEL",
+        "name": "Bélgica",
+        "slug": "belgica"
+      },
+      "expected_goals": {
+        "team_a": 1.214401,
+        "team_b": 2.423869
+      },
+      "probabilities": {
+        "team_a_win": 0.17667,
+        "draw": 0.183338,
+        "team_b_win": 0.639992
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "1-2",
+        "probability": 0.093902
+      },
+      "top_scores": [
+        {
+          "score": "1-2",
+          "probability": 0.093902
+        },
+        {
+          "score": "1-1",
+          "probability": 0.077481
+        },
+        {
+          "score": "0-2",
+          "probability": 0.077323
+        },
+        {
+          "score": "1-3",
+          "probability": 0.075868
+        },
+        {
+          "score": "0-1",
+          "probability": 0.063802
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-27_CRO_GHA",
+      "date": "2026-06-27",
+      "time_local": "3:00 PM",
+      "group": "L",
+      "venue": "Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",
+      "team_a": {
+        "id": "CRO",
+        "name": "Croacia",
+        "slug": "croacia"
+      },
+      "team_b": {
+        "id": "GHA",
+        "name": "Ghana",
+        "slug": "ghana"
+      },
+      "expected_goals": {
+        "team_a": 1.509641,
+        "team_b": 1.175103
+      },
+      "probabilities": {
+        "team_a_win": 0.449497,
+        "draw": 0.254831,
+        "team_b_win": 0.295671
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.121058
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.121058
+        },
+        {
+          "score": "1-0",
+          "probability": 0.103019
+        },
+        {
+          "score": "2-1",
+          "probability": 0.091377
+        },
+        {
+          "score": "0-1",
+          "probability": 0.08019
+        },
+        {
+          "score": "2-0",
+          "probability": 0.077761
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-27_PAN_ENG",
+      "date": "2026-06-27",
+      "time_local": "3:00 PM",
+      "group": "L",
+      "venue": "MetLife Stadium, East Rutherford, New Jersey, EUA",
+      "team_a": {
+        "id": "PAN",
+        "name": "Panamá",
+        "slug": "panama"
+      },
+      "team_b": {
+        "id": "ENG",
+        "name": "Inglaterra",
+        "slug": "inglaterra"
+      },
+      "expected_goals": {
+        "team_a": 0.619881,
+        "team_b": 1.914726
+      },
+      "probabilities": {
+        "team_a_win": 0.111845,
+        "draw": 0.205336,
+        "team_b_win": 0.682819
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.15185
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.15185
+        },
+        {
+          "score": "0-2",
+          "probability": 0.145376
+        },
+        {
+          "score": "1-1",
+          "probability": 0.094129
+        },
+        {
+          "score": "0-3",
+          "probability": 0.092785
+        },
+        {
+          "score": "1-2",
+          "probability": 0.090116
+        }
+      ],
+      "confidence_label": "Alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-27_COD_UZB",
+      "date": "2026-06-27",
+      "time_local": "5:30 PM",
+      "group": "K",
+      "venue": "Mercedes-Benz Stadium, Atlanta, Georgia, EUA",
+      "team_a": {
+        "id": "COD",
+        "name": "DR Congo",
+        "slug": "dr-congo"
+      },
+      "team_b": {
+        "id": "UZB",
+        "name": "Uzbekistán",
+        "slug": "uzbekistan"
+      },
+      "expected_goals": {
+        "team_a": 0.977734,
+        "team_b": 0.545646
+      },
+      "probabilities": {
+        "team_a_win": 0.449314,
+        "draw": 0.350723,
+        "team_b_win": 0.199963
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "0-0",
+        "probability": 0.217974
+      },
+      "top_scores": [
+        {
+          "score": "0-0",
+          "probability": 0.217974
+        },
+        {
+          "score": "1-0",
+          "probability": 0.213121
+        },
+        {
+          "score": "0-1",
+          "probability": 0.118937
+        },
+        {
+          "score": "1-1",
+          "probability": 0.116288
+        },
+        {
+          "score": "2-0",
+          "probability": 0.104188
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-27_COL_POR",
+      "date": "2026-06-27",
+      "time_local": "5:30 PM",
+      "group": "K",
+      "venue": "Hard Rock Stadium, Miami Gardens, Florida, EUA",
+      "team_a": {
+        "id": "COL",
+        "name": "Colombia",
+        "slug": "colombia"
+      },
+      "team_b": {
+        "id": "POR",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "expected_goals": {
+        "team_a": 1.365193,
+        "team_b": 1.582636
+      },
+      "probabilities": {
+        "team_a_win": 0.329968,
+        "draw": 0.243877,
+        "team_b_win": 0.426155
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.113337
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.113337
+        },
+        {
+          "score": "1-2",
+          "probability": 0.089686
+        },
+        {
+          "score": "0-1",
+          "probability": 0.083019
+        },
+        {
+          "score": "2-1",
+          "probability": 0.077364
+        },
+        {
+          "score": "1-0",
+          "probability": 0.071613
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-27_DZA_AUT",
+      "date": "2026-06-27",
+      "time_local": "8:00 PM",
+      "group": "J",
+      "venue": "GEHA Field at Arrowhead Stadium, Kansas City, Missouri, EUA",
+      "team_a": {
+        "id": "DZA",
+        "name": "Argelia",
+        "slug": "argelia"
+      },
+      "team_b": {
+        "id": "AUT",
+        "name": "Austria",
+        "slug": "austria"
+      },
+      "expected_goals": {
+        "team_a": 0.835697,
+        "team_b": 1.068249
+      },
+      "probabilities": {
+        "team_a_win": 0.280642,
+        "draw": 0.314777,
+        "team_b_win": 0.404581
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.159148
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.159148
+        },
+        {
+          "score": "0-0",
+          "probability": 0.14898
+        },
+        {
+          "score": "1-1",
+          "probability": 0.132999
+        },
+        {
+          "score": "1-0",
+          "probability": 0.124502
+        },
+        {
+          "score": "0-2",
+          "probability": 0.085005
+        }
+      ],
+      "confidence_label": "Baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-06-27_JOR_ARG",
+      "date": "2026-06-27",
+      "time_local": "8:00 PM",
+      "group": "J",
+      "venue": "AT&T Stadium, Arlington, Texas, EUA",
+      "team_a": {
+        "id": "JOR",
+        "name": "Jordania",
+        "slug": "jordania"
+      },
+      "team_b": {
+        "id": "ARG",
+        "name": "Argentina",
+        "slug": "argentina"
+      },
+      "expected_goals": {
+        "team_a": 0.32062,
+        "team_b": 2.53103
+      },
+      "probabilities": {
+        "team_a_win": 0.031431,
+        "draw": 0.115165,
+        "team_b_win": 0.853405
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-2",
+        "probability": 0.185203
+      },
+      "top_scores": [
+        {
+          "score": "0-2",
+          "probability": 0.185203
+        },
+        {
+          "score": "0-3",
+          "probability": 0.156251
+        },
+        {
+          "score": "0-1",
+          "probability": 0.146346
+        },
+        {
+          "score": "0-4",
+          "probability": 0.098869
+        },
+        {
+          "score": "1-2",
+          "probability": 0.05938
+        }
+      ],
+      "confidence_label": "Muy alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    }
+  ]
+}

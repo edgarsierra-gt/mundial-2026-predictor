@@ -1,0 +1,26 @@
+{
+  "model_version": "0.1.0",
+  "generated_at": "2026-06-19T07:09:19.287728+00:00",
+  "model_mode": "goals_only",
+  "parameters": {
+    "G_eff": 3.1,
+    "half_life_days": 450,
+    "max_goals_matrix": 8,
+    "rho_dixon_coles": 0.0
+  },
+  "data_sources": {
+    "current_worldcup_matches": "mundial_fifa_2026_partidos_hasta_18_jun_2026_estadisticas.xlsx",
+    "team_history": "Estadisticas_ultimos20_selecciones_Mundial2026_v5_48selecciones_FINAL.xlsx"
+  },
+  "handoff_to_astro": {
+    "contract_outputs_dir": "data/outputs",
+    "integration_phase": "Fase 2"
+  },
+  "limitations": [
+    "El modelo inicial no incorpora Elo si no se carga la tabla de ratings.",
+    "No calcula probabilidades de campeon.",
+    "No calcula probabilidades de avanzar por grupo.",
+    "No ejecuta simulacion Monte Carlo.",
+    "El marcador exacto se muestra como curiosidad probabilistica, no como prediccion segura."
+  ]
+}
