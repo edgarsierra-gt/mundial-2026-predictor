@@ -53,6 +53,18 @@ python scripts/04_audit_results.py
 python scripts/03_export_outputs.py
 ```
 
+Para correr todo en orden:
+
+```bash
+python scripts/update_all.py
+```
+
+En GitHub Actions, donde los Excel crudos no estan versionados, se usa:
+
+```bash
+python scripts/update_all.py --skip-build
+```
+
 ## Outputs
 
 ```txt
@@ -90,6 +102,10 @@ Metricas soportadas:
 - log loss;
 - hit rate de marcador exacto;
 - sesgo y error absoluto de goles.
+
+## Automatizacion
+
+El workflow manual `.github/workflows/update-manual.yml` permite correr tests, actualizar outputs desde los CSV procesados versionados y commitear cambios en `data/processed`, `data/outputs` y `data/frozen`.
 
 ## Tests
 

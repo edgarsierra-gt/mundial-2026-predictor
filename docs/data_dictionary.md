@@ -25,3 +25,8 @@
 - `model_calibration.json`: bins de calibracion y sesgo de goles.
 - `tournament_snapshot.json`: snapshot tecnico de estado actual y alcance de simulacion.
 - `model_metadata.json`: version, parametros, fuentes y limitaciones.
+
+## Automation
+
+- `scripts/update_all.py`: ejecuta el pipeline completo en orden.
+- `.github/workflows/update-manual.yml`: workflow manual para actualizar outputs desde GitHub usando CSV procesados versionados.
