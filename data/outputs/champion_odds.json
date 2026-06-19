@@ -1,0 +1,489 @@
+{
+  "generated_at": "2026-06-19T08:15:54.293853+00:00",
+  "model_version": "0.1.0",
+  "n_simulations": 10000,
+  "bracket_mode": "approximate_stable_seed",
+  "interpretation_note": "Probabilidad experimental de campeonar en simulaciones Monte Carlo; no es una prediccion determinista ni lenguaje de apuestas.",
+  "teams": [
+    {
+      "rank": 1,
+      "team_id": "ARG",
+      "name": "Argentina",
+      "group": "J",
+      "prob_champion": 0.2633,
+      "prob_final": 0.3467,
+      "prob_semifinal": 0.4466,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 2,
+      "team_id": "MAR",
+      "name": "Marruecos",
+      "group": "C",
+      "prob_champion": 0.1004,
+      "prob_final": 0.1812,
+      "prob_semifinal": 0.3048,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 3,
+      "team_id": "ENG",
+      "name": "Inglaterra",
+      "group": "L",
+      "prob_champion": 0.0848,
+      "prob_final": 0.1332,
+      "prob_semifinal": 0.1952,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 4,
+      "team_id": "CIV",
+      "name": "Costa de Marfil",
+      "group": "E",
+      "prob_champion": 0.0612,
+      "prob_final": 0.1266,
+      "prob_semifinal": 0.256,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 5,
+      "team_id": "AUT",
+      "name": "Austria",
+      "group": "J",
+      "prob_champion": 0.0588,
+      "prob_final": 0.1046,
+      "prob_semifinal": 0.1719,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 6,
+      "team_id": "GER",
+      "name": "Alemania",
+      "group": "E",
+      "prob_champion": 0.0555,
+      "prob_final": 0.1293,
+      "prob_semifinal": 0.2665,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 7,
+      "team_id": "NOR",
+      "name": "Noruega",
+      "group": "I",
+      "prob_champion": 0.0521,
+      "prob_final": 0.0928,
+      "prob_semifinal": 0.1501,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 8,
+      "team_id": "MEX",
+      "name": "México",
+      "group": "A",
+      "prob_champion": 0.0445,
+      "prob_final": 0.1134,
+      "prob_semifinal": 0.2255,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 9,
+      "team_id": "ESP",
+      "name": "España",
+      "group": "H",
+      "prob_champion": 0.0445,
+      "prob_final": 0.0992,
+      "prob_semifinal": 0.197,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 10,
+      "team_id": "JPN",
+      "name": "Japón",
+      "group": "F",
+      "prob_champion": 0.0394,
+      "prob_final": 0.0861,
+      "prob_semifinal": 0.1883,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 11,
+      "team_id": "BEL",
+      "name": "Bélgica",
+      "group": "G",
+      "prob_champion": 0.0263,
+      "prob_final": 0.0705,
+      "prob_semifinal": 0.1624,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 12,
+      "team_id": "DZA",
+      "name": "Argelia",
+      "group": "J",
+      "prob_champion": 0.0224,
+      "prob_final": 0.0534,
+      "prob_semifinal": 0.0993,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 13,
+      "team_id": "CAN",
+      "name": "Canadá",
+      "group": "B",
+      "prob_champion": 0.0188,
+      "prob_final": 0.0557,
+      "prob_semifinal": 0.143,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 14,
+      "team_id": "AUS",
+      "name": "Australia",
+      "group": "D",
+      "prob_champion": 0.015,
+      "prob_final": 0.0444,
+      "prob_semifinal": 0.1136,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 15,
+      "team_id": "NED",
+      "name": "Países Bajos",
+      "group": "F",
+      "prob_champion": 0.0134,
+      "prob_final": 0.0383,
+      "prob_semifinal": 0.1018,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 16,
+      "team_id": "FRA",
+      "name": "Francia",
+      "group": "I",
+      "prob_champion": 0.0115,
+      "prob_final": 0.0265,
+      "prob_semifinal": 0.0541,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 17,
+      "team_id": "IRI",
+      "name": "Irán",
+      "group": "G",
+      "prob_champion": 0.0095,
+      "prob_final": 0.0301,
+      "prob_semifinal": 0.0806,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 18,
+      "team_id": "ECU",
+      "name": "Ecuador",
+      "group": "E",
+      "prob_champion": 0.0094,
+      "prob_final": 0.031,
+      "prob_semifinal": 0.0727,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 19,
+      "team_id": "CPV",
+      "name": "Cabo Verde",
+      "group": "H",
+      "prob_champion": 0.0079,
+      "prob_final": 0.026,
+      "prob_semifinal": 0.0813,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 20,
+      "team_id": "SCO",
+      "name": "Escocia",
+      "group": "C",
+      "prob_champion": 0.0079,
+      "prob_final": 0.0249,
+      "prob_semifinal": 0.0747,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 21,
+      "team_id": "KOR",
+      "name": "Corea del Sur",
+      "group": "A",
+      "prob_champion": 0.0076,
+      "prob_final": 0.0198,
+      "prob_semifinal": 0.0719,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 22,
+      "team_id": "SUI",
+      "name": "Suiza",
+      "group": "B",
+      "prob_champion": 0.0071,
+      "prob_final": 0.0213,
+      "prob_semifinal": 0.0863,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 23,
+      "team_id": "BRA",
+      "name": "Brasil",
+      "group": "C",
+      "prob_champion": 0.0058,
+      "prob_final": 0.0211,
+      "prob_semifinal": 0.0606,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 24,
+      "team_id": "SEN",
+      "name": "Senegal",
+      "group": "I",
+      "prob_champion": 0.0058,
+      "prob_final": 0.0195,
+      "prob_semifinal": 0.0453,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 25,
+      "team_id": "POR",
+      "name": "Portugal",
+      "group": "K",
+      "prob_champion": 0.0049,
+      "prob_final": 0.017,
+      "prob_semifinal": 0.0387,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 26,
+      "team_id": "COD",
+      "name": "DR Congo",
+      "group": "K",
+      "prob_champion": 0.004,
+      "prob_final": 0.0125,
+      "prob_semifinal": 0.029,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 27,
+      "team_id": "COL",
+      "name": "Colombia",
+      "group": "K",
+      "prob_champion": 0.0034,
+      "prob_final": 0.0106,
+      "prob_semifinal": 0.0282,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 28,
+      "team_id": "EGY",
+      "name": "Egipto",
+      "group": "G",
+      "prob_champion": 0.0026,
+      "prob_final": 0.0078,
+      "prob_semifinal": 0.0318,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 29,
+      "team_id": "TUR",
+      "name": "Turquía",
+      "group": "D",
+      "prob_champion": 0.0023,
+      "prob_final": 0.0093,
+      "prob_semifinal": 0.0345,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 30,
+      "team_id": "HTI",
+      "name": "Haití",
+      "group": "C",
+      "prob_champion": 0.0019,
+      "prob_final": 0.0057,
+      "prob_semifinal": 0.0181,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 31,
+      "team_id": "SWE",
+      "name": "Suecia",
+      "group": "F",
+      "prob_champion": 0.0015,
+      "prob_final": 0.0099,
+      "prob_semifinal": 0.0381,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 32,
+      "team_id": "CZE",
+      "name": "República Checa",
+      "group": "A",
+      "prob_champion": 0.0013,
+      "prob_final": 0.0039,
+      "prob_semifinal": 0.0126,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 33,
+      "team_id": "NZL",
+      "name": "Nueva Zelanda",
+      "group": "G",
+      "prob_champion": 0.0012,
+      "prob_final": 0.0037,
+      "prob_semifinal": 0.0175,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 34,
+      "team_id": "CRO",
+      "name": "Croacia",
+      "group": "L",
+      "prob_champion": 0.001,
+      "prob_final": 0.0049,
+      "prob_semifinal": 0.0123,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 35,
+      "team_id": "PAN",
+      "name": "Panamá",
+      "group": "L",
+      "prob_champion": 0.0007,
+      "prob_final": 0.0026,
+      "prob_semifinal": 0.0087,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 36,
+      "team_id": "BIH",
+      "name": "Bosnia y Herzegovina",
+      "group": "B",
+      "prob_champion": 0.0006,
+      "prob_final": 0.0039,
+      "prob_semifinal": 0.0143,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 37,
+      "team_id": "GHA",
+      "name": "Ghana",
+      "group": "L",
+      "prob_champion": 0.0006,
+      "prob_final": 0.0027,
+      "prob_semifinal": 0.0102,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 38,
+      "team_id": "RSA",
+      "name": "Sudáfrica",
+      "group": "A",
+      "prob_champion": 0.0006,
+      "prob_final": 0.0026,
+      "prob_semifinal": 0.0118,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 39,
+      "team_id": "USA",
+      "name": "Estados Unidos",
+      "group": "D",
+      "prob_champion": 0.0002,
+      "prob_final": 0.0037,
+      "prob_semifinal": 0.0208,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 40,
+      "team_id": "URU",
+      "name": "Uruguay",
+      "group": "H",
+      "prob_champion": 0.0002,
+      "prob_final": 0.0016,
+      "prob_semifinal": 0.0102,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 41,
+      "team_id": "TUN",
+      "name": "Túnez",
+      "group": "F",
+      "prob_champion": 0.0001,
+      "prob_final": 0.0003,
+      "prob_semifinal": 0.0019,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 42,
+      "team_id": "PAR",
+      "name": "Paraguay",
+      "group": "D",
+      "prob_champion": 0.0,
+      "prob_final": 0.0007,
+      "prob_semifinal": 0.003,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 43,
+      "team_id": "KSA",
+      "name": "Arabia Saudí",
+      "group": "H",
+      "prob_champion": 0.0,
+      "prob_final": 0.0005,
+      "prob_semifinal": 0.0047,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 44,
+      "team_id": "UZB",
+      "name": "Uzbekistán",
+      "group": "K",
+      "prob_champion": 0.0,
+      "prob_final": 0.0003,
+      "prob_semifinal": 0.002,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 45,
+      "team_id": "CUW",
+      "name": "Curazao",
+      "group": "E",
+      "prob_champion": 0.0,
+      "prob_final": 0.0002,
+      "prob_semifinal": 0.001,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 46,
+      "team_id": "JOR",
+      "name": "Jordania",
+      "group": "J",
+      "prob_champion": 0.0,
+      "prob_final": 0.0,
+      "prob_semifinal": 0.0005,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 47,
+      "team_id": "QAT",
+      "name": "Catar",
+      "group": "B",
+      "prob_champion": 0.0,
+      "prob_final": 0.0,
+      "prob_semifinal": 0.0005,
+      "movement_since_previous": null
+    },
+    {
+      "rank": 48,
+      "team_id": "IRQ",
+      "name": "Irak",
+      "group": "I",
+      "prob_champion": 0.0,
+      "prob_final": 0.0,
+      "prob_semifinal": 0.0001,
+      "movement_since_previous": null
+    }
+  ]
+}

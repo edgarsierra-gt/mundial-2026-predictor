@@ -221,13 +221,13 @@ def export_model_metadata(path: Path = OUTPUTS_DIR / "model_metadata.json") -> d
         },
         "handoff_to_astro": {
             "contract_outputs_dir": "data/outputs",
-            "integration_phase": "Fase 2",
+            "integration_phase": "Fase 2 y Fase 3",
         },
         "limitations": [
             "El modelo inicial no incorpora Elo si no se carga la tabla de ratings.",
-            "No calcula probabilidades de campeon.",
-            "No calcula probabilidades de avanzar por grupo.",
-            "No ejecuta simulacion Monte Carlo.",
+            "La probabilidad de campeon es experimental y usa bracket aproximado.",
+            "No implementa todavia el bracket oficial completo de FIFA.",
+            "La simulacion Monte Carlo actual cubre fase de grupos, mejores terceros y eliminatorias aproximadas.",
             "El marcador exacto se muestra como curiosidad probabilistica, no como prediccion segura.",
         ],
     }

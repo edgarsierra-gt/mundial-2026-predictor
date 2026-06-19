@@ -1,0 +1,643 @@
+{
+  "generated_at": "2026-06-19T08:15:54.286853+00:00",
+  "model_version": "0.1.0",
+  "n_simulations": 10000,
+  "groups": [
+    {
+      "group": "A",
+      "teams": [
+        {
+          "team_id": "MEX",
+          "name": "México",
+          "group": "A",
+          "played": 2,
+          "points": 6,
+          "prob_group_winner": 0.9519,
+          "prob_group_runner_up": 0.0481,
+          "prob_qualified_as_third": 0.0,
+          "prob_eliminated_group": 0.0,
+          "prob_advance": 1.0
+        },
+        {
+          "team_id": "KOR",
+          "name": "Corea del Sur",
+          "group": "A",
+          "played": 2,
+          "points": 3,
+          "prob_group_winner": 0.0481,
+          "prob_group_runner_up": 0.6315,
+          "prob_qualified_as_third": 0.1928,
+          "prob_eliminated_group": 0.1276,
+          "prob_advance": 0.8724
+        },
+        {
+          "team_id": "RSA",
+          "name": "Sudáfrica",
+          "group": "A",
+          "played": 2,
+          "points": 1,
+          "prob_group_winner": 0.0,
+          "prob_group_runner_up": 0.2135,
+          "prob_qualified_as_third": 0.0474,
+          "prob_eliminated_group": 0.7391,
+          "prob_advance": 0.2609
+        },
+        {
+          "team_id": "CZE",
+          "name": "República Checa",
+          "group": "A",
+          "played": 2,
+          "points": 1,
+          "prob_group_winner": 0.0,
+          "prob_group_runner_up": 0.1069,
+          "prob_qualified_as_third": 0.1215,
+          "prob_eliminated_group": 0.7716,
+          "prob_advance": 0.2284
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "teams": [
+        {
+          "team_id": "CAN",
+          "name": "Canadá",
+          "group": "B",
+          "played": 2,
+          "points": 4,
+          "prob_group_winner": 0.722,
+          "prob_group_runner_up": 0.2779,
+          "prob_qualified_as_third": 0.0001,
+          "prob_eliminated_group": 0.0,
+          "prob_advance": 1.0
+        },
+        {
+          "team_id": "SUI",
+          "name": "Suiza",
+          "group": "B",
+          "played": 2,
+          "points": 4,
+          "prob_group_winner": 0.278,
+          "prob_group_runner_up": 0.7113,
+          "prob_qualified_as_third": 0.0107,
+          "prob_eliminated_group": 0.0,
+          "prob_advance": 1.0
+        },
+        {
+          "team_id": "BIH",
+          "name": "Bosnia y Herzegovina",
+          "group": "B",
+          "played": 2,
+          "points": 1,
+          "prob_group_winner": 0.0,
+          "prob_group_runner_up": 0.0108,
+          "prob_qualified_as_third": 0.5378,
+          "prob_eliminated_group": 0.4514,
+          "prob_advance": 0.5486
+        },
+        {
+          "team_id": "QAT",
+          "name": "Catar",
+          "group": "B",
+          "played": 2,
+          "points": 1,
+          "prob_group_winner": 0.0,
+          "prob_group_runner_up": 0.0,
+          "prob_qualified_as_third": 0.1723,
+          "prob_eliminated_group": 0.8277,
+          "prob_advance": 0.1723
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "teams": [
+        {
+          "team_id": "MAR",
+          "name": "Marruecos",
+          "group": "C",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.404,
+          "prob_group_runner_up": 0.3425,
+          "prob_qualified_as_third": 0.1392,
+          "prob_eliminated_group": 0.1143,
+          "prob_advance": 0.8857
+        },
+        {
+          "team_id": "SCO",
+          "name": "Escocia",
+          "group": "C",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.3364,
+          "prob_group_runner_up": 0.2988,
+          "prob_qualified_as_third": 0.2489,
+          "prob_eliminated_group": 0.1159,
+          "prob_advance": 0.8841
+        },
+        {
+          "team_id": "BRA",
+          "name": "Brasil",
+          "group": "C",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.2182,
+          "prob_group_runner_up": 0.2764,
+          "prob_qualified_as_third": 0.2092,
+          "prob_eliminated_group": 0.2962,
+          "prob_advance": 0.7038
+        },
+        {
+          "team_id": "HTI",
+          "name": "Haití",
+          "group": "C",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0414,
+          "prob_group_runner_up": 0.0823,
+          "prob_qualified_as_third": 0.1771,
+          "prob_eliminated_group": 0.6992,
+          "prob_advance": 0.3008
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "teams": [
+        {
+          "team_id": "AUS",
+          "name": "Australia",
+          "group": "D",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.6253,
+          "prob_group_runner_up": 0.2845,
+          "prob_qualified_as_third": 0.0767,
+          "prob_eliminated_group": 0.0135,
+          "prob_advance": 0.9865
+        },
+        {
+          "team_id": "USA",
+          "name": "Estados Unidos",
+          "group": "D",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.3054,
+          "prob_group_runner_up": 0.3654,
+          "prob_qualified_as_third": 0.2674,
+          "prob_eliminated_group": 0.0618,
+          "prob_advance": 0.9382
+        },
+        {
+          "team_id": "TUR",
+          "name": "Turquía",
+          "group": "D",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0586,
+          "prob_group_runner_up": 0.2937,
+          "prob_qualified_as_third": 0.2857,
+          "prob_eliminated_group": 0.362,
+          "prob_advance": 0.638
+        },
+        {
+          "team_id": "PAR",
+          "name": "Paraguay",
+          "group": "D",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0107,
+          "prob_group_runner_up": 0.0564,
+          "prob_qualified_as_third": 0.1324,
+          "prob_eliminated_group": 0.8005,
+          "prob_advance": 0.1995
+        }
+      ]
+    },
+    {
+      "group": "E",
+      "teams": [
+        {
+          "team_id": "GER",
+          "name": "Alemania",
+          "group": "E",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.4992,
+          "prob_group_runner_up": 0.3878,
+          "prob_qualified_as_third": 0.1087,
+          "prob_eliminated_group": 0.0043,
+          "prob_advance": 0.9957
+        },
+        {
+          "team_id": "CIV",
+          "name": "Costa de Marfil",
+          "group": "E",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.4848,
+          "prob_group_runner_up": 0.4357,
+          "prob_qualified_as_third": 0.0641,
+          "prob_eliminated_group": 0.0154,
+          "prob_advance": 0.9846
+        },
+        {
+          "team_id": "ECU",
+          "name": "Ecuador",
+          "group": "E",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0135,
+          "prob_group_runner_up": 0.1557,
+          "prob_qualified_as_third": 0.4176,
+          "prob_eliminated_group": 0.4132,
+          "prob_advance": 0.5868
+        },
+        {
+          "team_id": "CUW",
+          "name": "Curazao",
+          "group": "E",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0025,
+          "prob_group_runner_up": 0.0208,
+          "prob_qualified_as_third": 0.0749,
+          "prob_eliminated_group": 0.9018,
+          "prob_advance": 0.0982
+        }
+      ]
+    },
+    {
+      "group": "F",
+      "teams": [
+        {
+          "team_id": "SWE",
+          "name": "Suecia",
+          "group": "F",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.2562,
+          "prob_group_runner_up": 0.2671,
+          "prob_qualified_as_third": 0.4099,
+          "prob_eliminated_group": 0.0668,
+          "prob_advance": 0.9332
+        },
+        {
+          "team_id": "JPN",
+          "name": "Japón",
+          "group": "F",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.4034,
+          "prob_group_runner_up": 0.3611,
+          "prob_qualified_as_third": 0.1553,
+          "prob_eliminated_group": 0.0802,
+          "prob_advance": 0.9198
+        },
+        {
+          "team_id": "NED",
+          "name": "Países Bajos",
+          "group": "F",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.3305,
+          "prob_group_runner_up": 0.3509,
+          "prob_qualified_as_third": 0.1997,
+          "prob_eliminated_group": 0.1189,
+          "prob_advance": 0.8811
+        },
+        {
+          "team_id": "TUN",
+          "name": "Túnez",
+          "group": "F",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0099,
+          "prob_group_runner_up": 0.0209,
+          "prob_qualified_as_third": 0.081,
+          "prob_eliminated_group": 0.8882,
+          "prob_advance": 0.1118
+        }
+      ]
+    },
+    {
+      "group": "G",
+      "teams": [
+        {
+          "team_id": "BEL",
+          "name": "Bélgica",
+          "group": "G",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.4664,
+          "prob_group_runner_up": 0.2513,
+          "prob_qualified_as_third": 0.1289,
+          "prob_eliminated_group": 0.1534,
+          "prob_advance": 0.8466
+        },
+        {
+          "team_id": "IRI",
+          "name": "Irán",
+          "group": "G",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.2564,
+          "prob_group_runner_up": 0.2536,
+          "prob_qualified_as_third": 0.1769,
+          "prob_eliminated_group": 0.3131,
+          "prob_advance": 0.6869
+        },
+        {
+          "team_id": "EGY",
+          "name": "Egipto",
+          "group": "G",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.1475,
+          "prob_group_runner_up": 0.2771,
+          "prob_qualified_as_third": 0.1936,
+          "prob_eliminated_group": 0.3818,
+          "prob_advance": 0.6182
+        },
+        {
+          "team_id": "NZL",
+          "name": "Nueva Zelanda",
+          "group": "G",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.1297,
+          "prob_group_runner_up": 0.218,
+          "prob_qualified_as_third": 0.162,
+          "prob_eliminated_group": 0.4903,
+          "prob_advance": 0.5097
+        }
+      ]
+    },
+    {
+      "group": "H",
+      "teams": [
+        {
+          "team_id": "ESP",
+          "name": "España",
+          "group": "H",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.5573,
+          "prob_group_runner_up": 0.2726,
+          "prob_qualified_as_third": 0.0867,
+          "prob_eliminated_group": 0.0834,
+          "prob_advance": 0.9166
+        },
+        {
+          "team_id": "CPV",
+          "name": "Cabo Verde",
+          "group": "H",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.2752,
+          "prob_group_runner_up": 0.4165,
+          "prob_qualified_as_third": 0.1316,
+          "prob_eliminated_group": 0.1767,
+          "prob_advance": 0.8233
+        },
+        {
+          "team_id": "URU",
+          "name": "Uruguay",
+          "group": "H",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.0853,
+          "prob_group_runner_up": 0.1622,
+          "prob_qualified_as_third": 0.1486,
+          "prob_eliminated_group": 0.6039,
+          "prob_advance": 0.3961
+        },
+        {
+          "team_id": "KSA",
+          "name": "Arabia Saudí",
+          "group": "H",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.0822,
+          "prob_group_runner_up": 0.1487,
+          "prob_qualified_as_third": 0.1072,
+          "prob_eliminated_group": 0.6619,
+          "prob_advance": 0.3381
+        }
+      ]
+    },
+    {
+      "group": "I",
+      "teams": [
+        {
+          "team_id": "NOR",
+          "name": "Noruega",
+          "group": "I",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.6305,
+          "prob_group_runner_up": 0.2828,
+          "prob_qualified_as_third": 0.0787,
+          "prob_eliminated_group": 0.008,
+          "prob_advance": 0.992
+        },
+        {
+          "team_id": "FRA",
+          "name": "Francia",
+          "group": "I",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.3514,
+          "prob_group_runner_up": 0.5524,
+          "prob_qualified_as_third": 0.0797,
+          "prob_eliminated_group": 0.0165,
+          "prob_advance": 0.9835
+        },
+        {
+          "team_id": "SEN",
+          "name": "Senegal",
+          "group": "I",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0169,
+          "prob_group_runner_up": 0.1334,
+          "prob_qualified_as_third": 0.4196,
+          "prob_eliminated_group": 0.4301,
+          "prob_advance": 0.5699
+        },
+        {
+          "team_id": "IRQ",
+          "name": "Irak",
+          "group": "I",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0012,
+          "prob_group_runner_up": 0.0314,
+          "prob_qualified_as_third": 0.0811,
+          "prob_eliminated_group": 0.8863,
+          "prob_advance": 0.1137
+        }
+      ]
+    },
+    {
+      "group": "J",
+      "teams": [
+        {
+          "team_id": "ARG",
+          "name": "Argentina",
+          "group": "J",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.7995,
+          "prob_group_runner_up": 0.1902,
+          "prob_qualified_as_third": 0.0096,
+          "prob_eliminated_group": 0.0007,
+          "prob_advance": 0.9993
+        },
+        {
+          "team_id": "AUT",
+          "name": "Austria",
+          "group": "J",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.1878,
+          "prob_group_runner_up": 0.5956,
+          "prob_qualified_as_third": 0.19,
+          "prob_eliminated_group": 0.0266,
+          "prob_advance": 0.9734
+        },
+        {
+          "team_id": "DZA",
+          "name": "Argelia",
+          "group": "J",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0123,
+          "prob_group_runner_up": 0.2082,
+          "prob_qualified_as_third": 0.4233,
+          "prob_eliminated_group": 0.3562,
+          "prob_advance": 0.6438
+        },
+        {
+          "team_id": "JOR",
+          "name": "Jordania",
+          "group": "J",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0004,
+          "prob_group_runner_up": 0.006,
+          "prob_qualified_as_third": 0.0542,
+          "prob_eliminated_group": 0.9394,
+          "prob_advance": 0.0606
+        }
+      ]
+    },
+    {
+      "group": "K",
+      "teams": [
+        {
+          "team_id": "COL",
+          "name": "Colombia",
+          "group": "K",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.497,
+          "prob_group_runner_up": 0.2666,
+          "prob_qualified_as_third": 0.1923,
+          "prob_eliminated_group": 0.0441,
+          "prob_advance": 0.9559
+        },
+        {
+          "team_id": "POR",
+          "name": "Portugal",
+          "group": "K",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.3174,
+          "prob_group_runner_up": 0.3308,
+          "prob_qualified_as_third": 0.1773,
+          "prob_eliminated_group": 0.1745,
+          "prob_advance": 0.8255
+        },
+        {
+          "team_id": "COD",
+          "name": "DR Congo",
+          "group": "K",
+          "played": 1,
+          "points": 1,
+          "prob_group_winner": 0.1707,
+          "prob_group_runner_up": 0.3354,
+          "prob_qualified_as_third": 0.2311,
+          "prob_eliminated_group": 0.2628,
+          "prob_advance": 0.7372
+        },
+        {
+          "team_id": "UZB",
+          "name": "Uzbekistán",
+          "group": "K",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0149,
+          "prob_group_runner_up": 0.0672,
+          "prob_qualified_as_third": 0.1283,
+          "prob_eliminated_group": 0.7896,
+          "prob_advance": 0.2104
+        }
+      ]
+    },
+    {
+      "group": "L",
+      "teams": [
+        {
+          "team_id": "ENG",
+          "name": "Inglaterra",
+          "group": "L",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.8828,
+          "prob_group_runner_up": 0.0963,
+          "prob_qualified_as_third": 0.0176,
+          "prob_eliminated_group": 0.0033,
+          "prob_advance": 0.9967
+        },
+        {
+          "team_id": "GHA",
+          "name": "Ghana",
+          "group": "L",
+          "played": 1,
+          "points": 3,
+          "prob_group_winner": 0.084,
+          "prob_group_runner_up": 0.4578,
+          "prob_qualified_as_third": 0.2556,
+          "prob_eliminated_group": 0.2026,
+          "prob_advance": 0.7974
+        },
+        {
+          "team_id": "CRO",
+          "name": "Croacia",
+          "group": "L",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0207,
+          "prob_group_runner_up": 0.3318,
+          "prob_qualified_as_third": 0.2058,
+          "prob_eliminated_group": 0.4417,
+          "prob_advance": 0.5583
+        },
+        {
+          "team_id": "PAN",
+          "name": "Panamá",
+          "group": "L",
+          "played": 1,
+          "points": 0,
+          "prob_group_winner": 0.0125,
+          "prob_group_runner_up": 0.1141,
+          "prob_qualified_as_third": 0.1899,
+          "prob_eliminated_group": 0.6835,
+          "prob_advance": 0.3165
+        }
+      ]
+    }
+  ]
+}
