@@ -1,7 +1,9 @@
 name: Update World Cup Model
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 6,18 * * *"
 
 permissions:
   contents: write
@@ -9,6 +11,9 @@ permissions:
 jobs:
   update-model:
     runs-on: ubuntu-latest
+
+    env:
+      SITE_SYNC_TOKEN: ${{ secrets.SITE_SYNC_TOKEN }}
 
     steps:
       - name: Checkout predictor repo
@@ -37,6 +42,39 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/processed data/outputs data/frozen
+          git add data/processed data/outputs data/frozen data/raw/resultados_nuevos.csv
           git commit -m "Update World Cup model outputs" || echo "No changes to commit"
           git push
+
+      # The steps below sync data/outputs/*.json into edgarsierra.com as a Pull
+      # Request, so a human still reviews/merges before the site redeploys.
+      # They only run once SITE_SYNC_TOKEN is configured (see README), so this
+      # workflow keeps working (tests + self-commit) before that setup is done.
+      - name: Checkout edgarsierra.com
+        if: ${{ env.SITE_SYNC_TOKEN != '' }}
+        uses: actions/checkout@v4
+        with:
+          repository: edgarsierra-gt/edgarsierra.com
+          token: ${{ env.SITE_SYNC_TOKEN }}
+          path: site
+
+      - name: Copy outputs into site data folder
+        if: ${{ env.SITE_SYNC_TOKEN != '' }}
+        run: |
+          mkdir -p site/src/data/mundial-2026
+          cp data/outputs/*.json site/src/data/mundial-2026/
+
+      - name: Open Pull Request on edgarsierra.com
+        if: ${{ env.SITE_SYNC_TOKEN != '' }}
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ env.SITE_SYNC_TOKEN }}
+          path: site
+          branch: sync/mundial-2026-data
+          delete-branch: true
+          commit-message: "Sync Mundial 2026 model outputs from predictor"
+          title: "Sync Mundial 2026 model outputs"
+          body: |
+            JSON regenerados automaticamente por `mundial-2026-predictor` (commit ${{ github.sha }}).
+
+            Revisar el diff de `src/data/mundial-2026/*.json` antes de mergear. Mergear a `main` dispara el redeploy normal de Vercel.

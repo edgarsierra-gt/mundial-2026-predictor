@@ -146,7 +146,21 @@ Métricas soportadas:
 
 ## Automatización
 
-El workflow manual `.github/workflows/update-manual.yml` permite correr tests, actualizar outputs desde los CSV procesados versionados y commitear cambios en `data/processed`, `data/outputs` y `data/frozen`.
+`.github/workflows/update-manual.yml` corre con botón (`workflow_dispatch`) y también automático dos veces al día (`cron: "0 6,18 * * *"`, hora UTC). En cada corrida:
+
+1. corre `ruff` y `pytest`;
+2. corre `python scripts/update_all.py --skip-build` (ingesta de `resultados_nuevos.csv` incluida);
+3. commitea los cambios en `data/processed`, `data/outputs`, `data/frozen` y `data/raw/resultados_nuevos.csv` dentro de este mismo repo;
+4. si existe el secret `SITE_SYNC_TOKEN`, abre un Pull Request en `edgarsierra-gt/edgarsierra.com` con los JSON nuevos copiados a `src/data/mundial-2026/`.
+
+Sin `SITE_SYNC_TOKEN` configurado, el workflow sigue corriendo y commiteando normal en este repo; solo se omiten los pasos 4 en adelante.
+
+### Configurar `SITE_SYNC_TOKEN` (una sola vez)
+
+1. Crear un fine-grained personal access token en GitHub con acceso únicamente al repositorio `edgarsierra-gt/edgarsierra.com`, permisos `Contents: Read and write` y `Pull requests: Read and write`.
+2. En `mundial-2026-predictor` → Settings → Secrets and variables → Actions, agregar un secret llamado `SITE_SYNC_TOKEN` con ese token.
+
+Desde ahí, el flujo queda: llenar `resultados_nuevos.csv` → push (o esperar la corrida programada) → revisar y mergear el PR que aparece en `edgarsierra.com` → Vercel redeploya solo.
 
 ## Tests
 
