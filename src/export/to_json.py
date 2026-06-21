@@ -110,7 +110,11 @@ def export_predictions_today(
     matches = []
 
     for _, row in predictions.iterrows():
-        match = upcoming_by_id.get(row["match_id"], {})
+        match = upcoming_by_id.get(row["match_id"])
+        if match is None:
+            # Match no longer in upcoming_matches.csv: already played and ingested
+            # into matches_current.csv, so it no longer belongs in "today/upcoming".
+            continue
         team_a = teams_by_id[row["team_a_id"]]
         team_b = teams_by_id[row["team_b_id"]]
         top_scores = [

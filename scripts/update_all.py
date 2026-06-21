@@ -23,6 +23,11 @@ def main() -> None:
         action="store_true",
         help="Skip raw Excel ingestion and reuse committed processed CSV files.",
     )
+    parser.add_argument(
+        "--skip-ingest",
+        action="store_true",
+        help="Skip ingesting data/raw/resultados_nuevos.csv into matches_current.csv.",
+    )
     args = parser.parse_args()
 
     if not args.skip_build:
@@ -31,6 +36,12 @@ def main() -> None:
         print("== Datasets actualizados ==", flush=True)
         print("SKIP raw Excel ingestion; reusing data/processed CSV files", flush=True)
 
+    if not args.skip_ingest:
+        _run_step("Resultados nuevos ingeridos", "00_ingest_results.py")
+    else:
+        print("== Resultados nuevos ingeridos ==", flush=True)
+        print("SKIP data/raw/resultados_nuevos.csv ingestion", flush=True)
+
     _run_step("Predicciones generadas", "02_generate_predictions.py")
     _run_step("Simulacion completada", "03_run_simulation.py")
     _run_step("Auditoria actualizada", "04_audit_results.py")
@@ -38,6 +49,7 @@ def main() -> None:
 
     print("\nPipeline completo", flush=True)
     print("OK datasets", flush=True)
+    print("OK ingesta de resultados", flush=True)
     print("OK predicciones", flush=True)
     print("OK simulacion", flush=True)
     print("OK auditoria", flush=True)
