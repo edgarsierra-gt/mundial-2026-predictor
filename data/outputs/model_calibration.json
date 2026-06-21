@@ -1,11 +1,26 @@
 {
-  "generated_at": "2026-06-21T01:39:24.140663+00:00",
+  "generated_at": "2026-06-21T01:46:32.884589+00:00",
   "model_version": "0.1.0",
-  "bins": [],
+  "bins": [
+    {
+      "lower": 0.4,
+      "upper": 0.5,
+      "n": 1,
+      "avg_predicted_probability": 0.417456,
+      "empirical_frequency": 1.0
+    },
+    {
+      "lower": 0.5,
+      "upper": 0.6,
+      "n": 4,
+      "avg_predicted_probability": 0.530039,
+      "empirical_frequency": 0.5
+    }
+  ],
   "goals": {
-    "mean_predicted_total": null,
-    "mean_actual_total": null,
-    "bias": null,
-    "mae": null
+    "mean_predicted_total": 2.615673,
+    "mean_actual_total": 2.666667,
+    "bias": -0.050993,
+    "mae": 1.049432
   }
 }

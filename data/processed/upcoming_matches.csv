@@ -1,10 +1,4 @@
 match_id,date,time_local,group,team_a_id,team_b_id,team_a_name,team_b_name,status,venue,source_url
-2026-06-19_USA_AUS,2026-06-19,1:00 PM,D,USA,AUS,Estados Unidos,Australia,scheduled,"Lumen Field, Seattle, Washington, EUA",manual_user_provided_2026-06-19
-2026-06-19_SCO_MAR,2026-06-19,4:00 PM,C,SCO,MAR,Escocia,Marruecos,scheduled,"Gillette Stadium, Foxborough, Massachusetts, EUA",manual_user_provided_2026-06-19
-2026-06-19_BRA_HTI,2026-06-19,6:30 PM,C,BRA,HTI,Brasil,Haití,scheduled,"Lincoln Financial Field, Philadelphia, Pennsylvania, EUA",manual_user_provided_2026-06-19
-2026-06-19_TUR_PAR,2026-06-19,9:00 PM,D,TUR,PAR,Turquía,Paraguay,scheduled,"Levi's Stadium, Santa Clara, California, EUA",manual_user_provided_2026-06-19
-2026-06-20_NED_SWE,2026-06-20,11:00 AM,F,NED,SWE,Países Bajos,Suecia,scheduled,"NRG Stadium, Houston, Texas, EUA",manual_user_provided_2026-06-19
-2026-06-20_GER_CIV,2026-06-20,2:00 PM,E,GER,CIV,Alemania,Costa de Marfil,scheduled,"BMO Field, Toronto, Canadá",manual_user_provided_2026-06-19
 2026-06-20_ECU_CUW,2026-06-20,6:00 PM,E,ECU,CUW,Ecuador,Curazao,scheduled,"GEHA Field at Arrowhead Stadium, Kansas City, Missouri, EUA",manual_user_provided_2026-06-19
 2026-06-20_TUN_JPN,2026-06-20,10:00 PM,F,TUN,JPN,Túnez,Japón,scheduled,"Estadio BBVA, Guadalupe, México",manual_user_provided_2026-06-19
 2026-06-21_ESP_KSA,2026-06-21,10:00 AM,H,ESP,KSA,España,Arabia Saudí,scheduled,"Mercedes-Benz Stadium, Atlanta, Georgia, EUA",manual_user_provided_2026-06-19

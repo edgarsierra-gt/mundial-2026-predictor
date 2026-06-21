@@ -6,12 +6,23 @@ from src.tournament.rules import apply_match, classify_teams, empty_standings, r
 
 
 def build_tournament_schedule(matches_current: pd.DataFrame, upcoming_matches: pd.DataFrame) -> pd.DataFrame:
+    known_match_no = [int(value) for value in matches_current.get("match_no", []) if pd.notna(value)]
+    next_completed_no = max(known_match_no, default=0) + 1
+
     completed_rows = []
     for row in matches_current.itertuples():
+        # Results ingested via 00_ingest_results.py leave match_no blank on
+        # purpose, so match_id stays identical to the one already frozen in
+        # predictions_frozen.csv. Assign a display-only sequential number here.
+        if pd.notna(row.match_no):
+            match_no = int(row.match_no)
+        else:
+            match_no = next_completed_no
+            next_completed_no += 1
         completed_rows.append(
             {
                 "match_id": row.match_id,
-                "match_no": int(row.match_no),
+                "match_no": match_no,
                 "stage": "group",
                 "group": row.group,
                 "date": row.date,
