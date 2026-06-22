@@ -11,7 +11,7 @@ FROZEN_DIR = DATA_DIR / "frozen"
 FROZEN_PREDICTIONS_DIR = FROZEN_DIR / "predictions"
 FROZEN_SIMULATIONS_DIR = FROZEN_DIR / "simulations"
 
-CURRENT_WORLD_CUP_XLSX = RAW_DIR / "mundial_fifa_2026_partidos_hasta_18_jun_2026_estadisticas.xlsx"
+CURRENT_WORLD_CUP_XLSX = RAW_DIR / "mundial_fifa_2026_actualizado_22_jun_2026_gt.xlsx"
 TEAM_HISTORY_XLSX = RAW_DIR / "Estadisticas_ultimos20_selecciones_Mundial2026_v5_48selecciones_FINAL.xlsx"
 
 MODEL_VERSION = "0.1.0"

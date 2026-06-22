@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T20:40:19.943515+00:00",
+  "generated_at": "2026-06-22T23:16:30.723706+00:00",
   "model_version": "0.1.0",
   "n_simulations": 10000,
   "groups": [
@@ -12,8 +12,8 @@
           "group": "A",
           "played": 2,
           "points": 6,
-          "prob_group_winner": 0.9509,
-          "prob_group_runner_up": 0.0491,
+          "prob_group_winner": 0.9447,
+          "prob_group_runner_up": 0.0553,
           "prob_qualified_as_third": 0.0,
           "prob_eliminated_group": 0.0,
           "prob_advance": 1.0
@@ -24,11 +24,11 @@
           "group": "A",
           "played": 2,
           "points": 3,
-          "prob_group_winner": 0.0491,
-          "prob_group_runner_up": 0.6264,
-          "prob_qualified_as_third": 0.2027,
-          "prob_eliminated_group": 0.1218,
-          "prob_advance": 0.8782
+          "prob_group_winner": 0.0553,
+          "prob_group_runner_up": 0.6207,
+          "prob_qualified_as_third": 0.1677,
+          "prob_eliminated_group": 0.1563,
+          "prob_advance": 0.8437
         },
         {
           "team_id": "RSA",
@@ -37,10 +37,10 @@
           "played": 2,
           "points": 1,
           "prob_group_winner": 0.0,
-          "prob_group_runner_up": 0.2154,
-          "prob_qualified_as_third": 0.0495,
-          "prob_eliminated_group": 0.7351,
-          "prob_advance": 0.2649
+          "prob_group_runner_up": 0.2205,
+          "prob_qualified_as_third": 0.0479,
+          "prob_eliminated_group": 0.7316,
+          "prob_advance": 0.2684
         },
         {
           "team_id": "CZE",
@@ -49,10 +49,10 @@
           "played": 2,
           "points": 1,
           "prob_group_winner": 0.0,
-          "prob_group_runner_up": 0.1091,
-          "prob_qualified_as_third": 0.1133,
-          "prob_eliminated_group": 0.7776,
-          "prob_advance": 0.2224
+          "prob_group_runner_up": 0.1035,
+          "prob_qualified_as_third": 0.1053,
+          "prob_eliminated_group": 0.7912,
+          "prob_advance": 0.2088
         }
       ]
     },
@@ -65,9 +65,9 @@
           "group": "B",
           "played": 2,
           "points": 4,
-          "prob_group_winner": 0.7164,
-          "prob_group_runner_up": 0.2835,
-          "prob_qualified_as_third": 0.0001,
+          "prob_group_winner": 0.7166,
+          "prob_group_runner_up": 0.2834,
+          "prob_qualified_as_third": 0.0,
           "prob_eliminated_group": 0.0,
           "prob_advance": 1.0
         },
@@ -77,11 +77,11 @@
           "group": "B",
           "played": 2,
           "points": 4,
-          "prob_group_winner": 0.2836,
-          "prob_group_runner_up": 0.7063,
-          "prob_qualified_as_third": 0.01,
-          "prob_eliminated_group": 0.0001,
-          "prob_advance": 0.9999
+          "prob_group_winner": 0.2834,
+          "prob_group_runner_up": 0.7072,
+          "prob_qualified_as_third": 0.0094,
+          "prob_eliminated_group": 0.0,
+          "prob_advance": 1.0
         },
         {
           "team_id": "BIH",
@@ -90,10 +90,10 @@
           "played": 2,
           "points": 1,
           "prob_group_winner": 0.0,
-          "prob_group_runner_up": 0.0102,
-          "prob_qualified_as_third": 0.5408,
-          "prob_eliminated_group": 0.449,
-          "prob_advance": 0.551
+          "prob_group_runner_up": 0.0094,
+          "prob_qualified_as_third": 0.5361,
+          "prob_eliminated_group": 0.4545,
+          "prob_advance": 0.5455
         },
         {
           "team_id": "QAT",
@@ -103,9 +103,9 @@
           "points": 1,
           "prob_group_winner": 0.0,
           "prob_group_runner_up": 0.0,
-          "prob_qualified_as_third": 0.173,
-          "prob_eliminated_group": 0.827,
-          "prob_advance": 0.173
+          "prob_qualified_as_third": 0.1665,
+          "prob_eliminated_group": 0.8335,
+          "prob_advance": 0.1665
         }
       ]
     },
@@ -118,9 +118,9 @@
           "group": "C",
           "played": 2,
           "points": 4,
-          "prob_group_winner": 0.4563,
-          "prob_group_runner_up": 0.2262,
-          "prob_qualified_as_third": 0.3175,
+          "prob_group_winner": 0.4581,
+          "prob_group_runner_up": 0.2232,
+          "prob_qualified_as_third": 0.3187,
           "prob_eliminated_group": 0.0,
           "prob_advance": 1.0
         },
@@ -130,9 +130,9 @@
           "group": "C",
           "played": 2,
           "points": 4,
-          "prob_group_winner": 0.4012,
-          "prob_group_runner_up": 0.5367,
-          "prob_qualified_as_third": 0.0621,
+          "prob_group_winner": 0.3953,
+          "prob_group_runner_up": 0.5447,
+          "prob_qualified_as_third": 0.06,
           "prob_eliminated_group": 0.0,
           "prob_advance": 1.0
         },
@@ -142,11 +142,11 @@
           "group": "C",
           "played": 2,
           "points": 3,
-          "prob_group_winner": 0.1425,
-          "prob_group_runner_up": 0.2371,
-          "prob_qualified_as_third": 0.5011,
-          "prob_eliminated_group": 0.1193,
-          "prob_advance": 0.8807
+          "prob_group_winner": 0.1466,
+          "prob_group_runner_up": 0.2321,
+          "prob_qualified_as_third": 0.4458,
+          "prob_eliminated_group": 0.1755,
+          "prob_advance": 0.8245
         },
         {
           "team_id": "HTI",
@@ -156,9 +156,9 @@
           "points": 0,
           "prob_group_winner": 0.0,
           "prob_group_runner_up": 0.0,
-          "prob_qualified_as_third": 0.0063,
-          "prob_eliminated_group": 0.9937,
-          "prob_advance": 0.0063
+          "prob_qualified_as_third": 0.0033,
+          "prob_eliminated_group": 0.9967,
+          "prob_advance": 0.0033
         }
       ]
     },
@@ -171,8 +171,8 @@
           "group": "D",
           "played": 2,
           "points": 6,
-          "prob_group_winner": 0.9647,
-          "prob_group_runner_up": 0.0353,
+          "prob_group_winner": 0.9684,
+          "prob_group_runner_up": 0.0316,
           "prob_qualified_as_third": 0.0,
           "prob_eliminated_group": 0.0,
           "prob_advance": 1.0
@@ -183,11 +183,11 @@
           "group": "D",
           "played": 2,
           "points": 3,
-          "prob_group_winner": 0.0347,
-          "prob_group_runner_up": 0.7847,
-          "prob_qualified_as_third": 0.1059,
-          "prob_eliminated_group": 0.0747,
-          "prob_advance": 0.9253
+          "prob_group_winner": 0.0311,
+          "prob_group_runner_up": 0.7822,
+          "prob_qualified_as_third": 0.0938,
+          "prob_eliminated_group": 0.0929,
+          "prob_advance": 0.9071
         },
         {
           "team_id": "PAR",
@@ -195,11 +195,11 @@
           "group": "D",
           "played": 2,
           "points": 3,
-          "prob_group_winner": 0.0006,
-          "prob_group_runner_up": 0.18,
-          "prob_qualified_as_third": 0.3936,
-          "prob_eliminated_group": 0.4258,
-          "prob_advance": 0.5742
+          "prob_group_winner": 0.0005,
+          "prob_group_runner_up": 0.1862,
+          "prob_qualified_as_third": 0.3224,
+          "prob_eliminated_group": 0.4909,
+          "prob_advance": 0.5091
         },
         {
           "team_id": "TUR",
@@ -209,9 +209,9 @@
           "points": 0,
           "prob_group_winner": 0.0,
           "prob_group_runner_up": 0.0,
-          "prob_qualified_as_third": 0.2245,
-          "prob_eliminated_group": 0.7755,
-          "prob_advance": 0.2245
+          "prob_qualified_as_third": 0.1895,
+          "prob_eliminated_group": 0.8105,
+          "prob_advance": 0.1895
         }
       ]
     },
@@ -224,9 +224,9 @@
           "group": "E",
           "played": 2,
           "points": 6,
-          "prob_group_winner": 0.9968,
-          "prob_group_runner_up": 0.0028,
-          "prob_qualified_as_third": 0.0004,
+          "prob_group_winner": 0.8647,
+          "prob_group_runner_up": 0.1342,
+          "prob_qualified_as_third": 0.0011,
           "prob_eliminated_group": 0.0,
           "prob_advance": 1.0
         },
@@ -236,35 +236,35 @@
           "group": "E",
           "played": 2,
           "points": 3,
-          "prob_group_winner": 0.002,
-          "prob_group_runner_up": 0.8335,
-          "prob_qualified_as_third": 0.1366,
-          "prob_eliminated_group": 0.0279,
-          "prob_advance": 0.9721
+          "prob_group_winner": 0.001,
+          "prob_group_runner_up": 0.6982,
+          "prob_qualified_as_third": 0.2262,
+          "prob_eliminated_group": 0.0746,
+          "prob_advance": 0.9254
         },
         {
           "team_id": "ECU",
           "name": "Ecuador",
           "group": "E",
-          "played": 1,
-          "points": 0,
-          "prob_group_winner": 0.0012,
-          "prob_group_runner_up": 0.121,
-          "prob_qualified_as_third": 0.4587,
-          "prob_eliminated_group": 0.4191,
-          "prob_advance": 0.5809
+          "played": 2,
+          "points": 1,
+          "prob_group_winner": 0.1307,
+          "prob_group_runner_up": 0.1011,
+          "prob_qualified_as_third": 0.4622,
+          "prob_eliminated_group": 0.306,
+          "prob_advance": 0.694
         },
         {
           "team_id": "CUW",
           "name": "Curazao",
           "group": "E",
-          "played": 1,
-          "points": 0,
-          "prob_group_winner": 0.0,
-          "prob_group_runner_up": 0.0427,
-          "prob_qualified_as_third": 0.0602,
-          "prob_eliminated_group": 0.8971,
-          "prob_advance": 0.1029
+          "played": 2,
+          "points": 1,
+          "prob_group_winner": 0.0036,
+          "prob_group_runner_up": 0.0665,
+          "prob_qualified_as_third": 0.1487,
+          "prob_eliminated_group": 0.7812,
+          "prob_advance": 0.2188
         }
       ]
     },
@@ -277,23 +277,23 @@
           "group": "F",
           "played": 2,
           "points": 4,
-          "prob_group_winner": 0.6683,
-          "prob_group_runner_up": 0.3237,
-          "prob_qualified_as_third": 0.008,
-          "prob_eliminated_group": 0.0,
-          "prob_advance": 1.0
+          "prob_group_winner": 0.1827,
+          "prob_group_runner_up": 0.7465,
+          "prob_qualified_as_third": 0.0705,
+          "prob_eliminated_group": 0.0003,
+          "prob_advance": 0.9997
         },
         {
           "team_id": "JPN",
           "name": "Japón",
           "group": "F",
-          "played": 1,
-          "points": 1,
-          "prob_group_winner": 0.2473,
-          "prob_group_runner_up": 0.499,
-          "prob_qualified_as_third": 0.165,
-          "prob_eliminated_group": 0.0887,
-          "prob_advance": 0.9113
+          "played": 2,
+          "points": 4,
+          "prob_group_winner": 0.7908,
+          "prob_group_runner_up": 0.1591,
+          "prob_qualified_as_third": 0.0473,
+          "prob_eliminated_group": 0.0028,
+          "prob_advance": 0.9972
         },
         {
           "team_id": "SWE",
@@ -301,23 +301,23 @@
           "group": "F",
           "played": 2,
           "points": 3,
-          "prob_group_winner": 0.0676,
-          "prob_group_runner_up": 0.173,
-          "prob_qualified_as_third": 0.5371,
-          "prob_eliminated_group": 0.2223,
-          "prob_advance": 0.7777
+          "prob_group_winner": 0.021,
+          "prob_group_runner_up": 0.0784,
+          "prob_qualified_as_third": 0.6166,
+          "prob_eliminated_group": 0.284,
+          "prob_advance": 0.716
         },
         {
           "team_id": "TUN",
           "name": "Túnez",
           "group": "F",
-          "played": 1,
+          "played": 2,
           "points": 0,
-          "prob_group_winner": 0.0168,
-          "prob_group_runner_up": 0.0043,
-          "prob_qualified_as_third": 0.0714,
-          "prob_eliminated_group": 0.9075,
-          "prob_advance": 0.0925
+          "prob_group_winner": 0.0055,
+          "prob_group_runner_up": 0.016,
+          "prob_qualified_as_third": 0.0309,
+          "prob_eliminated_group": 0.9476,
+          "prob_advance": 0.0524
         }
       ]
     },
@@ -325,52 +325,52 @@
       "group": "G",
       "teams": [
         {
+          "team_id": "EGY",
+          "name": "Egipto",
+          "group": "G",
+          "played": 2,
+          "points": 4,
+          "prob_group_winner": 0.4314,
+          "prob_group_runner_up": 0.3387,
+          "prob_qualified_as_third": 0.1765,
+          "prob_eliminated_group": 0.0534,
+          "prob_advance": 0.9466
+        },
+        {
           "team_id": "BEL",
           "name": "Bélgica",
           "group": "G",
-          "played": 1,
-          "points": 1,
-          "prob_group_winner": 0.4674,
-          "prob_group_runner_up": 0.2552,
-          "prob_qualified_as_third": 0.1254,
-          "prob_eliminated_group": 0.152,
-          "prob_advance": 0.848
+          "played": 2,
+          "points": 2,
+          "prob_group_winner": 0.3236,
+          "prob_group_runner_up": 0.3326,
+          "prob_qualified_as_third": 0.2088,
+          "prob_eliminated_group": 0.135,
+          "prob_advance": 0.865
         },
         {
           "team_id": "IRI",
           "name": "Irán",
           "group": "G",
-          "played": 1,
-          "points": 1,
-          "prob_group_winner": 0.2575,
-          "prob_group_runner_up": 0.2569,
-          "prob_qualified_as_third": 0.1712,
-          "prob_eliminated_group": 0.3144,
-          "prob_advance": 0.6856
-        },
-        {
-          "team_id": "EGY",
-          "name": "Egipto",
-          "group": "G",
-          "played": 1,
-          "points": 1,
-          "prob_group_winner": 0.1429,
-          "prob_group_runner_up": 0.2823,
-          "prob_qualified_as_third": 0.1951,
-          "prob_eliminated_group": 0.3797,
-          "prob_advance": 0.6203
+          "played": 2,
+          "points": 2,
+          "prob_group_winner": 0.1978,
+          "prob_group_runner_up": 0.2532,
+          "prob_qualified_as_third": 0.3136,
+          "prob_eliminated_group": 0.2354,
+          "prob_advance": 0.7646
         },
         {
           "team_id": "NZL",
           "name": "Nueva Zelanda",
           "group": "G",
-          "played": 1,
+          "played": 2,
           "points": 1,
-          "prob_group_winner": 0.1322,
-          "prob_group_runner_up": 0.2056,
-          "prob_qualified_as_third": 0.1556,
-          "prob_eliminated_group": 0.5066,
-          "prob_advance": 0.4934
+          "prob_group_winner": 0.0472,
+          "prob_group_runner_up": 0.0755,
+          "prob_qualified_as_third": 0.1938,
+          "prob_eliminated_group": 0.6835,
+          "prob_advance": 0.3165
         }
       ]
     },
@@ -381,49 +381,49 @@
           "team_id": "ESP",
           "name": "España",
           "group": "H",
-          "played": 1,
-          "points": 1,
-          "prob_group_winner": 0.556,
-          "prob_group_runner_up": 0.2761,
-          "prob_qualified_as_third": 0.0886,
-          "prob_eliminated_group": 0.0793,
-          "prob_advance": 0.9207
+          "played": 2,
+          "points": 4,
+          "prob_group_winner": 0.8693,
+          "prob_group_runner_up": 0.1094,
+          "prob_qualified_as_third": 0.0181,
+          "prob_eliminated_group": 0.0032,
+          "prob_advance": 0.9968
         },
         {
           "team_id": "CPV",
           "name": "Cabo Verde",
           "group": "H",
-          "played": 1,
-          "points": 1,
-          "prob_group_winner": 0.2739,
-          "prob_group_runner_up": 0.4137,
-          "prob_qualified_as_third": 0.139,
-          "prob_eliminated_group": 0.1734,
-          "prob_advance": 0.8266
+          "played": 2,
+          "points": 2,
+          "prob_group_winner": 0.0774,
+          "prob_group_runner_up": 0.6167,
+          "prob_qualified_as_third": 0.1839,
+          "prob_eliminated_group": 0.122,
+          "prob_advance": 0.878
         },
         {
           "team_id": "URU",
           "name": "Uruguay",
           "group": "H",
-          "played": 1,
-          "points": 1,
-          "prob_group_winner": 0.0861,
-          "prob_group_runner_up": 0.1631,
-          "prob_qualified_as_third": 0.1563,
-          "prob_eliminated_group": 0.5945,
-          "prob_advance": 0.4055
+          "played": 2,
+          "points": 2,
+          "prob_group_winner": 0.0448,
+          "prob_group_runner_up": 0.206,
+          "prob_qualified_as_third": 0.327,
+          "prob_eliminated_group": 0.4222,
+          "prob_advance": 0.5778
         },
         {
           "team_id": "KSA",
           "name": "Arabia Saudí",
           "group": "H",
-          "played": 1,
+          "played": 2,
           "points": 1,
-          "prob_group_winner": 0.084,
-          "prob_group_runner_up": 0.1471,
-          "prob_qualified_as_third": 0.107,
-          "prob_eliminated_group": 0.6619,
-          "prob_advance": 0.3381
+          "prob_group_winner": 0.0085,
+          "prob_group_runner_up": 0.0679,
+          "prob_qualified_as_third": 0.1628,
+          "prob_eliminated_group": 0.7608,
+          "prob_advance": 0.2392
         }
       ]
     },
@@ -436,11 +436,11 @@
           "group": "I",
           "played": 1,
           "points": 3,
-          "prob_group_winner": 0.6313,
-          "prob_group_runner_up": 0.288,
-          "prob_qualified_as_third": 0.0758,
-          "prob_eliminated_group": 0.0049,
-          "prob_advance": 0.9951
+          "prob_group_winner": 0.6261,
+          "prob_group_runner_up": 0.2826,
+          "prob_qualified_as_third": 0.0815,
+          "prob_eliminated_group": 0.0098,
+          "prob_advance": 0.9902
         },
         {
           "team_id": "FRA",
@@ -448,11 +448,11 @@
           "group": "I",
           "played": 1,
           "points": 3,
-          "prob_group_winner": 0.3492,
-          "prob_group_runner_up": 0.5609,
-          "prob_qualified_as_third": 0.073,
-          "prob_eliminated_group": 0.0169,
-          "prob_advance": 0.9831
+          "prob_group_winner": 0.3521,
+          "prob_group_runner_up": 0.5488,
+          "prob_qualified_as_third": 0.0762,
+          "prob_eliminated_group": 0.0229,
+          "prob_advance": 0.9771
         },
         {
           "team_id": "SEN",
@@ -460,11 +460,11 @@
           "group": "I",
           "played": 1,
           "points": 0,
-          "prob_group_winner": 0.0187,
-          "prob_group_runner_up": 0.1248,
-          "prob_qualified_as_third": 0.4137,
-          "prob_eliminated_group": 0.4428,
-          "prob_advance": 0.5572
+          "prob_group_winner": 0.0203,
+          "prob_group_runner_up": 0.1408,
+          "prob_qualified_as_third": 0.3436,
+          "prob_eliminated_group": 0.4953,
+          "prob_advance": 0.5047
         },
         {
           "team_id": "IRQ",
@@ -472,11 +472,11 @@
           "group": "I",
           "played": 1,
           "points": 0,
-          "prob_group_winner": 0.0008,
-          "prob_group_runner_up": 0.0263,
-          "prob_qualified_as_third": 0.0702,
-          "prob_eliminated_group": 0.9027,
-          "prob_advance": 0.0973
+          "prob_group_winner": 0.0015,
+          "prob_group_runner_up": 0.0278,
+          "prob_qualified_as_third": 0.0553,
+          "prob_eliminated_group": 0.9154,
+          "prob_advance": 0.0846
         }
       ]
     },
@@ -487,25 +487,25 @@
           "team_id": "ARG",
           "name": "Argentina",
           "group": "J",
-          "played": 1,
-          "points": 3,
-          "prob_group_winner": 0.8063,
-          "prob_group_runner_up": 0.1834,
-          "prob_qualified_as_third": 0.01,
-          "prob_eliminated_group": 0.0003,
-          "prob_advance": 0.9997
+          "played": 2,
+          "points": 6,
+          "prob_group_winner": 0.9812,
+          "prob_group_runner_up": 0.0188,
+          "prob_qualified_as_third": 0.0,
+          "prob_eliminated_group": 0.0,
+          "prob_advance": 1.0
         },
         {
           "team_id": "AUT",
           "name": "Austria",
           "group": "J",
-          "played": 1,
+          "played": 2,
           "points": 3,
-          "prob_group_winner": 0.1806,
-          "prob_group_runner_up": 0.6112,
-          "prob_qualified_as_third": 0.1859,
-          "prob_eliminated_group": 0.0223,
-          "prob_advance": 0.9777
+          "prob_group_winner": 0.0188,
+          "prob_group_runner_up": 0.7051,
+          "prob_qualified_as_third": 0.1812,
+          "prob_eliminated_group": 0.0949,
+          "prob_advance": 0.9051
         },
         {
           "team_id": "DZA",
@@ -513,11 +513,11 @@
           "group": "J",
           "played": 1,
           "points": 0,
-          "prob_group_winner": 0.0121,
-          "prob_group_runner_up": 0.1996,
-          "prob_qualified_as_third": 0.4266,
-          "prob_eliminated_group": 0.3617,
-          "prob_advance": 0.6383
+          "prob_group_winner": 0.0,
+          "prob_group_runner_up": 0.2674,
+          "prob_qualified_as_third": 0.3229,
+          "prob_eliminated_group": 0.4097,
+          "prob_advance": 0.5903
         },
         {
           "team_id": "JOR",
@@ -525,11 +525,11 @@
           "group": "J",
           "played": 1,
           "points": 0,
-          "prob_group_winner": 0.001,
-          "prob_group_runner_up": 0.0058,
-          "prob_qualified_as_third": 0.0518,
-          "prob_eliminated_group": 0.9414,
-          "prob_advance": 0.0586
+          "prob_group_winner": 0.0,
+          "prob_group_runner_up": 0.0087,
+          "prob_qualified_as_third": 0.0348,
+          "prob_eliminated_group": 0.9565,
+          "prob_advance": 0.0435
         }
       ]
     },
@@ -542,11 +542,11 @@
           "group": "K",
           "played": 1,
           "points": 3,
-          "prob_group_winner": 0.4939,
-          "prob_group_runner_up": 0.2652,
-          "prob_qualified_as_third": 0.1952,
-          "prob_eliminated_group": 0.0457,
-          "prob_advance": 0.9543
+          "prob_group_winner": 0.4895,
+          "prob_group_runner_up": 0.2688,
+          "prob_qualified_as_third": 0.1846,
+          "prob_eliminated_group": 0.0571,
+          "prob_advance": 0.9429
         },
         {
           "team_id": "POR",
@@ -554,11 +554,11 @@
           "group": "K",
           "played": 1,
           "points": 1,
-          "prob_group_winner": 0.3208,
-          "prob_group_runner_up": 0.3361,
-          "prob_qualified_as_third": 0.1721,
-          "prob_eliminated_group": 0.171,
-          "prob_advance": 0.829
+          "prob_group_winner": 0.3164,
+          "prob_group_runner_up": 0.3384,
+          "prob_qualified_as_third": 0.1657,
+          "prob_eliminated_group": 0.1795,
+          "prob_advance": 0.8205
         },
         {
           "team_id": "COD",
@@ -566,11 +566,11 @@
           "group": "K",
           "played": 1,
           "points": 1,
-          "prob_group_winner": 0.1679,
-          "prob_group_runner_up": 0.3263,
-          "prob_qualified_as_third": 0.2438,
-          "prob_eliminated_group": 0.262,
-          "prob_advance": 0.738
+          "prob_group_winner": 0.1797,
+          "prob_group_runner_up": 0.3252,
+          "prob_qualified_as_third": 0.2275,
+          "prob_eliminated_group": 0.2676,
+          "prob_advance": 0.7324
         },
         {
           "team_id": "UZB",
@@ -578,11 +578,11 @@
           "group": "K",
           "played": 1,
           "points": 0,
-          "prob_group_winner": 0.0174,
-          "prob_group_runner_up": 0.0724,
-          "prob_qualified_as_third": 0.1245,
-          "prob_eliminated_group": 0.7857,
-          "prob_advance": 0.2143
+          "prob_group_winner": 0.0144,
+          "prob_group_runner_up": 0.0676,
+          "prob_qualified_as_third": 0.1031,
+          "prob_eliminated_group": 0.8149,
+          "prob_advance": 0.1851
         }
       ]
     },
@@ -595,11 +595,11 @@
           "group": "L",
           "played": 1,
           "points": 3,
-          "prob_group_winner": 0.8724,
-          "prob_group_runner_up": 0.1043,
-          "prob_qualified_as_third": 0.0201,
-          "prob_eliminated_group": 0.0032,
-          "prob_advance": 0.9968
+          "prob_group_winner": 0.8688,
+          "prob_group_runner_up": 0.1068,
+          "prob_qualified_as_third": 0.0206,
+          "prob_eliminated_group": 0.0038,
+          "prob_advance": 0.9962
         },
         {
           "team_id": "GHA",
@@ -607,11 +607,11 @@
           "group": "L",
           "played": 1,
           "points": 3,
-          "prob_group_winner": 0.0897,
-          "prob_group_runner_up": 0.4542,
-          "prob_qualified_as_third": 0.272,
-          "prob_eliminated_group": 0.1841,
-          "prob_advance": 0.8159
+          "prob_group_winner": 0.0902,
+          "prob_group_runner_up": 0.4454,
+          "prob_qualified_as_third": 0.2238,
+          "prob_eliminated_group": 0.2406,
+          "prob_advance": 0.7594
         },
         {
           "team_id": "CRO",
@@ -619,11 +619,11 @@
           "group": "L",
           "played": 1,
           "points": 0,
-          "prob_group_winner": 0.023,
-          "prob_group_runner_up": 0.3265,
-          "prob_qualified_as_third": 0.1994,
-          "prob_eliminated_group": 0.4511,
-          "prob_advance": 0.5489
+          "prob_group_winner": 0.0261,
+          "prob_group_runner_up": 0.3357,
+          "prob_qualified_as_third": 0.169,
+          "prob_eliminated_group": 0.4692,
+          "prob_advance": 0.5308
         },
         {
           "team_id": "PAN",
@@ -632,10 +632,10 @@
           "played": 1,
           "points": 0,
           "prob_group_winner": 0.0149,
-          "prob_group_runner_up": 0.115,
-          "prob_qualified_as_third": 0.1899,
-          "prob_eliminated_group": 0.6802,
-          "prob_advance": 0.3198
+          "prob_group_runner_up": 0.1121,
+          "prob_qualified_as_third": 0.1558,
+          "prob_eliminated_group": 0.7172,
+          "prob_advance": 0.2828
         }
       ]
     }

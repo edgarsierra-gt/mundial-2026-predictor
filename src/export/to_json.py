@@ -9,6 +9,7 @@ import pandas as pd
 from pydantic import BaseModel, field_validator
 
 from src.config import (
+    CURRENT_WORLD_CUP_XLSX,
     G_EFF,
     HALF_LIFE_DAYS,
     MAX_GOALS_MATRIX,
@@ -16,6 +17,7 @@ from src.config import (
     MODEL_VERSION,
     OUTPUTS_DIR,
     RHO_DIXON_COLES,
+    TEAM_HISTORY_XLSX,
 )
 
 
@@ -220,8 +222,8 @@ def export_model_metadata(path: Path = OUTPUTS_DIR / "model_metadata.json") -> d
             "rho_dixon_coles": RHO_DIXON_COLES,
         },
         "data_sources": {
-            "current_worldcup_matches": "mundial_fifa_2026_partidos_hasta_18_jun_2026_estadisticas.xlsx",
-            "team_history": "Estadisticas_ultimos20_selecciones_Mundial2026_v5_48selecciones_FINAL.xlsx",
+            "current_worldcup_matches": CURRENT_WORLD_CUP_XLSX.name,
+            "team_history": TEAM_HISTORY_XLSX.name,
         },
         "handoff_to_astro": {
             "contract_outputs_dir": "data/outputs",
