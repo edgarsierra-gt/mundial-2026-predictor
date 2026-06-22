@@ -1,18 +1,36 @@
 {
-  "generated_at": "2026-06-22T23:16:31.540407+00:00",
+  "generated_at": "2026-06-22T23:23:07.694570+00:00",
   "model_version": "0.1.0",
-  "matches_audited": 0,
+  "matches_audited": 13,
   "metrics": {
-    "accuracy_1x2": null,
-    "brier_score": null,
-    "log_loss": null,
-    "exact_score_hit_rate": null,
-    "goals_bias": null,
-    "goals_mae": null
+    "accuracy_1x2": 0.615385,
+    "brier_score": 0.550744,
+    "log_loss": 0.926819,
+    "exact_score_hit_rate": 0.076923,
+    "goals_bias": -0.302261,
+    "goals_mae": 1.43968
   },
-  "by_confidence_bin": [],
+  "by_confidence_bin": [
+    {
+      "bin": "40-50",
+      "n": 4,
+      "avg_confidence": 0.435638,
+      "actual_hit_rate": 0.75
+    },
+    {
+      "bin": "50-60",
+      "n": 5,
+      "avg_confidence": 0.527562,
+      "actual_hit_rate": 0.4
+    },
+    {
+      "bin": "60-70",
+      "n": 2,
+      "avg_confidence": 0.673539,
+      "actual_hit_rate": 1.0
+    }
+  ],
   "notes": [
-    "Aun no hay partidos auditables porque no existe cruce entre predicciones congeladas y resultados reales.",
     "El modelo sigue siendo experimental.",
     "La muestra auditada puede ser pequena para conclusiones definitivas.",
     "El marcador exacto no es la metrica principal."
