@@ -144,30 +144,34 @@ Métricas soportadas:
 - hit rate de marcador exacto;
 - sesgo y error absoluto de goles.
 
-## Proceso completo de actualización (vigente, manual)
+## Proceso completo de actualización (vigente)
 
-Hoy hay dos capas separadas que se actualizan con el mismo Excel pero de forma independiente. Esto es lo que hay que correr cada vez que llega un Excel nuevo (`mundial_fifa_2026_actualizado_*.xlsx` y/o `Estadisticas_ultimos20_*.xlsx`):
+Hay dos capas separadas que se actualizan con el mismo Excel pero de forma independiente: estadísticas reales en `edgarsierra.com` (sin modelo) y predicciones/simulación/auditoría aquí.
 
-**Capa 1 — Estadísticas reales en `edgarsierra.com` (sin modelo):**
+**Un solo comando hace las dos capas completas**, cada vez que llega un Excel nuevo a `edgarsierra.com/_planning/Mundial_2026/`:
 
-1. Colocar el Excel en `edgarsierra.com/_planning/Mundial_2026/` (privado, nunca se publica).
-2. `npm run sync:estadisticas` — recalcula `team_match_stats.json`, `team_recent_form.json` y las posiciones reales de `tournament_snapshot.json` fila por fila desde el Excel.
-3. `npm run build` para confirmar, luego commit + push a `main`.
+```bash
+python scripts/refresh_and_publish.py
+```
 
-**Capa 2 — Modelo y simulación, aquí en `mundial-2026-predictor`:**
+Esto: copia el Excel más reciente a `data/raw/` de este repo, corre `npm run sync:estadisticas` en el sitio, corre `ruff` + `pytest` + `update_all.py` aquí, copia `data/outputs/*.json` al sitio, corre `npm run build` para confirmar, y commitea + pushea ambos repos a `main`. Cualquier paso que falle detiene todo antes de commitear nada.
 
-1. Copiar el mismo Excel a `data/raw/` de este repo (`src/config.py` toma automáticamente el más reciente que matchee el prefijo, no hace falta un nombre exacto).
-2. `python scripts/update_all.py` (pipeline completo: datasets → predicciones → simulación Monte Carlo → auditoría → export).
-3. `python -m ruff check .` y `python -m pytest`.
-4. Commit + push de este repo.
+`--dry-run` corre todo igual pero deja los cambios sin commitear, para revisar el diff primero. `--site-dir RUTA` si `edgarsierra.com` no está en `../edgar-sierra` relativo a este repo.
+
+Pasos manuales equivalentes (lo que hacía este comando antes de existir, por si hay que depurar un paso suelto):
+
+1. Colocar el Excel en `edgarsierra.com/_planning/Mundial_2026/`.
+2. En `edgarsierra.com`: `npm run sync:estadisticas`, luego `npm run build`, commit + push.
+3. Copiar el mismo Excel a `data/raw/` de este repo (`src/config.py` toma el más reciente automáticamente).
+4. Aquí: `python scripts/update_all.py`, `python -m ruff check .`, `python -m pytest`, commit + push.
 5. Copiar `data/outputs/*.json` a `edgarsierra.com/src/data/mundial-2026/`.
-6. `npm run build` para confirmar, luego commit + push a `main` de `edgarsierra.com`.
+6. En `edgarsierra.com`: `npm run build`, commit + push.
 
 ### Por qué la automatización programada (abajo) no cubre esto todavía
 
 El cron de este repo solo corre `update_all.py --skip-build`, es decir, únicamente procesa `data/raw/resultados_nuevos.csv`. Nunca relee el Excel completo porque el Excel ni siquiera existe en el entorno de GitHub Actions (los crudos no se publican). Mientras `resultados_nuevos.csv` esté vacío, el cron simplemente reconfirma los mismos números con timestamp nuevo — no es un bug, es la consecuencia esperada de no alimentarlo.
 
-Para que la actualización sea de verdad automática hay que resolver esa entrada de datos: o se mantiene la actualización por Excel pero se empaqueta en un solo comando/orquestador que corra las dos capas (sigue requiriendo que alguien dispare la corrida), o se cambia a alimentar `resultados_nuevos.csv` incrementalmente partido por partido (el cron ya sabe consumir eso solo), o se reemplaza el Excel manual por una fuente de datos en vivo. Mientras no se decida cuál, el proceso de arriba es el vigente.
+`refresh_and_publish.py` (arriba) ya resuelve la fricción manual, pero alguien sigue teniendo que dispararlo cuando llega un Excel nuevo. Para que el cron mismo lo cubra sin intervención humana faltaría, en orden de esfuerzo: (a) alimentar `resultados_nuevos.csv` incrementalmente partido por partido — el cron ya sabe consumir eso solo, cero código nuevo; o (b) reemplazar el Excel manual por una fuente de datos en vivo (scraper/API) que el propio cron pueda llamar — automatización real de punta a punta, pero la pieza más grande y la más riesgosa de mantener.
 
 ## Automatización
 
