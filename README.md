@@ -144,6 +144,31 @@ Métricas soportadas:
 - hit rate de marcador exacto;
 - sesgo y error absoluto de goles.
 
+## Proceso completo de actualización (vigente, manual)
+
+Hoy hay dos capas separadas que se actualizan con el mismo Excel pero de forma independiente. Esto es lo que hay que correr cada vez que llega un Excel nuevo (`mundial_fifa_2026_actualizado_*.xlsx` y/o `Estadisticas_ultimos20_*.xlsx`):
+
+**Capa 1 — Estadísticas reales en `edgarsierra.com` (sin modelo):**
+
+1. Colocar el Excel en `edgarsierra.com/_planning/Mundial_2026/` (privado, nunca se publica).
+2. `npm run sync:estadisticas` — recalcula `team_match_stats.json`, `team_recent_form.json` y las posiciones reales de `tournament_snapshot.json` fila por fila desde el Excel.
+3. `npm run build` para confirmar, luego commit + push a `main`.
+
+**Capa 2 — Modelo y simulación, aquí en `mundial-2026-predictor`:**
+
+1. Copiar el mismo Excel a `data/raw/` de este repo (`src/config.py` toma automáticamente el más reciente que matchee el prefijo, no hace falta un nombre exacto).
+2. `python scripts/update_all.py` (pipeline completo: datasets → predicciones → simulación Monte Carlo → auditoría → export).
+3. `python -m ruff check .` y `python -m pytest`.
+4. Commit + push de este repo.
+5. Copiar `data/outputs/*.json` a `edgarsierra.com/src/data/mundial-2026/`.
+6. `npm run build` para confirmar, luego commit + push a `main` de `edgarsierra.com`.
+
+### Por qué la automatización programada (abajo) no cubre esto todavía
+
+El cron de este repo solo corre `update_all.py --skip-build`, es decir, únicamente procesa `data/raw/resultados_nuevos.csv`. Nunca relee el Excel completo porque el Excel ni siquiera existe en el entorno de GitHub Actions (los crudos no se publican). Mientras `resultados_nuevos.csv` esté vacío, el cron simplemente reconfirma los mismos números con timestamp nuevo — no es un bug, es la consecuencia esperada de no alimentarlo.
+
+Para que la actualización sea de verdad automática hay que resolver esa entrada de datos: o se mantiene la actualización por Excel pero se empaqueta en un solo comando/orquestador que corra las dos capas (sigue requiriendo que alguien dispare la corrida), o se cambia a alimentar `resultados_nuevos.csv` incrementalmente partido por partido (el cron ya sabe consumir eso solo), o se reemplaza el Excel manual por una fuente de datos en vivo. Mientras no se decida cuál, el proceso de arriba es el vigente.
+
 ## Automatización
 
 `.github/workflows/update-manual.yml` corre con botón (`workflow_dispatch`) y también automático dos veces al día (`cron: "0 6,18 * * *"`, hora UTC). En cada corrida:
