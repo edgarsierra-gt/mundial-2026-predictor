@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T23:23:06.502205+00:00",
+  "generated_at": "2026-06-23T06:31:16.819896+00:00",
   "model_version": "0.1.0",
   "n_simulations": 10000,
   "scope": "group_stage_and_approximate_bracket",
@@ -18,7 +18,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "A",
@@ -33,7 +33,7 @@
       "points": 3,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "A",
@@ -48,7 +48,7 @@
       "points": 1,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "A",
@@ -63,7 +63,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "B",
@@ -78,7 +78,7 @@
       "points": 4,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "B",
@@ -93,7 +93,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "B",
@@ -108,7 +108,7 @@
       "points": 1,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "B",
@@ -123,7 +123,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "C",
@@ -138,7 +138,7 @@
       "points": 4,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "C",
@@ -153,7 +153,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "C",
@@ -168,7 +168,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "C",
@@ -183,7 +183,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "D",
@@ -198,7 +198,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "D",
@@ -213,7 +213,7 @@
       "points": 3,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "D",
@@ -228,7 +228,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "D",
@@ -243,7 +243,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "E",
@@ -258,7 +258,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "E",
@@ -273,7 +273,7 @@
       "points": 3,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "E",
@@ -288,7 +288,7 @@
       "points": 1,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "E",
@@ -303,7 +303,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "F",
@@ -318,7 +318,7 @@
       "points": 4,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "F",
@@ -333,7 +333,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "F",
@@ -348,7 +348,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "F",
@@ -363,7 +363,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "G",
@@ -378,7 +378,7 @@
       "points": 4,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "G",
@@ -393,7 +393,7 @@
       "points": 2,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "G",
@@ -408,7 +408,7 @@
       "points": 2,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "G",
@@ -423,7 +423,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "H",
@@ -438,7 +438,7 @@
       "points": 4,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "H",
@@ -453,7 +453,7 @@
       "points": 2,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "H",
@@ -468,7 +468,7 @@
       "points": 2,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "H",
@@ -483,67 +483,67 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
-    },
-    {
-      "group": "I",
-      "team_id": "NOR",
-      "played": 1,
-      "wins": 1,
-      "draws": 0,
-      "losses": 0,
-      "goals_for": 4,
-      "goals_against": 1,
-      "goal_difference": 3,
-      "points": 3,
-      "rank_current": 1,
-      "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "I",
       "team_id": "FRA",
-      "played": 1,
-      "wins": 1,
+      "played": 2,
+      "wins": 2,
       "draws": 0,
       "losses": 0,
-      "goals_for": 3,
+      "goals_for": 6,
       "goals_against": 1,
-      "goal_difference": 2,
-      "points": 3,
+      "goal_difference": 5,
+      "points": 6,
+      "rank_current": 1,
+      "status": "active",
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
+    },
+    {
+      "group": "I",
+      "team_id": "NOR",
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "goals_for": 7,
+      "goals_against": 3,
+      "goal_difference": 4,
+      "points": 6,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "I",
       "team_id": "SEN",
-      "played": 1,
+      "played": 2,
       "wins": 0,
       "draws": 0,
-      "losses": 1,
-      "goals_for": 1,
-      "goals_against": 3,
-      "goal_difference": -2,
+      "losses": 2,
+      "goals_for": 3,
+      "goals_against": 6,
+      "goal_difference": -3,
       "points": 0,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "I",
       "team_id": "IRQ",
-      "played": 1,
+      "played": 2,
       "wins": 0,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goals_for": 1,
-      "goals_against": 4,
-      "goal_difference": -3,
+      "goals_against": 7,
+      "goal_difference": -6,
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "J",
@@ -558,7 +558,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "J",
@@ -573,37 +573,37 @@
       "points": 3,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
-    },
-    {
-      "group": "J",
-      "team_id": "JOR",
-      "played": 1,
-      "wins": 0,
-      "draws": 0,
-      "losses": 1,
-      "goals_for": 1,
-      "goals_against": 3,
-      "goal_difference": -2,
-      "points": 0,
-      "rank_current": 3,
-      "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "J",
       "team_id": "DZA",
-      "played": 1,
-      "wins": 0,
+      "played": 2,
+      "wins": 1,
       "draws": 0,
       "losses": 1,
-      "goals_for": 0,
-      "goals_against": 3,
+      "goals_for": 2,
+      "goals_against": 4,
+      "goal_difference": -2,
+      "points": 3,
+      "rank_current": 3,
+      "status": "active",
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
+    },
+    {
+      "group": "J",
+      "team_id": "JOR",
+      "played": 2,
+      "wins": 0,
+      "draws": 0,
+      "losses": 2,
+      "goals_for": 2,
+      "goals_against": 5,
       "goal_difference": -3,
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "K",
@@ -618,7 +618,7 @@
       "points": 3,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "K",
@@ -633,7 +633,7 @@
       "points": 1,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "K",
@@ -648,7 +648,7 @@
       "points": 1,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "K",
@@ -663,7 +663,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "L",
@@ -678,7 +678,7 @@
       "points": 3,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "L",
@@ -693,7 +693,7 @@
       "points": 3,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "L",
@@ -708,7 +708,7 @@
       "points": 0,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     },
     {
       "group": "L",
@@ -723,7 +723,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-22T23:21:11.740564+00:00"
+      "updated_at": "2026-06-23T06:29:16.209526+00:00"
     }
   ],
   "notes": [

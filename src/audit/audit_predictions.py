@@ -79,8 +79,10 @@ def audit_predictions(predictions: pd.DataFrame, match_results_real: pd.DataFram
 
                     # Swap result
                     def swap_result(res):
-                        if res == "team_a_win": return "team_b_win"
-                        if res == "team_b_win": return "team_a_win"
+                        if res == "team_a_win":
+                            return "team_b_win"
+                        if res == "team_b_win":
+                            return "team_a_win"
                         return res
                     merged_by_key_swapped["actual_result"] = merged_by_key_swapped["actual_result"].apply(swap_result)
 

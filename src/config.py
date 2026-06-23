@@ -11,8 +11,29 @@ FROZEN_DIR = DATA_DIR / "frozen"
 FROZEN_PREDICTIONS_DIR = FROZEN_DIR / "predictions"
 FROZEN_SIMULATIONS_DIR = FROZEN_DIR / "simulations"
 
-CURRENT_WORLD_CUP_XLSX = RAW_DIR / "mundial_fifa_2026_actualizado_22_jun_2026_gt.xlsx"
-TEAM_HISTORY_XLSX = RAW_DIR / "Estadisticas_ultimos20_selecciones_Mundial2026_v5_48selecciones_FINAL.xlsx"
+
+def _latest_raw_file(prefix: str) -> Path:
+    """Most recently modified data/raw/<prefix>*.xlsx, or a non-existent
+    placeholder Path if none is present.
+
+    The source workbooks are re-exported under a new dated filename each time
+    (e.g. mundial_fifa_2026_actualizado_22_jun_2026_gt.xlsx), so a hardcoded
+    name goes stale the moment a fresher file lands. Same approach as
+    edgarsierra.com's scripts/sync-estadisticas.mjs.
+
+    Raw workbooks are gitignored (never published), so CI checkouts and
+    --skip-build runs have none on disk at all — this must stay import-safe
+    and only fail later, the same way the old hardcoded path did, when
+    01_build_datasets.py explicitly checks .exists().
+    """
+    matches = sorted(RAW_DIR.glob(f"{prefix}*.xlsx"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if matches:
+        return matches[0]
+    return RAW_DIR / f"{prefix}NOT_FOUND.xlsx"
+
+
+CURRENT_WORLD_CUP_XLSX = _latest_raw_file("mundial_fifa_2026_actualizado_")
+TEAM_HISTORY_XLSX = _latest_raw_file("Estadisticas_ultimos20_")
 
 MODEL_VERSION = "0.1.0"
 MODEL_MODE = "goals_only"

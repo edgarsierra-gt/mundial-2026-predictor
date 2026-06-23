@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T23:23:08.508402+00:00",
+  "generated_at": "2026-06-23T06:31:18.659869+00:00",
   "model_version": "0.1.0",
   "ranking_type": "team_power_ranking",
   "not_a_champion_probability": true,
@@ -56,7 +56,7 @@
       "defense_index": 0.5646,
       "weighted_goals_for_pg": 3.1665,
       "weighted_goals_against_pg": 0.8752,
-      "current_tournament_xg_diff_pg": 1.54,
+      "current_tournament_xg_diff_pg": 0.925,
       "data_quality_score": 1.0
     },
     {
@@ -111,7 +111,7 @@
       "defense_index": 0.4392,
       "weighted_goals_for_pg": 1.9367,
       "weighted_goals_against_pg": 0.6808,
-      "current_tournament_xg_diff_pg": -0.99,
+      "current_tournament_xg_diff_pg": -0.175,
       "data_quality_score": 1.0
     },
     {
@@ -144,7 +144,7 @@
       "defense_index": 0.6646,
       "weighted_goals_for_pg": 2.4385,
       "weighted_goals_against_pg": 1.0301,
-      "current_tournament_xg_diff_pg": 1.55,
+      "current_tournament_xg_diff_pg": 1.72,
       "data_quality_score": 1.0
     },
     {
@@ -221,7 +221,7 @@
       "defense_index": 0.663,
       "weighted_goals_for_pg": 2.1237,
       "weighted_goals_against_pg": 1.0277,
-      "current_tournament_xg_diff_pg": -1.55,
+      "current_tournament_xg_diff_pg": -0.93,
       "data_quality_score": 1.0
     },
     {
@@ -507,7 +507,7 @@
       "defense_index": 1.0303,
       "weighted_goals_for_pg": 1.3982,
       "weighted_goals_against_pg": 1.5969,
-      "current_tournament_xg_diff_pg": -0.69,
+      "current_tournament_xg_diff_pg": -0.665,
       "data_quality_score": 1.0
     },
     {
@@ -518,7 +518,7 @@
       "defense_index": 0.859,
       "weighted_goals_for_pg": 1.0376,
       "weighted_goals_against_pg": 1.3314,
-      "current_tournament_xg_diff_pg": -1.54,
+      "current_tournament_xg_diff_pg": -1.715,
       "data_quality_score": 1.0
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T23:23:07.703534+00:00",
+  "generated_at": "2026-06-23T06:31:17.819004+00:00",
   "model_version": "0.1.0",
   "bins": [
     {
@@ -12,9 +12,9 @@
     {
       "lower": 0.5,
       "upper": 0.6,
-      "n": 5,
-      "avg_predicted_probability": 0.527562,
-      "empirical_frequency": 0.4
+      "n": 6,
+      "avg_predicted_probability": 0.536339,
+      "empirical_frequency": 0.5
     },
     {
       "lower": 0.6,
@@ -22,12 +22,19 @@
       "n": 2,
       "avg_predicted_probability": 0.673539,
       "empirical_frequency": 1.0
+    },
+    {
+      "lower": 0.7,
+      "upper": 0.8,
+      "n": 2,
+      "avg_predicted_probability": 0.700448,
+      "empirical_frequency": 1.0
     }
   ],
   "goals": {
-    "mean_predicted_total": 2.313124,
-    "mean_actual_total": 2.615385,
-    "bias": -0.302261,
-    "mae": 1.43968
+    "mean_predicted_total": 2.422671,
+    "mean_actual_total": 2.8125,
+    "bias": -0.389829,
+    "mae": 1.313982
   }
 }
