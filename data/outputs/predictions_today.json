@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-27T19:13:22.429758+00:00",
-  "model_version": "0.1.0",
+  "generated_at": "2026-06-27T19:20:25.392488+00:00",
+  "model_version": "2.0.0",
   "model_mode": "goals_only",
   "matches": [
     {
@@ -20,42 +20,42 @@
         "slug": "curazao"
       },
       "expected_goals": {
-        "team_a": 1.196642,
-        "team_b": 0.55917
+        "team_a": 2.182556,
+        "team_b": 0.501642
       },
       "probabilities": {
-        "team_a_win": 0.517655,
-        "draw": 0.309209,
-        "team_b_win": 0.173136
+        "team_a_win": 0.762677,
+        "draw": 0.16623,
+        "team_b_win": 0.071092
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.206741
+        "score": "2-0",
+        "probability": 0.16269
       },
       "top_scores": [
         {
-          "score": "1-0",
-          "probability": 0.206741
-        },
-        {
-          "score": "0-0",
-          "probability": 0.172768
-        },
-        {
           "score": "2-0",
-          "probability": 0.123698
+          "probability": 0.16269
+        },
+        {
+          "score": "1-0",
+          "probability": 0.149082
+        },
+        {
+          "score": "3-0",
+          "probability": 0.11836
+        },
+        {
+          "score": "2-1",
+          "probability": 0.081612
         },
         {
           "score": "1-1",
-          "probability": 0.115603
-        },
-        {
-          "score": "0-1",
-          "probability": 0.096606
+          "probability": 0.074786
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -75,39 +75,39 @@
         "slug": "japon"
       },
       "expected_goals": {
-        "team_a": 0.695985,
-        "team_b": 1.989765
+        "team_a": 0.468759,
+        "team_b": 1.691992
       },
       "probabilities": {
-        "team_a_win": 0.120787,
-        "draw": 0.200795,
-        "team_b_win": 0.678419
+        "team_a_win": 0.097534,
+        "draw": 0.226456,
+        "team_b_win": 0.67601
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-1",
-        "probability": 0.135673
+        "probability": 0.194996
       },
       "top_scores": [
         {
           "score": "0-1",
-          "probability": 0.135673
+          "probability": 0.194996
         },
         {
           "score": "0-2",
-          "probability": 0.134979
+          "probability": 0.164966
         },
         {
-          "score": "1-1",
-          "probability": 0.094427
-        },
-        {
-          "score": "1-2",
-          "probability": 0.093943
+          "score": "0-0",
+          "probability": 0.115246
         },
         {
           "score": "0-3",
-          "probability": 0.089526
+          "probability": 0.09304
+        },
+        {
+          "score": "1-1",
+          "probability": 0.091406
         }
       ],
       "confidence_label": "Alta",
@@ -130,42 +130,42 @@
         "slug": "arabia-saudi"
       },
       "expected_goals": {
-        "team_a": 1.763622,
-        "team_b": 0.552669
+        "team_a": 2.228068,
+        "team_b": 0.279184
       },
       "probabilities": {
-        "team_a_win": 0.668659,
-        "draw": 0.220928,
-        "team_b_win": 0.110412
+        "team_a_win": 0.82442,
+        "draw": 0.140705,
+        "team_b_win": 0.034875
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.173978
+        "score": "2-0",
+        "probability": 0.202378
       },
       "top_scores": [
         {
-          "score": "1-0",
-          "probability": 0.173978
-        },
-        {
           "score": "2-0",
-          "probability": 0.153416
+          "probability": 0.202378
         },
         {
-          "score": "0-0",
-          "probability": 0.098648
-        },
-        {
-          "score": "1-1",
-          "probability": 0.096152
+          "score": "1-0",
+          "probability": 0.181663
         },
         {
           "score": "3-0",
-          "probability": 0.090189
+          "probability": 0.150304
+        },
+        {
+          "score": "4-0",
+          "probability": 0.083722
+        },
+        {
+          "score": "0-0",
+          "probability": 0.081534
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -185,42 +185,42 @@
         "slug": "iran"
       },
       "expected_goals": {
-        "team_a": 1.465356,
-        "team_b": 1.176737
+        "team_a": 1.622472,
+        "team_b": 0.850418
       },
       "probabilities": {
-        "team_a_win": 0.437771,
-        "draw": 0.258261,
-        "team_b_win": 0.303967
+        "team_a_win": 0.556306,
+        "draw": 0.247582,
+        "team_b_win": 0.196112
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "1-1",
-        "probability": 0.122797
+        "score": "1-0",
+        "probability": 0.136847
       },
       "top_scores": [
         {
-          "score": "1-1",
-          "probability": 0.122797
-        },
-        {
           "score": "1-0",
-          "probability": 0.104354
+          "probability": 0.136847
         },
         {
-          "score": "2-1",
-          "probability": 0.089971
-        },
-        {
-          "score": "0-1",
-          "probability": 0.0838
+          "score": "1-1",
+          "probability": 0.116378
         },
         {
           "score": "2-0",
-          "probability": 0.076458
+          "probability": 0.111016
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09441
+        },
+        {
+          "score": "0-0",
+          "probability": 0.084345
         }
       ],
-      "confidence_label": "Media-baja",
+      "confidence_label": "Media",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -240,42 +240,42 @@
         "slug": "cabo-verde"
       },
       "expected_goals": {
-        "team_a": 0.405134,
-        "team_b": 0.768852
+        "team_a": 1.350024,
+        "team_b": 0.573701
       },
       "probabilities": {
-        "team_a_win": 0.177995,
-        "draw": 0.413186,
-        "team_b_win": 0.408819
+        "team_a_win": 0.55891,
+        "draw": 0.283075,
+        "team_b_win": 0.158015
       },
-      "predicted_result": "draw",
+      "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "0-0",
-        "probability": 0.309132
+        "score": "1-0",
+        "probability": 0.197189
       },
       "top_scores": [
         {
-          "score": "0-0",
-          "probability": 0.309132
-        },
-        {
-          "score": "0-1",
-          "probability": 0.237677
-        },
-        {
           "score": "1-0",
-          "probability": 0.12524
+          "probability": 0.197189
+        },
+        {
+          "score": "0-0",
+          "probability": 0.146064
+        },
+        {
+          "score": "2-0",
+          "probability": 0.133105
         },
         {
           "score": "1-1",
-          "probability": 0.096291
+          "probability": 0.113128
         },
         {
-          "score": "0-2",
-          "probability": 0.091369
+          "score": "0-1",
+          "probability": 0.083797
         }
       ],
-      "confidence_label": "Baja",
+      "confidence_label": "Media",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -295,42 +295,42 @@
         "slug": "egipto"
       },
       "expected_goals": {
-        "team_a": 1.05117,
-        "team_b": 1.133729
+        "team_a": 0.942033,
+        "team_b": 1.837322
       },
       "probabilities": {
-        "team_a_win": 0.333071,
-        "draw": 0.292191,
-        "team_b_win": 0.374738
+        "team_a_win": 0.189869,
+        "draw": 0.226026,
+        "team_b_win": 0.584105
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "1-1",
-        "probability": 0.134059
+        "score": "0-1",
+        "probability": 0.114073
       },
       "top_scores": [
         {
-          "score": "1-1",
-          "probability": 0.134059
-        },
-        {
           "score": "0-1",
-          "probability": 0.127533
+          "probability": 0.114073
         },
         {
-          "score": "1-0",
-          "probability": 0.118246
+          "score": "1-1",
+          "probability": 0.10746
         },
         {
-          "score": "0-0",
-          "probability": 0.11249
+          "score": "0-2",
+          "probability": 0.104794
         },
         {
           "score": "1-2",
-          "probability": 0.075993
+          "probability": 0.09872
+        },
+        {
+          "score": "0-3",
+          "probability": 0.06418
         }
       ],
-      "confidence_label": "Baja",
+      "confidence_label": "Media",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -350,42 +350,42 @@
         "slug": "austria"
       },
       "expected_goals": {
-        "team_a": 1.060021,
-        "team_b": 0.557717
+        "team_a": 1.842274,
+        "team_b": 0.468602
       },
       "probabilities": {
-        "team_a_win": 0.474137,
-        "draw": 0.334121,
-        "team_b_win": 0.191742
+        "team_a_win": 0.708444,
+        "draw": 0.205167,
+        "team_b_win": 0.086389
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
         "score": "1-0",
-        "probability": 0.210252
+        "probability": 0.18273
       },
       "top_scores": [
         {
           "score": "1-0",
-          "probability": 0.210252
-        },
-        {
-          "score": "0-0",
-          "probability": 0.198347
-        },
-        {
-          "score": "1-1",
-          "probability": 0.117261
+          "probability": 0.18273
         },
         {
           "score": "2-0",
-          "probability": 0.111436
+          "probability": 0.168319
         },
         {
-          "score": "0-1",
-          "probability": 0.110622
+          "score": "3-0",
+          "probability": 0.103364
+        },
+        {
+          "score": "0-0",
+          "probability": 0.099187
+        },
+        {
+          "score": "1-1",
+          "probability": 0.085628
         }
       ],
-      "confidence_label": "Media-baja",
+      "confidence_label": "Alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -405,42 +405,42 @@
         "slug": "irak"
       },
       "expected_goals": {
-        "team_a": 2.094637,
-        "team_b": 0.689569
+        "team_a": 3.016876,
+        "team_b": 0.350401
       },
       "probabilities": {
-        "team_a_win": 0.700432,
-        "draw": 0.188961,
-        "team_b_win": 0.110607
+        "team_a_win": 0.894789,
+        "draw": 0.082103,
+        "team_b_win": 0.023108
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "2-0",
-        "probability": 0.135571
+        "score": "3-0",
+        "probability": 0.158433
       },
       "top_scores": [
         {
+          "score": "3-0",
+          "probability": 0.158433
+        },
+        {
           "score": "2-0",
-          "probability": 0.135571
+          "probability": 0.157547
+        },
+        {
+          "score": "4-0",
+          "probability": 0.119493
         },
         {
           "score": "1-0",
-          "probability": 0.129446
+          "probability": 0.104444
         },
         {
-          "score": "3-0",
-          "probability": 0.094657
-        },
-        {
-          "score": "2-1",
-          "probability": 0.093485
-        },
-        {
-          "score": "1-1",
-          "probability": 0.089262
+          "score": "5-0",
+          "probability": 0.072099
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -460,42 +460,42 @@
         "slug": "senegal"
       },
       "expected_goals": {
-        "team_a": 2.099386,
-        "team_b": 1.199016
+        "team_a": 1.766988,
+        "team_b": 1.298717
       },
       "probabilities": {
-        "team_a_win": 0.580225,
-        "draw": 0.207743,
-        "team_b_win": 0.212032
+        "team_a_win": 0.484534,
+        "draw": 0.233125,
+        "team_b_win": 0.282341
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "2-1",
-        "probability": 0.097645
+        "score": "1-1",
+        "probability": 0.106998
       },
       "top_scores": [
         {
-          "score": "2-1",
-          "probability": 0.097645
-        },
-        {
           "score": "1-1",
-          "probability": 0.093022
+          "probability": 0.106998
         },
         {
-          "score": "2-0",
-          "probability": 0.081438
+          "score": "2-1",
+          "probability": 0.094532
         },
         {
           "score": "1-0",
-          "probability": 0.077582
+          "probability": 0.082387
         },
         {
-          "score": "3-1",
-          "probability": 0.068332
+          "score": "2-0",
+          "probability": 0.072789
+        },
+        {
+          "score": "1-2",
+          "probability": 0.06948
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Media-baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -515,42 +515,42 @@
         "slug": "argelia"
       },
       "expected_goals": {
-        "team_a": 0.614114,
-        "team_b": 1.995408
+        "team_a": 0.861205,
+        "team_b": 1.574622
       },
       "probabilities": {
-        "team_a_win": 0.104088,
-        "draw": 0.19545,
-        "team_b_win": 0.700463
+        "team_a_win": 0.205351,
+        "draw": 0.25307,
+        "team_b_win": 0.541579
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-1",
-        "probability": 0.146836
+        "probability": 0.137825
       },
       "top_scores": [
         {
           "score": "0-1",
-          "probability": 0.146836
-        },
-        {
-          "score": "0-2",
-          "probability": 0.146499
-        },
-        {
-          "score": "0-3",
-          "probability": 0.097442
+          "probability": 0.137825
         },
         {
           "score": "1-1",
-          "probability": 0.090174
+          "probability": 0.118695
+        },
+        {
+          "score": "0-2",
+          "probability": 0.108511
         },
         {
           "score": "1-2",
-          "probability": 0.089967
+          "probability": 0.09345
+        },
+        {
+          "score": "0-0",
+          "probability": 0.087529
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Media",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -570,42 +570,42 @@
         "slug": "uzbekistan"
       },
       "expected_goals": {
-        "team_a": 1.696485,
-        "team_b": 0.771627
+        "team_a": 1.969519,
+        "team_b": 0.458409
       },
       "probabilities": {
-        "team_a_win": 0.594625,
-        "draw": 0.237738,
-        "team_b_win": 0.167637
+        "team_a_win": 0.736158,
+        "draw": 0.187794,
+        "team_b_win": 0.076048
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
         "score": "1-0",
-        "probability": 0.143778
+        "probability": 0.173787
       },
       "top_scores": [
         {
           "score": "1-0",
-          "probability": 0.143778
+          "probability": 0.173787
         },
         {
           "score": "2-0",
-          "probability": 0.121959
+          "probability": 0.171138
         },
         {
-          "score": "1-1",
-          "probability": 0.110943
-        },
-        {
-          "score": "2-1",
-          "probability": 0.094107
+          "score": "3-0",
+          "probability": 0.112353
         },
         {
           "score": "0-0",
-          "probability": 0.084751
+          "probability": 0.088238
+        },
+        {
+          "score": "1-1",
+          "probability": 0.079665
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -625,42 +625,42 @@
         "slug": "ghana"
       },
       "expected_goals": {
-        "team_a": 1.811994,
-        "team_b": 0.483851
+        "team_a": 2.100056,
+        "team_b": 0.382236
       },
       "probabilities": {
-        "team_a_win": 0.697974,
-        "draw": 0.210305,
-        "team_b_win": 0.091721
+        "team_a_win": 0.779045,
+        "draw": 0.165397,
+        "team_b_win": 0.055558
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.182446
+        "score": "2-0",
+        "probability": 0.184303
       },
       "top_scores": [
         {
-          "score": "1-0",
-          "probability": 0.182446
-        },
-        {
           "score": "2-0",
-          "probability": 0.165295
+          "probability": 0.184303
         },
         {
-          "score": "0-0",
-          "probability": 0.100688
+          "score": "1-0",
+          "probability": 0.175522
         },
         {
           "score": "3-0",
-          "probability": 0.099838
+          "probability": 0.129016
         },
         {
-          "score": "1-1",
-          "probability": 0.088277
+          "score": "0-0",
+          "probability": 0.08358
+        },
+        {
+          "score": "2-1",
+          "probability": 0.070447
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -680,42 +680,42 @@
         "slug": "croacia"
       },
       "expected_goals": {
-        "team_a": 1.505474,
-        "team_b": 1.595231
+        "team_a": 1.017451,
+        "team_b": 1.371211
       },
       "probabilities": {
-        "team_a_win": 0.361441,
-        "draw": 0.238246,
-        "team_b_win": 0.400313
+        "team_a_win": 0.278519,
+        "draw": 0.27197,
+        "team_b_win": 0.44951
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "1-1",
-        "probability": 0.108121
+        "probability": 0.128009
       },
       "top_scores": [
         {
           "score": "1-1",
-          "probability": 0.108121
-        },
-        {
-          "score": "1-2",
-          "probability": 0.086239
-        },
-        {
-          "score": "2-1",
-          "probability": 0.081387
+          "probability": 0.128009
         },
         {
           "score": "0-1",
-          "probability": 0.071818
+          "probability": 0.125814
         },
         {
           "score": "1-0",
-          "probability": 0.067778
+          "probability": 0.093355
+        },
+        {
+          "score": "0-0",
+          "probability": 0.091754
+        },
+        {
+          "score": "1-2",
+          "probability": 0.087764
         }
       ],
-      "confidence_label": "Baja",
+      "confidence_label": "Media-baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -735,42 +735,42 @@
         "slug": "dr-congo"
       },
       "expected_goals": {
-        "team_a": 0.965379,
-        "team_b": 0.91212
+        "team_a": 1.461968,
+        "team_b": 0.478202
       },
       "probabilities": {
-        "team_a_win": 0.354115,
-        "draw": 0.320389,
-        "team_b_win": 0.325496
+        "team_a_win": 0.617076,
+        "draw": 0.263116,
+        "team_b_win": 0.119808
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "0-0",
-        "probability": 0.152972
+        "score": "1-0",
+        "probability": 0.21006
       },
       "top_scores": [
         {
-          "score": "0-0",
-          "probability": 0.152972
-        },
-        {
           "score": "1-0",
-          "probability": 0.147676
-        },
-        {
-          "score": "0-1",
-          "probability": 0.139529
-        },
-        {
-          "score": "1-1",
-          "probability": 0.134699
+          "probability": 0.21006
         },
         {
           "score": "2-0",
-          "probability": 0.071282
+          "probability": 0.15355
+        },
+        {
+          "score": "0-0",
+          "probability": 0.143683
+        },
+        {
+          "score": "1-1",
+          "probability": 0.100451
+        },
+        {
+          "score": "3-0",
+          "probability": 0.074828
         }
       ],
-      "confidence_label": "Baja",
+      "confidence_label": "Alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -790,39 +790,39 @@
         "slug": "catar"
       },
       "expected_goals": {
-        "team_a": 1.379313,
-        "team_b": 0.626024
+        "team_a": 1.440498,
+        "team_b": 0.771882
       },
       "probabilities": {
-        "team_a_win": 0.552422,
-        "draw": 0.278491,
-        "team_b_win": 0.169087
+        "team_a_win": 0.529715,
+        "draw": 0.269439,
+        "team_b_win": 0.200846
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
         "score": "1-0",
-        "probability": 0.185679
+        "probability": 0.157651
       },
       "top_scores": [
         {
           "score": "1-0",
-          "probability": 0.185679
-        },
-        {
-          "score": "0-0",
-          "probability": 0.134617
-        },
-        {
-          "score": "2-0",
-          "probability": 0.128055
+          "probability": 0.157651
         },
         {
           "score": "1-1",
-          "probability": 0.116239
+          "probability": 0.121688
         },
         {
-          "score": "0-1",
-          "probability": 0.084273
+          "score": "2-0",
+          "probability": 0.113548
+        },
+        {
+          "score": "0-0",
+          "probability": 0.109442
+        },
+        {
+          "score": "2-1",
+          "probability": 0.087646
         }
       ],
       "confidence_label": "Media",
@@ -845,39 +845,39 @@
         "slug": "canada"
       },
       "expected_goals": {
-        "team_a": 0.796187,
-        "team_b": 1.005835
+        "team_a": 1.168274,
+        "team_b": 1.20199
       },
       "probabilities": {
-        "team_a_win": 0.27986,
-        "draw": 0.325999,
-        "team_b_win": 0.394141
+        "team_a_win": 0.352468,
+        "draw": 0.278623,
+        "team_b_win": 0.368909
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "0-1",
-        "probability": 0.165928
+        "score": "1-1",
+        "probability": 0.131237
       },
       "top_scores": [
         {
-          "score": "0-1",
-          "probability": 0.165928
-        },
-        {
-          "score": "0-0",
-          "probability": 0.164965
-        },
-        {
           "score": "1-1",
-          "probability": 0.13211
+          "probability": 0.131237
+        },
+        {
+          "score": "0-1",
+          "probability": 0.112334
         },
         {
           "score": "1-0",
-          "probability": 0.131343
+          "probability": 0.109183
         },
         {
-          "score": "0-2",
-          "probability": 0.083448
+          "score": "0-0",
+          "probability": 0.093457
+        },
+        {
+          "score": "1-2",
+          "probability": 0.078873
         }
       ],
       "confidence_label": "Baja",
@@ -900,42 +900,42 @@
         "slug": "haiti"
       },
       "expected_goals": {
-        "team_a": 1.451874,
-        "team_b": 0.541868
+        "team_a": 2.089528,
+        "team_b": 0.423215
       },
       "probabilities": {
-        "team_a_win": 0.595973,
-        "draw": 0.266338,
-        "team_b_win": 0.137688
+        "team_a_win": 0.766784,
+        "draw": 0.170262,
+        "team_b_win": 0.062954
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.197728
+        "score": "2-0",
+        "probability": 0.176985
       },
       "top_scores": [
         {
-          "score": "1-0",
-          "probability": 0.197728
+          "score": "2-0",
+          "probability": 0.176985
         },
         {
-          "score": "2-0",
-          "probability": 0.143538
+          "score": "1-0",
+          "probability": 0.169402
+        },
+        {
+          "score": "3-0",
+          "probability": 0.123272
         },
         {
           "score": "0-0",
-          "probability": 0.136188
-        },
-        {
-          "score": "1-1",
-          "probability": 0.107142
+          "probability": 0.081072
         },
         {
           "score": "2-1",
-          "probability": 0.077778
+          "probability": 0.074903
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -955,42 +955,42 @@
         "slug": "brasil"
       },
       "expected_goals": {
-        "team_a": 1.203197,
-        "team_b": 1.1924
+        "team_a": 0.782919,
+        "team_b": 1.961788
       },
       "probabilities": {
-        "team_a_win": 0.36416,
-        "draw": 0.27692,
-        "team_b_win": 0.358919
+        "team_a_win": 0.141208,
+        "draw": 0.208051,
+        "team_b_win": 0.650742
       },
-      "predicted_result": "team_a_win",
+      "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "1-1",
-        "probability": 0.130728
+        "score": "0-1",
+        "probability": 0.126105
       },
       "top_scores": [
         {
-          "score": "1-1",
-          "probability": 0.130728
-        },
-        {
-          "score": "1-0",
-          "probability": 0.109634
-        },
-        {
           "score": "0-1",
-          "probability": 0.10865
+          "probability": 0.126105
         },
         {
-          "score": "0-0",
-          "probability": 0.091119
+          "score": "0-2",
+          "probability": 0.123695
         },
         {
-          "score": "2-1",
-          "probability": 0.078646
+          "score": "1-1",
+          "probability": 0.09873
+        },
+        {
+          "score": "1-2",
+          "probability": 0.096843
+        },
+        {
+          "score": "0-3",
+          "probability": 0.080888
         }
       ],
-      "confidence_label": "Baja",
+      "confidence_label": "Alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1010,42 +1010,42 @@
         "slug": "mexico"
       },
       "expected_goals": {
-        "team_a": 0.645703,
-        "team_b": 1.13134
+        "team_a": 0.570791,
+        "team_b": 1.43179
       },
       "probabilities": {
-        "team_a_win": 0.209631,
-        "draw": 0.317178,
-        "team_b_win": 0.473192
+        "team_a_win": 0.147654,
+        "draw": 0.270004,
+        "team_b_win": 0.582342
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-1",
-        "probability": 0.191353
+        "probability": 0.193276
       },
       "top_scores": [
         {
           "score": "0-1",
-          "probability": 0.191353
-        },
-        {
-          "score": "0-0",
-          "probability": 0.169138
-        },
-        {
-          "score": "1-1",
-          "probability": 0.123557
-        },
-        {
-          "score": "1-0",
-          "probability": 0.109213
+          "probability": 0.193276
         },
         {
           "score": "0-2",
-          "probability": 0.108242
+          "probability": 0.138365
+        },
+        {
+          "score": "0-0",
+          "probability": 0.134989
+        },
+        {
+          "score": "1-1",
+          "probability": 0.11032
+        },
+        {
+          "score": "1-2",
+          "probability": 0.078978
         }
       ],
-      "confidence_label": "Media-baja",
+      "confidence_label": "Media",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1065,39 +1065,39 @@
         "slug": "corea-del-sur"
       },
       "expected_goals": {
-        "team_a": 0.82204,
-        "team_b": 1.145784
+        "team_a": 0.681198,
+        "team_b": 1.177194
       },
       "probabilities": {
-        "team_a_win": 0.262173,
-        "draw": 0.305839,
-        "team_b_win": 0.431989
+        "team_a_win": 0.213642,
+        "draw": 0.308375,
+        "team_b_win": 0.477983
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-1",
-        "probability": 0.160136
+        "probability": 0.183552
       },
       "top_scores": [
         {
           "score": "0-1",
-          "probability": 0.160136
+          "probability": 0.183552
         },
         {
           "score": "0-0",
-          "probability": 0.139761
+          "probability": 0.155924
         },
         {
           "score": "1-1",
-          "probability": 0.131638
-        },
-        {
-          "score": "1-0",
-          "probability": 0.114889
+          "probability": 0.125036
         },
         {
           "score": "0-2",
-          "probability": 0.091741
+          "probability": 0.108038
+        },
+        {
+          "score": "1-0",
+          "probability": 0.106215
         }
       ],
       "confidence_label": "Media-baja",
@@ -1120,42 +1120,42 @@
         "slug": "costa-de-marfil"
       },
       "expected_goals": {
-        "team_a": 0.658029,
-        "team_b": 2.135403
+        "team_a": 0.479877,
+        "team_b": 2.086217
       },
       "probabilities": {
-        "team_a_win": 0.101535,
-        "draw": 0.182662,
-        "team_b_win": 0.715803
+        "team_a_win": 0.07293,
+        "draw": 0.175346,
+        "team_b_win": 0.751724
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-2",
-        "probability": 0.139612
+        "probability": 0.167259
       },
       "top_scores": [
         {
           "score": "0-2",
-          "probability": 0.139612
+          "probability": 0.167259
         },
         {
           "score": "0-1",
-          "probability": 0.130759
+          "probability": 0.160346
         },
         {
           "score": "0-3",
-          "probability": 0.099376
+          "probability": 0.116313
         },
         {
           "score": "1-2",
-          "probability": 0.091869
+          "probability": 0.080264
         },
         {
           "score": "1-1",
-          "probability": 0.086043
+          "probability": 0.076946
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1175,42 +1175,42 @@
         "slug": "alemania"
       },
       "expected_goals": {
-        "team_a": 0.637432,
-        "team_b": 0.896862
+        "team_a": 0.836721,
+        "team_b": 1.26199
       },
       "probabilities": {
-        "team_a_win": 0.246026,
-        "draw": 0.357645,
-        "team_b_win": 0.396329
+        "team_a_win": 0.246491,
+        "draw": 0.290554,
+        "team_b_win": 0.462955
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "0-0",
-        "probability": 0.215608
+        "score": "0-1",
+        "probability": 0.154739
       },
       "top_scores": [
         {
-          "score": "0-0",
-          "probability": 0.215608
-        },
-        {
           "score": "0-1",
-          "probability": 0.193371
-        },
-        {
-          "score": "1-0",
-          "probability": 0.137435
+          "probability": 0.154739
         },
         {
           "score": "1-1",
-          "probability": 0.123261
+          "probability": 0.129474
+        },
+        {
+          "score": "0-0",
+          "probability": 0.122615
+        },
+        {
+          "score": "1-0",
+          "probability": 0.102595
         },
         {
           "score": "0-2",
-          "probability": 0.086713
+          "probability": 0.09764
         }
       ],
-      "confidence_label": "Baja",
+      "confidence_label": "Media-baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1230,42 +1230,42 @@
         "slug": "suecia"
       },
       "expected_goals": {
-        "team_a": 2.054043,
-        "team_b": 1.006651
+        "team_a": 1.384172,
+        "team_b": 0.806054
       },
       "probabilities": {
-        "team_a_win": 0.615325,
-        "draw": 0.207002,
-        "team_b_win": 0.177673
+        "team_a_win": 0.505427,
+        "draw": 0.276188,
+        "team_b_win": 0.218385
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "2-1",
-        "probability": 0.099529
+        "score": "1-0",
+        "probability": 0.154879
       },
       "top_scores": [
         {
-          "score": "2-1",
-          "probability": 0.099529
-        },
-        {
-          "score": "2-0",
-          "probability": 0.098872
+          "score": "1-0",
+          "probability": 0.154879
         },
         {
           "score": "1-1",
-          "probability": 0.096911
+          "probability": 0.124841
         },
         {
-          "score": "1-0",
-          "probability": 0.09627
+          "score": "0-0",
+          "probability": 0.111893
         },
         {
-          "score": "3-1",
-          "probability": 0.068146
+          "score": "2-0",
+          "probability": 0.10719
+        },
+        {
+          "score": "0-1",
+          "probability": 0.090192
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Media",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1285,39 +1285,39 @@
         "slug": "paises-bajos"
       },
       "expected_goals": {
-        "team_a": 1.074346,
-        "team_b": 2.255016
+        "team_a": 0.540032,
+        "team_b": 2.144767
       },
       "probabilities": {
-        "team_a_win": 0.168682,
-        "draw": 0.191758,
-        "team_b_win": 0.639559
+        "team_a_win": 0.079866,
+        "draw": 0.173389,
+        "team_b_win": 0.746745
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "1-2",
-        "probability": 0.097889
+        "score": "0-2",
+        "probability": 0.157003
       },
       "top_scores": [
         {
-          "score": "1-2",
-          "probability": 0.097889
-        },
-        {
           "score": "0-2",
-          "probability": 0.091115
-        },
-        {
-          "score": "1-1",
-          "probability": 0.086819
+          "probability": 0.157003
         },
         {
           "score": "0-1",
-          "probability": 0.080811
+          "probability": 0.146405
         },
         {
-          "score": "1-3",
-          "probability": 0.07358
+          "score": "0-3",
+          "probability": 0.112245
+        },
+        {
+          "score": "1-2",
+          "probability": 0.084786
+        },
+        {
+          "score": "1-1",
+          "probability": 0.079064
         }
       ],
       "confidence_label": "Alta",
@@ -1340,42 +1340,42 @@
         "slug": "australia"
       },
       "expected_goals": {
-        "team_a": 0.624661,
-        "team_b": 1.285034
+        "team_a": 0.597761,
+        "team_b": 1.107323
       },
       "probabilities": {
-        "team_a_win": 0.181008,
-        "draw": 0.293129,
-        "team_b_win": 0.525862
+        "team_a_win": 0.197915,
+        "draw": 0.3235,
+        "team_b_win": 0.478585
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-1",
-        "probability": 0.190348
+        "probability": 0.201264
       },
       "top_scores": [
         {
           "score": "0-1",
-          "probability": 0.190348
+          "probability": 0.201264
         },
         {
           "score": "0-0",
-          "probability": 0.148127
-        },
-        {
-          "score": "0-2",
-          "probability": 0.122302
+          "probability": 0.181758
         },
         {
           "score": "1-1",
-          "probability": 0.118903
+          "probability": 0.120308
+        },
+        {
+          "score": "0-2",
+          "probability": 0.111432
         },
         {
           "score": "1-0",
-          "probability": 0.092529
+          "probability": 0.108648
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Media-baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1395,42 +1395,42 @@
         "slug": "estados-unidos"
       },
       "expected_goals": {
-        "team_a": 2.042652,
-        "team_b": 1.588218
+        "team_a": 1.395075,
+        "team_b": 1.210683
       },
       "probabilities": {
-        "team_a_win": 0.484336,
-        "draw": 0.213164,
-        "team_b_win": 0.3025
+        "team_a_win": 0.411968,
+        "draw": 0.262247,
+        "team_b_win": 0.325785
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "2-1",
-        "probability": 0.087809
+        "score": "1-1",
+        "probability": 0.12473
       },
       "top_scores": [
         {
-          "score": "2-1",
-          "probability": 0.087809
-        },
-        {
           "score": "1-1",
-          "probability": 0.085976
+          "probability": 0.12473
         },
         {
-          "score": "2-2",
-          "probability": 0.06973
+          "score": "1-0",
+          "probability": 0.103024
+        },
+        {
+          "score": "0-1",
+          "probability": 0.089407
+        },
+        {
+          "score": "2-1",
+          "probability": 0.087004
         },
         {
           "score": "1-2",
-          "probability": 0.068274
-        },
-        {
-          "score": "3-1",
-          "probability": 0.059788
+          "probability": 0.075504
         }
       ],
-      "confidence_label": "Media-baja",
+      "confidence_label": "Baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1450,39 +1450,39 @@
         "slug": "francia"
       },
       "expected_goals": {
-        "team_a": 2.104453,
-        "team_b": 1.376755
+        "team_a": 1.0297,
+        "team_b": 1.73668
       },
       "probabilities": {
-        "team_a_win": 0.541946,
-        "draw": 0.209597,
-        "team_b_win": 0.248457
+        "team_a_win": 0.223686,
+        "draw": 0.23684,
+        "team_b_win": 0.539473
       },
-      "predicted_result": "team_a_win",
+      "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "2-1",
-        "probability": 0.093841
+        "score": "1-1",
+        "probability": 0.112472
       },
       "top_scores": [
         {
-          "score": "2-1",
-          "probability": 0.093841
-        },
-        {
           "score": "1-1",
-          "probability": 0.089183
+          "probability": 0.112472
         },
         {
-          "score": "2-0",
-          "probability": 0.068161
+          "score": "0-1",
+          "probability": 0.109228
         },
         {
-          "score": "3-1",
-          "probability": 0.065828
+          "score": "1-2",
+          "probability": 0.097664
+        },
+        {
+          "score": "0-2",
+          "probability": 0.094847
         },
         {
           "score": "1-0",
-          "probability": 0.064778
+          "probability": 0.064763
         }
       ],
       "confidence_label": "Media",
@@ -1505,42 +1505,42 @@
         "slug": "irak"
       },
       "expected_goals": {
-        "team_a": 1.82422,
-        "team_b": 0.687909
+        "team_a": 2.256068,
+        "team_b": 0.601296
       },
       "probabilities": {
-        "team_a_win": 0.645762,
-        "draw": 0.219634,
-        "team_b_win": 0.134604
+        "team_a_win": 0.750615,
+        "draw": 0.166162,
+        "team_b_win": 0.083223
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.147954
+        "score": "2-0",
+        "probability": 0.146211
       },
       "top_scores": [
         {
-          "score": "1-0",
-          "probability": 0.147954
-        },
-        {
           "score": "2-0",
-          "probability": 0.13495
+          "probability": 0.146211
         },
         {
-          "score": "1-1",
-          "probability": 0.101779
-        },
-        {
-          "score": "2-1",
-          "probability": 0.092833
+          "score": "1-0",
+          "probability": 0.129616
         },
         {
           "score": "3-0",
-          "probability": 0.08206
+          "probability": 0.109954
+        },
+        {
+          "score": "2-1",
+          "probability": 0.087916
+        },
+        {
+          "score": "1-1",
+          "probability": 0.077938
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1560,39 +1560,39 @@
         "slug": "arabia-saudi"
       },
       "expected_goals": {
-        "team_a": 1.05098,
-        "team_b": 0.507967
+        "team_a": 1.162337,
+        "team_b": 0.705241
       },
       "probabilities": {
-        "team_a_win": 0.485136,
-        "draw": 0.338568,
-        "team_b_win": 0.176296
+        "team_a_win": 0.467001,
+        "draw": 0.309587,
+        "team_b_win": 0.223411
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
         "score": "1-0",
-        "probability": 0.221082
+        "probability": 0.179579
       },
       "top_scores": [
         {
           "score": "1-0",
-          "probability": 0.221082
+          "probability": 0.179579
         },
         {
           "score": "0-0",
-          "probability": 0.210358
-        },
-        {
-          "score": "2-0",
-          "probability": 0.116176
+          "probability": 0.154498
         },
         {
           "score": "1-1",
-          "probability": 0.112302
+          "probability": 0.126646
         },
         {
           "score": "0-1",
-          "probability": 0.106855
+          "probability": 0.108958
+        },
+        {
+          "score": "2-0",
+          "probability": 0.104366
         }
       ],
       "confidence_label": "Media-baja",
@@ -1615,42 +1615,42 @@
         "slug": "espana"
       },
       "expected_goals": {
-        "team_a": 0.440787,
-        "team_b": 1.290191
+        "team_a": 0.534435,
+        "team_b": 1.099719
       },
       "probabilities": {
-        "team_a_win": 0.126432,
-        "draw": 0.293095,
-        "team_b_win": 0.580473
+        "team_a_win": 0.178384,
+        "draw": 0.327786,
+        "team_b_win": 0.493831
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-1",
-        "probability": 0.228509
+        "probability": 0.214575
       },
       "top_scores": [
         {
           "score": "0-1",
-          "probability": 0.228509
+          "probability": 0.214575
         },
         {
           "score": "0-0",
-          "probability": 0.177113
+          "probability": 0.195118
         },
         {
           "score": "0-2",
-          "probability": 0.14741
+          "probability": 0.117986
         },
         {
           "score": "1-1",
-          "probability": 0.100724
+          "probability": 0.114676
         },
         {
           "score": "1-0",
-          "probability": 0.078069
+          "probability": 0.104278
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Media-baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1670,42 +1670,42 @@
         "slug": "iran"
       },
       "expected_goals": {
-        "team_a": 0.685399,
-        "team_b": 1.018569
+        "team_a": 1.021254,
+        "team_b": 1.184015
       },
       "probabilities": {
-        "team_a_win": 0.241018,
-        "draw": 0.33296,
-        "team_b_win": 0.426023
+        "team_a_win": 0.31431,
+        "draw": 0.289631,
+        "team_b_win": 0.396059
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "0-1",
-        "probability": 0.185339
+        "score": "1-1",
+        "probability": 0.133278
       },
       "top_scores": [
         {
-          "score": "0-1",
-          "probability": 0.185339
-        },
-        {
-          "score": "0-0",
-          "probability": 0.18196
-        },
-        {
           "score": "1-1",
-          "probability": 0.127031
+          "probability": 0.133278
+        },
+        {
+          "score": "0-1",
+          "probability": 0.130504
         },
         {
           "score": "1-0",
-          "probability": 0.124715
+          "probability": 0.112564
         },
         {
-          "score": "0-2",
-          "probability": 0.09439
+          "score": "0-0",
+          "probability": 0.110221
+        },
+        {
+          "score": "1-2",
+          "probability": 0.078901
         }
       ],
-      "confidence_label": "Media-baja",
+      "confidence_label": "Baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1725,42 +1725,42 @@
         "slug": "belgica"
       },
       "expected_goals": {
-        "team_a": 1.214401,
-        "team_b": 2.423869
+        "team_a": 0.676615,
+        "team_b": 2.918964
       },
       "probabilities": {
-        "team_a_win": 0.17667,
-        "draw": 0.183338,
-        "team_b_win": 0.639992
+        "team_a_win": 0.058486,
+        "draw": 0.115439,
+        "team_b_win": 0.826075
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "1-2",
-        "probability": 0.093902
+        "score": "0-2",
+        "probability": 0.117294
       },
       "top_scores": [
         {
-          "score": "1-2",
-          "probability": 0.093902
-        },
-        {
-          "score": "1-1",
-          "probability": 0.077481
-        },
-        {
           "score": "0-2",
-          "probability": 0.077323
+          "probability": 0.117294
         },
         {
-          "score": "1-3",
-          "probability": 0.075868
+          "score": "0-3",
+          "probability": 0.114125
+        },
+        {
+          "score": "0-4",
+          "probability": 0.083282
         },
         {
           "score": "0-1",
-          "probability": 0.063802
+          "probability": 0.080367
+        },
+        {
+          "score": "1-2",
+          "probability": 0.079363
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1780,39 +1780,39 @@
         "slug": "ghana"
       },
       "expected_goals": {
-        "team_a": 1.509641,
-        "team_b": 1.175103
+        "team_a": 1.40943,
+        "team_b": 0.881125
       },
       "probabilities": {
-        "team_a_win": 0.449497,
-        "draw": 0.254831,
-        "team_b_win": 0.295671
+        "team_a_win": 0.493185,
+        "draw": 0.271754,
+        "team_b_win": 0.235061
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "1-1",
-        "probability": 0.121058
+        "score": "1-0",
+        "probability": 0.142651
       },
       "top_scores": [
         {
-          "score": "1-1",
-          "probability": 0.121058
-        },
-        {
           "score": "1-0",
-          "probability": 0.103019
+          "probability": 0.142651
         },
         {
-          "score": "2-1",
-          "probability": 0.091377
+          "score": "1-1",
+          "probability": 0.125694
         },
         {
-          "score": "0-1",
-          "probability": 0.08019
+          "score": "0-0",
+          "probability": 0.101212
         },
         {
           "score": "2-0",
-          "probability": 0.077761
+          "probability": 0.100528
+        },
+        {
+          "score": "0-1",
+          "probability": 0.08918
         }
       ],
       "confidence_label": "Media-baja",
@@ -1835,42 +1835,42 @@
         "slug": "inglaterra"
       },
       "expected_goals": {
-        "team_a": 0.619881,
-        "team_b": 1.914726
+        "team_a": 0.441375,
+        "team_b": 2.043109
       },
       "probabilities": {
-        "team_a_win": 0.111845,
-        "draw": 0.205336,
-        "team_b_win": 0.682819
+        "team_a_win": 0.068612,
+        "draw": 0.177344,
+        "team_b_win": 0.754044
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "0-1",
-        "probability": 0.15185
+        "score": "0-2",
+        "probability": 0.174051
       },
       "top_scores": [
         {
-          "score": "0-1",
-          "probability": 0.15185
-        },
-        {
           "score": "0-2",
-          "probability": 0.145376
+          "probability": 0.174051
         },
         {
-          "score": "1-1",
-          "probability": 0.094129
+          "score": "0-1",
+          "probability": 0.170378
         },
         {
           "score": "0-3",
-          "probability": 0.092785
+          "probability": 0.118535
+        },
+        {
+          "score": "0-0",
+          "probability": 0.083392
         },
         {
           "score": "1-2",
-          "probability": 0.090116
+          "probability": 0.076822
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1890,42 +1890,42 @@
         "slug": "uzbekistan"
       },
       "expected_goals": {
-        "team_a": 0.977734,
-        "team_b": 0.545646
+        "team_a": 0.908754,
+        "team_b": 0.73645
       },
       "probabilities": {
-        "team_a_win": 0.449314,
-        "draw": 0.350723,
-        "team_b_win": 0.199963
+        "team_a_win": 0.376002,
+        "draw": 0.345405,
+        "team_b_win": 0.278593
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
         "score": "0-0",
-        "probability": 0.217974
+        "probability": 0.192973
       },
       "top_scores": [
         {
           "score": "0-0",
-          "probability": 0.217974
+          "probability": 0.192973
         },
         {
           "score": "1-0",
-          "probability": 0.213121
+          "probability": 0.175365
         },
         {
           "score": "0-1",
-          "probability": 0.118937
+          "probability": 0.142115
         },
         {
           "score": "1-1",
-          "probability": 0.116288
+          "probability": 0.129148
         },
         {
           "score": "2-0",
-          "probability": 0.104188
+          "probability": 0.079682
         }
       ],
-      "confidence_label": "Media-baja",
+      "confidence_label": "Baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -1945,42 +1945,42 @@
         "slug": "portugal"
       },
       "expected_goals": {
-        "team_a": 1.365193,
-        "team_b": 1.582636
+        "team_a": 0.910014,
+        "team_b": 1.036396
       },
       "probabilities": {
-        "team_a_win": 0.329968,
-        "draw": 0.243877,
-        "team_b_win": 0.426155
+        "team_a_win": 0.310191,
+        "draw": 0.312736,
+        "team_b_win": 0.377073
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "1-1",
-        "probability": 0.113337
+        "score": "0-1",
+        "probability": 0.147983
       },
       "top_scores": [
         {
-          "score": "1-1",
-          "probability": 0.113337
-        },
-        {
-          "score": "1-2",
-          "probability": 0.089686
-        },
-        {
           "score": "0-1",
-          "probability": 0.083019
+          "probability": 0.147983
         },
         {
-          "score": "2-1",
-          "probability": 0.077364
+          "score": "0-0",
+          "probability": 0.142786
+        },
+        {
+          "score": "1-1",
+          "probability": 0.134666
         },
         {
           "score": "1-0",
-          "probability": 0.071613
+          "probability": 0.129937
+        },
+        {
+          "score": "0-2",
+          "probability": 0.076684
         }
       ],
-      "confidence_label": "Media-baja",
+      "confidence_label": "Baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -2000,42 +2000,42 @@
         "slug": "austria"
       },
       "expected_goals": {
-        "team_a": 0.835697,
-        "team_b": 1.068249
+        "team_a": 1.001182,
+        "team_b": 1.295104
       },
       "probabilities": {
-        "team_a_win": 0.280642,
-        "draw": 0.314777,
-        "team_b_win": 0.404581
+        "team_a_win": 0.287624,
+        "draw": 0.280029,
+        "team_b_win": 0.432347
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "0-1",
-        "probability": 0.159148
+        "score": "1-1",
+        "probability": 0.130484
       },
       "top_scores": [
         {
-          "score": "0-1",
-          "probability": 0.159148
-        },
-        {
-          "score": "0-0",
-          "probability": 0.14898
-        },
-        {
           "score": "1-1",
-          "probability": 0.132999
+          "probability": 0.130484
+        },
+        {
+          "score": "0-1",
+          "probability": 0.13033
         },
         {
           "score": "1-0",
-          "probability": 0.124502
+          "probability": 0.100752
         },
         {
-          "score": "0-2",
-          "probability": 0.085005
+          "score": "0-0",
+          "probability": 0.100633
+        },
+        {
+          "score": "1-2",
+          "probability": 0.084495
         }
       ],
-      "confidence_label": "Baja",
+      "confidence_label": "Media-baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
@@ -2055,39 +2055,39 @@
         "slug": "argentina"
       },
       "expected_goals": {
-        "team_a": 0.32062,
-        "team_b": 2.53103
+        "team_a": 0.311606,
+        "team_b": 2.897461
       },
       "probabilities": {
-        "team_a_win": 0.031431,
-        "draw": 0.115165,
-        "team_b_win": 0.853405
+        "team_a_win": 0.022155,
+        "draw": 0.086233,
+        "team_b_win": 0.891611
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-2",
-        "probability": 0.185203
+        "probability": 0.170078
       },
       "top_scores": [
         {
           "score": "0-2",
-          "probability": 0.185203
+          "probability": 0.170078
         },
         {
           "score": "0-3",
-          "probability": 0.156251
-        },
-        {
-          "score": "0-1",
-          "probability": 0.146346
+          "probability": 0.164265
         },
         {
           "score": "0-4",
-          "probability": 0.098869
+          "probability": 0.118988
         },
         {
-          "score": "1-2",
-          "probability": 0.05938
+          "score": "0-1",
+          "probability": 0.117398
+        },
+        {
+          "score": "0-5",
+          "probability": 0.068952
         }
       ],
       "confidence_label": "Muy alta",
