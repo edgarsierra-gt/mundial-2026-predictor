@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-26T19:42:05.505939+00:00",
+  "generated_at": "2026-06-27T06:56:59.079263+00:00",
   "model_version": "0.1.0",
   "bins": [
     {
       "lower": 0.4,
       "upper": 0.5,
-      "n": 4,
-      "avg_predicted_probability": 0.435638,
-      "empirical_frequency": 0.75
+      "n": 9,
+      "avg_predicted_probability": 0.439911,
+      "empirical_frequency": 0.555556
     },
     {
       "lower": 0.5,
       "upper": 0.6,
-      "n": 6,
-      "avg_predicted_probability": 0.536339,
-      "empirical_frequency": 0.5
+      "n": 11,
+      "avg_predicted_probability": 0.553043,
+      "empirical_frequency": 0.636364
     },
     {
       "lower": 0.6,
       "upper": 0.7,
-      "n": 2,
-      "avg_predicted_probability": 0.673539,
-      "empirical_frequency": 1.0
+      "n": 5,
+      "avg_predicted_probability": 0.666161,
+      "empirical_frequency": 0.8
     },
     {
       "lower": 0.7,
@@ -32,9 +32,9 @@
     }
   ],
   "goals": {
-    "mean_predicted_total": 2.422671,
-    "mean_actual_total": 2.8125,
-    "bias": -0.389829,
-    "mae": 1.313982
+    "mean_predicted_total": 2.345999,
+    "mean_actual_total": 2.84375,
+    "bias": -0.497751,
+    "mae": 1.493065
   }
 }
