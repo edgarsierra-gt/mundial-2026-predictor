@@ -100,3 +100,13 @@ def test_simulate_bracket_round_sizes_are_valid() -> None:
     assert len(result["semifinal"]) == 4
     assert len(result["final"]) == 2
     assert isinstance(result["champion"], str)
+
+
+def test_allocate_thirds_valid_matching() -> None:
+    from src.tournament.bracket import allocate_thirds
+    third_groups = list("ABCDEFGH")
+    assignment = allocate_thirds(third_groups)
+    
+    assert len(assignment) == 8
+    for winner, third in assignment.items():
+        assert winner != third

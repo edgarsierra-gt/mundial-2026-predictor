@@ -35,7 +35,7 @@ def _latest_raw_file(prefix: str) -> Path:
 CURRENT_WORLD_CUP_XLSX = _latest_raw_file("mundial_fifa_2026_actualizado_")
 TEAM_HISTORY_XLSX = _latest_raw_file("Estadisticas_ultimos20_")
 
-MODEL_VERSION = "0.1.0"
+MODEL_VERSION = "2.0.0"
 MODEL_MODE = "goals_only"
 
 N_SIMULATIONS = 10000

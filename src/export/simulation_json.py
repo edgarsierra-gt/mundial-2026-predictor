@@ -221,7 +221,7 @@ def export_tournament_snapshot(
         "generated_at": pd.Timestamp.utcnow().isoformat(),
         "model_version": MODEL_VERSION,
         "n_simulations": int(probabilities["n_simulations"].max()) if not probabilities.empty else 0,
-        "scope": "group_stage_and_approximate_bracket",
+        "scope": "group_stage_and_official_bracket",
         "bracket_mode": (
             str(round_probabilities["bracket_mode"].iloc[0])
             if round_probabilities is not None and not round_probabilities.empty
@@ -229,8 +229,8 @@ def export_tournament_snapshot(
         ),
         "standings_current": current_standings.to_dict(orient="records"),
         "notes": [
-            "Este snapshot cubre simulacion de fase de grupos y bracket aproximado.",
-            "El bracket aproximado usa una siembra estable y documentada; se reemplazara por bracket oficial cuando el mapeo final este validado.",
+            "Este snapshot cubre la simulación de fase de grupos y el bracket oficial de la FIFA 2026.",
+            "Modelo v2.0 incorpora ancla externa de fuerza (Elo prior) y la matriz oficial de mejores terceros de la FIFA.",
         ],
     }
     _write_json(path, payload)

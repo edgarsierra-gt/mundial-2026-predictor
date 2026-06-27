@@ -214,7 +214,7 @@ def simulate_tournament_probabilities(
                 "prob_champion": round_counter["champion"] / n_simulations,
                 "model_version": MODEL_VERSION,
                 "n_simulations": n_simulations,
-                "bracket_mode": "approximate_stable_seed",
+                "bracket_mode": "official_fifa_2026",
             }
         )
 

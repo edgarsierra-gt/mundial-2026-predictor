@@ -21,6 +21,20 @@ def build_team_features(
     history: pd.DataFrame,
     team_match_current: pd.DataFrame,
 ) -> pd.DataFrame:
+    from pathlib import Path
+    
+    anchor_path = Path(__file__).resolve().parents[2] / "data" / "raw" / "strength_anchor.csv"
+    if anchor_path.exists():
+        anchor_df = pd.read_csv(anchor_path)
+        elo_lookup = anchor_df.set_index("team_id")["elo_rating"].to_dict()
+    else:
+        elo_lookup = {}
+
+    if elo_lookup:
+        mean_elo = float(sum(elo_lookup.values()) / len(elo_lookup))
+    else:
+        mean_elo = 1770.0
+
     weighted_history = add_history_weights(history)
     current = team_match_current.copy()
     rows = []
@@ -49,8 +63,44 @@ def build_team_features(
         loss_rate = _safe_div(float(result_counts.get("L", 0)), matches_history) or 0.0
 
         baseline = G_EFF / 2
-        attack_index = max(goals_for_pg / baseline, 0.1) if baseline else 1.0
-        defense_index = max(goals_against_pg / baseline, 0.1) if baseline else 1.0
+        attack_index_recent = goals_for_pg / baseline if baseline else 1.0
+        defense_index_recent = goals_against_pg / baseline if baseline else 1.0
+
+        # Elo Prior
+        elo_val = float(elo_lookup.get(team_id, mean_elo))
+        elo_att = 10.0 ** ((elo_val - mean_elo) / 1000.0)
+        elo_def = 10.0 ** (-(elo_val - mean_elo) / 1000.0)
+
+        # Mix Elo (50%) and Recent Form (50%)
+        attack_base = 0.5 * elo_att + 0.5 * attack_index_recent
+        defense_base = 0.5 * elo_def + 0.5 * defense_index_recent
+
+        # Real-time tournament performance adjustment
+        n_current = len(c)
+        if n_current > 0:
+            if "xg_for" in c and not c["xg_for"].isna().all():
+                tourney_goals_for = float(c["xg_for"].mean())
+            else:
+                tourney_goals_for = float(c["goals_for"].mean())
+
+            if "xg_against" in c and not c["xg_against"].isna().all():
+                tourney_goals_against = float(c["xg_against"].mean())
+            else:
+                tourney_goals_against = float(c["goals_against"].mean())
+
+            tourney_att = tourney_goals_for / baseline if baseline else 1.0
+            tourney_def = tourney_goals_against / baseline if baseline else 1.0
+
+            w_current = n_current / (n_current + 3.0)
+            attack_index = (1.0 - w_current) * attack_base + w_current * tourney_att
+            defense_index = (1.0 - w_current) * defense_base + w_current * tourney_def
+        else:
+            attack_index = attack_base
+            defense_index = defense_base
+
+        # Safeguard clamps
+        attack_index = max(0.1, min(attack_index, 4.0))
+        defense_index = max(0.1, min(defense_index, 4.0))
 
         data_quality_score = min(1.0, matches_history / 20) if matches_history else 0.0
 
