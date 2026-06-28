@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from functools import lru_cache
 from typing import Any
 
 import numpy as np
@@ -96,7 +97,12 @@ def simulate_knockout_match(
     return team_a_id if rng.random() < distribution["advance_a_if_draw"] else team_b_id
 
 
-def allocate_thirds(third_groups: list[str]) -> dict[str, str]:
+def allocate_thirds(third_groups: list[str] | tuple[str, ...]) -> dict[str, str]:
+    return _allocate_thirds_cached(tuple(sorted(list(third_groups))))
+
+
+@lru_cache(maxsize=128)
+def _allocate_thirds_cached(third_groups: tuple[str, ...]) -> dict[str, str]:
     # We define the allowed groups for each winner as per FIFA 2026 rules:
     allowed = {
         'A': ['C', 'E', 'F', 'H', 'I'],
@@ -110,7 +116,7 @@ def allocate_thirds(third_groups: list[str]) -> dict[str, str]:
     }
     
     winners = sorted(allowed.keys())
-    thirds = sorted(third_groups)
+    thirds = sorted(list(third_groups))
     assignment = {}
     
     def backtrack(winner_idx, available_thirds):
@@ -180,7 +186,7 @@ def simulate_bracket(
     best_thirds_groups = list(best_thirds_teams.keys())
     
     # 2. Allocate thirds dynamically
-    thirds_assigned = allocate_thirds(best_thirds_groups)
+    thirds_assigned = allocate_thirds(tuple(best_thirds_groups))
     
     # Resolve third place team IDs with fallback if missing key
     t_A = best_thirds_teams.get(thirds_assigned.get('A', ''), list(best_thirds_teams.values())[0] if best_thirds_teams else '')

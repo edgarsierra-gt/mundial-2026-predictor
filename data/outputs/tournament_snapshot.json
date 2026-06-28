@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T19:12:15.657315+00:00",
+  "generated_at": "2026-06-28T22:39:15.318939+00:00",
   "model_version": "2.0.0",
   "n_simulations": 10000,
   "scope": "group_stage_and_official_bracket",
@@ -18,7 +18,7 @@
       "points": 9,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "A",
@@ -33,7 +33,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "A",
@@ -48,7 +48,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "A",
@@ -63,7 +63,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "B",
@@ -78,7 +78,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "B",
@@ -93,7 +93,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "B",
@@ -108,7 +108,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "B",
@@ -123,7 +123,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "C",
@@ -138,7 +138,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "C",
@@ -153,7 +153,7 @@
       "points": 7,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "C",
@@ -168,7 +168,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "C",
@@ -183,7 +183,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "D",
@@ -198,7 +198,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "D",
@@ -213,7 +213,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "D",
@@ -228,7 +228,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "D",
@@ -243,7 +243,7 @@
       "points": 3,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "E",
@@ -258,7 +258,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "E",
@@ -273,7 +273,7 @@
       "points": 6,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "E",
@@ -288,7 +288,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "E",
@@ -303,7 +303,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "F",
@@ -318,7 +318,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "F",
@@ -333,7 +333,7 @@
       "points": 5,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "F",
@@ -348,7 +348,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "F",
@@ -363,7 +363,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "G",
@@ -378,7 +378,7 @@
       "points": 5,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "G",
@@ -393,7 +393,7 @@
       "points": 5,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "G",
@@ -408,7 +408,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "G",
@@ -423,7 +423,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "H",
@@ -438,7 +438,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "H",
@@ -453,7 +453,7 @@
       "points": 3,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "H",
@@ -468,7 +468,7 @@
       "points": 2,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "H",
@@ -483,7 +483,7 @@
       "points": 2,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "I",
@@ -498,7 +498,7 @@
       "points": 9,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "I",
@@ -513,7 +513,7 @@
       "points": 6,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "I",
@@ -528,7 +528,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "I",
@@ -543,187 +543,187 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "J",
       "team_id": "ARG",
-      "played": 2,
-      "wins": 2,
+      "played": 3,
+      "wins": 3,
       "draws": 0,
       "losses": 0,
-      "goals_for": 5,
-      "goals_against": 0,
-      "goal_difference": 5,
-      "points": 6,
+      "goals_for": 8,
+      "goals_against": 1,
+      "goal_difference": 7,
+      "points": 9,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "J",
       "team_id": "AUT",
-      "played": 2,
+      "played": 3,
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "losses": 1,
-      "goals_for": 3,
-      "goals_against": 3,
+      "goals_for": 6,
+      "goals_against": 6,
       "goal_difference": 0,
-      "points": 3,
+      "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "J",
       "team_id": "DZA",
-      "played": 2,
+      "played": 3,
       "wins": 1,
-      "draws": 0,
+      "draws": 1,
       "losses": 1,
-      "goals_for": 2,
-      "goals_against": 4,
+      "goals_for": 5,
+      "goals_against": 7,
       "goal_difference": -2,
-      "points": 3,
+      "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "J",
       "team_id": "JOR",
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 0,
-      "losses": 2,
-      "goals_for": 2,
-      "goals_against": 5,
-      "goal_difference": -3,
+      "losses": 3,
+      "goals_for": 3,
+      "goals_against": 8,
+      "goal_difference": -5,
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "K",
       "team_id": "COL",
-      "played": 2,
+      "played": 3,
       "wins": 2,
-      "draws": 0,
+      "draws": 1,
       "losses": 0,
       "goals_for": 4,
       "goals_against": 1,
       "goal_difference": 3,
-      "points": 6,
+      "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "K",
       "team_id": "POR",
-      "played": 2,
+      "played": 3,
       "wins": 1,
-      "draws": 1,
+      "draws": 2,
       "losses": 0,
       "goals_for": 6,
       "goals_against": 1,
       "goal_difference": 5,
-      "points": 4,
+      "points": 5,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "K",
       "team_id": "COD",
-      "played": 2,
-      "wins": 0,
+      "played": 3,
+      "wins": 1,
       "draws": 1,
       "losses": 1,
-      "goals_for": 1,
-      "goals_against": 2,
-      "goal_difference": -1,
-      "points": 1,
+      "goals_for": 4,
+      "goals_against": 3,
+      "goal_difference": 1,
+      "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "K",
       "team_id": "UZB",
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 0,
-      "losses": 2,
-      "goals_for": 1,
-      "goals_against": 8,
-      "goal_difference": -7,
+      "losses": 3,
+      "goals_for": 2,
+      "goals_against": 11,
+      "goal_difference": -9,
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "L",
       "team_id": "ENG",
-      "played": 2,
-      "wins": 1,
+      "played": 3,
+      "wins": 2,
       "draws": 1,
       "losses": 0,
-      "goals_for": 4,
+      "goals_for": 6,
       "goals_against": 2,
-      "goal_difference": 2,
-      "points": 4,
+      "goal_difference": 4,
+      "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
-    },
-    {
-      "group": "L",
-      "team_id": "GHA",
-      "played": 2,
-      "wins": 1,
-      "draws": 1,
-      "losses": 0,
-      "goals_for": 1,
-      "goals_against": 0,
-      "goal_difference": 1,
-      "points": 4,
-      "rank_current": 2,
-      "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "L",
       "team_id": "CRO",
-      "played": 2,
-      "wins": 1,
+      "played": 3,
+      "wins": 2,
       "draws": 0,
       "losses": 1,
-      "goals_for": 3,
-      "goals_against": 4,
-      "goal_difference": -1,
-      "points": 3,
+      "goals_for": 5,
+      "goals_against": 5,
+      "goal_difference": 0,
+      "points": 6,
+      "rank_current": 2,
+      "status": "active",
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
+    },
+    {
+      "group": "L",
+      "team_id": "GHA",
+      "played": 3,
+      "wins": 1,
+      "draws": 1,
+      "losses": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     },
     {
       "group": "L",
       "team_id": "PAN",
-      "played": 2,
+      "played": 3,
       "wins": 0,
       "draws": 0,
-      "losses": 2,
+      "losses": 3,
       "goals_for": 0,
-      "goals_against": 2,
-      "goal_difference": -2,
+      "goals_against": 4,
+      "goal_difference": -4,
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-28T19:10:10.202375+00:00"
+      "updated_at": "2026-06-28T22:36:23.523506+00:00"
     }
   ],
   "notes": [

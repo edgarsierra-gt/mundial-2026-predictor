@@ -86,7 +86,12 @@ def build_match_results_real(matches_current: pd.DataFrame) -> pd.DataFrame:
 
 def build_current_standings(teams: pd.DataFrame, matches_current: pd.DataFrame) -> pd.DataFrame:
     standings = empty_standings(teams)
-    for row in matches_current.itertuples():
+    # Filtrar solo partidos de la fase de grupos (grupos A-L) si la columna existe
+    if "group" in matches_current.columns:
+        group_matches = matches_current[matches_current["group"].isin(list("ABCDEFGHIJKL"))]
+    else:
+        group_matches = matches_current
+    for row in group_matches.itertuples():
         apply_match(
             standings,
             str(row.team_a_id),
@@ -106,7 +111,12 @@ def completed_group_table(
     simulated_results: list[tuple[str, str, int, int]],
 ) -> pd.DataFrame:
     standings = empty_standings(teams)
-    for row in matches_current.itertuples():
+    # Filtrar solo partidos de la fase de grupos (grupos A-L) si la columna existe
+    if "group" in matches_current.columns:
+        group_matches = matches_current[matches_current["group"].isin(list("ABCDEFGHIJKL"))]
+    else:
+        group_matches = matches_current
+    for row in group_matches.itertuples():
         apply_match(
             standings,
             str(row.team_a_id),

@@ -65,41 +65,25 @@ match_id,match_no,stage,group,date,team_a_id,team_b_id,status,winner_advances_to
 2026-06-26_match-64,64,group,H,2026-06-26,CPV,KSA,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-cape-verde-vs-saudi-arabia-jun-26-2026-game-boxscore-647679?tab=boxscore; https://www.transfermarkt.us/cape-verde_saudi-arabia/index/spielbericht/4776662
 2026-06-26_match-65,65,group,G,2026-06-26,NZL,BEL,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-new-zealand-vs-belgium-jun-26-2026-game-boxscore-647680?tab=boxscore
 2026-06-26_match-66,66,group,G,2026-06-26,EGY,IRI,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-egypt-vs-iran-jun-26-2026-game-boxscore-647681?tab=boxscore
-2026-06-20_ECU_CUW,67,group,E,2026-06-20,ECU,CUW,scheduled,,,manual_user_provided_2026-06-19
-2026-06-20_TUN_JPN,68,group,F,2026-06-20,TUN,JPN,scheduled,,,manual_user_provided_2026-06-19
-2026-06-21_ESP_KSA,69,group,H,2026-06-21,ESP,KSA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-21_BEL_IRI,70,group,G,2026-06-21,BEL,IRI,scheduled,,,manual_user_provided_2026-06-19
-2026-06-21_URU_CPV,71,group,H,2026-06-21,URU,CPV,scheduled,,,manual_user_provided_2026-06-19
-2026-06-21_NZL_EGY,72,group,G,2026-06-21,NZL,EGY,scheduled,,,manual_user_provided_2026-06-19
-2026-06-22_ARG_AUT,73,group,J,2026-06-22,ARG,AUT,scheduled,,,manual_user_provided_2026-06-19
-2026-06-22_FRA_IRQ,74,group,I,2026-06-22,FRA,IRQ,scheduled,,,manual_user_provided_2026-06-19
-2026-06-22_NOR_SEN,75,group,I,2026-06-22,NOR,SEN,scheduled,,,manual_user_provided_2026-06-19
-2026-06-22_JOR_DZA,76,group,J,2026-06-22,JOR,DZA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-23_POR_UZB,77,group,K,2026-06-23,POR,UZB,scheduled,,,manual_user_provided_2026-06-19
-2026-06-23_ENG_GHA,78,group,L,2026-06-23,ENG,GHA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-23_PAN_CRO,79,group,L,2026-06-23,PAN,CRO,scheduled,,,manual_user_provided_2026-06-19
-2026-06-23_COL_COD,80,group,K,2026-06-23,COL,COD,scheduled,,,manual_user_provided_2026-06-19
-2026-06-24_BIH_QAT,81,group,B,2026-06-24,BIH,QAT,scheduled,,,manual_user_provided_2026-06-19
-2026-06-24_SUI_CAN,82,group,B,2026-06-24,SUI,CAN,scheduled,,,manual_user_provided_2026-06-19
-2026-06-24_MAR_HTI,83,group,C,2026-06-24,MAR,HTI,scheduled,,,manual_user_provided_2026-06-19
-2026-06-24_SCO_BRA,84,group,C,2026-06-24,SCO,BRA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-24_CZE_MEX,85,group,A,2026-06-24,CZE,MEX,scheduled,,,manual_user_provided_2026-06-19
-2026-06-24_RSA_KOR,86,group,A,2026-06-24,RSA,KOR,scheduled,,,manual_user_provided_2026-06-19
-2026-06-25_CUW_CIV,87,group,E,2026-06-25,CUW,CIV,scheduled,,,manual_user_provided_2026-06-19
-2026-06-25_ECU_GER,88,group,E,2026-06-25,ECU,GER,scheduled,,,manual_user_provided_2026-06-19
-2026-06-25_JPN_SWE,89,group,F,2026-06-25,JPN,SWE,scheduled,,,manual_user_provided_2026-06-19
-2026-06-25_TUN_NED,90,group,F,2026-06-25,TUN,NED,scheduled,,,manual_user_provided_2026-06-19
-2026-06-25_PAR_AUS,91,group,D,2026-06-25,PAR,AUS,scheduled,,,manual_user_provided_2026-06-19
-2026-06-25_TUR_USA,92,group,D,2026-06-25,TUR,USA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-26_NOR_FRA,93,group,I,2026-06-26,NOR,FRA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-26_SEN_IRQ,94,group,I,2026-06-26,SEN,IRQ,scheduled,,,manual_user_provided_2026-06-19
-2026-06-26_CPV_KSA,95,group,H,2026-06-26,CPV,KSA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-26_URU_ESP,96,group,H,2026-06-26,URU,ESP,scheduled,,,manual_user_provided_2026-06-19
-2026-06-26_EGY_IRI,97,group,G,2026-06-26,EGY,IRI,scheduled,,,manual_user_provided_2026-06-19
-2026-06-26_NZL_BEL,98,group,G,2026-06-26,NZL,BEL,scheduled,,,manual_user_provided_2026-06-19
-2026-06-27_CRO_GHA,99,group,L,2026-06-27,CRO,GHA,scheduled,,,manual_user_provided_2026-06-19
-2026-06-27_PAN_ENG,100,group,L,2026-06-27,PAN,ENG,scheduled,,,manual_user_provided_2026-06-19
-2026-06-27_COL_POR,101,group,K,2026-06-27,COL,POR,scheduled,,,manual_user_provided_2026-06-19
-2026-06-27_COD_UZB,102,group,K,2026-06-27,COD,UZB,scheduled,,,manual_user_provided_2026-06-19
-2026-06-27_DZA_AUT,103,group,J,2026-06-27,DZA,AUT,scheduled,,,manual_user_provided_2026-06-19
-2026-06-27_JOR_ARG,104,group,J,2026-06-27,JOR,ARG,scheduled,,,manual_user_provided_2026-06-19
+1970-01-01_match-67,67,group,L,1970-01-01,PAN,ENG,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-panama-vs-england-jun-27-2026-game-boxscore-647682?tab=boxscore; https://www.11v11.com/matches/panama-v-england-27-june-2026-393604/
+1970-01-01_match-68,68,group,L,1970-01-01,CRO,GHA,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-croatia-vs-ghana-jun-27-2026-game-boxscore-647683?tab=boxscore; https://www.11v11.com/matches/croatia-v-ghana-27-june-2026-393603/
+1970-01-01_match-69,69,group,K,1970-01-01,COL,POR,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-colombia-vs-portugal-jun-27-2026-game-boxscore-647684?tab=boxscore; https://www.11v11.com/matches/colombia-v-portugal-27-june-2026-393597/
+1970-01-01_match-70,70,group,K,1970-01-01,COD,UZB,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-congo-dr-vs-uzbekistan-jun-27-2026-game-boxscore-647685?tab=boxscore; https://www.11v11.com/matches/congo-dr-v-uzbekistan-27-june-2026-393598/
+1970-01-01_match-71,71,group,J,1970-01-01,DZA,AUT,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-algeria-vs-austria-jun-27-2026-game-boxscore-647687?tab=boxscore; https://www.11v11.com/matches/algeria-v-austria-27-june-2026-393591/
+1970-01-01_match-72,72,group,J,1970-01-01,JOR,ARG,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686?tab=boxscore; https://www.11v11.com/matches/jordan-v-argentina-27-june-2026-393592/
+2026-06-28_CAN_RSA,73,group,R16,2026-06-28,CAN,RSA,completed,,,manual_28jun2026_r16_can_1_rsa_0_eustaquio_min92
+2026-06-29_BRA_JPN,74,group,R16,2026-06-29,BRA,JPN,scheduled,,,manual_calendar_r16_2026
+2026-06-29_GER_PAR,75,group,R16,2026-06-29,GER,PAR,scheduled,,,manual_calendar_r16_2026
+2026-06-29_NED_MAR,76,group,R16,2026-06-29,NED,MAR,scheduled,,,manual_calendar_r16_2026
+2026-06-30_CIV_NOR,77,group,R16,2026-06-30,CIV,NOR,scheduled,,,manual_calendar_r16_2026
+2026-06-30_FRA_SWE,78,group,R16,2026-06-30,FRA,SWE,scheduled,,,manual_calendar_r16_2026
+2026-06-30_MEX_ECU,79,group,R16,2026-06-30,MEX,ECU,scheduled,,,manual_calendar_r16_2026
+2026-07-01_ENG_COD,80,group,R16,2026-07-01,ENG,COD,scheduled,,,manual_calendar_r16_2026
+2026-07-01_BEL_SEN,81,group,R16,2026-07-01,BEL,SEN,scheduled,,,manual_calendar_r16_2026
+2026-07-01_USA_BIH,82,group,R16,2026-07-01,USA,BIH,scheduled,,,manual_calendar_r16_2026
+2026-07-02_ESP_AUT,83,group,R16,2026-07-02,ESP,AUT,scheduled,,,manual_calendar_r16_2026
+2026-07-02_POR_CRO,84,group,R16,2026-07-02,POR,CRO,scheduled,,,manual_calendar_r16_2026
+2026-07-02_SUI_DZA,85,group,R16,2026-07-02,SUI,DZA,scheduled,,,manual_calendar_r16_2026
+2026-07-03_AUS_EGY,86,group,R16,2026-07-03,AUS,EGY,scheduled,,,manual_calendar_r16_2026
+2026-07-03_ARG_CPV,87,group,R16,2026-07-03,ARG,CPV,scheduled,,,manual_calendar_r16_2026
+2026-07-03_COL_GHA,88,group,R16,2026-07-03,COL,GHA,scheduled,,,manual_calendar_r16_2026
