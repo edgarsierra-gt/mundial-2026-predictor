@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T10:48:52.300107+00:00",
+  "generated_at": "2026-06-29T19:51:41.620986+00:00",
   "model_version": "2.0.0",
   "n_simulations": 10000,
   "scope": "group_stage_and_official_bracket",
@@ -18,7 +18,7 @@
       "points": 9,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "A",
@@ -33,7 +33,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "A",
@@ -48,7 +48,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "A",
@@ -63,7 +63,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "B",
@@ -78,7 +78,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "B",
@@ -93,7 +93,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "B",
@@ -108,7 +108,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "B",
@@ -123,7 +123,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "C",
@@ -138,7 +138,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "C",
@@ -153,7 +153,7 @@
       "points": 7,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "C",
@@ -168,7 +168,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "C",
@@ -183,7 +183,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "D",
@@ -198,7 +198,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "D",
@@ -213,7 +213,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "D",
@@ -228,7 +228,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "D",
@@ -243,7 +243,7 @@
       "points": 3,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "E",
@@ -258,7 +258,7 @@
       "points": 6,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "E",
@@ -273,7 +273,7 @@
       "points": 6,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "E",
@@ -288,7 +288,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "E",
@@ -303,7 +303,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "F",
@@ -318,7 +318,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "F",
@@ -333,7 +333,7 @@
       "points": 5,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "F",
@@ -348,7 +348,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "F",
@@ -363,7 +363,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "G",
@@ -378,7 +378,7 @@
       "points": 5,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "G",
@@ -393,7 +393,7 @@
       "points": 5,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "G",
@@ -408,7 +408,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "G",
@@ -423,7 +423,7 @@
       "points": 1,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "H",
@@ -438,7 +438,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "H",
@@ -453,7 +453,7 @@
       "points": 3,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "H",
@@ -468,7 +468,7 @@
       "points": 2,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "H",
@@ -483,7 +483,7 @@
       "points": 2,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "I",
@@ -498,7 +498,7 @@
       "points": 9,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "I",
@@ -513,7 +513,7 @@
       "points": 6,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "I",
@@ -528,7 +528,7 @@
       "points": 3,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "I",
@@ -543,7 +543,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "J",
@@ -558,7 +558,7 @@
       "points": 9,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "J",
@@ -573,7 +573,7 @@
       "points": 4,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "J",
@@ -588,7 +588,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "J",
@@ -603,7 +603,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "K",
@@ -618,7 +618,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "K",
@@ -633,7 +633,7 @@
       "points": 5,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "K",
@@ -648,7 +648,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "K",
@@ -663,7 +663,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "L",
@@ -678,7 +678,7 @@
       "points": 7,
       "rank_current": 1,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "L",
@@ -693,7 +693,7 @@
       "points": 6,
       "rank_current": 2,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "L",
@@ -708,7 +708,7 @@
       "points": 4,
       "rank_current": 3,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     },
     {
       "group": "L",
@@ -723,7 +723,7 @@
       "points": 0,
       "rank_current": 4,
       "status": "active",
-      "updated_at": "2026-06-29T10:46:19.349340+00:00"
+      "updated_at": "2026-06-29T19:49:12.137882+00:00"
     }
   ],
   "notes": [
