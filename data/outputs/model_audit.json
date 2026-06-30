@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-30T16:37:39.242377+00:00",
+  "generated_at": "2026-06-30T16:49:35.750505+00:00",
   "model_version": "2.0.0",
-  "matches_audited": 32,
+  "matches_audited": 35,
   "metrics": {
-    "accuracy_1x2": 0.65625,
-    "brier_score": 0.467969,
-    "log_loss": 0.798293,
-    "exact_score_hit_rate": 0.15625,
-    "goals_bias": -0.366614,
-    "goals_mae": 1.442057
+    "accuracy_1x2": 0.628571,
+    "brier_score": 0.502187,
+    "log_loss": 0.843601,
+    "exact_score_hit_rate": 0.142857,
+    "goals_bias": -0.34132,
+    "goals_mae": 1.368223
   },
   "by_confidence_bin": [
     {
@@ -31,9 +31,9 @@
     },
     {
       "bin": "70-80",
-      "n": 6,
-      "avg_confidence": 0.750621,
-      "actual_hit_rate": 0.666667
+      "n": 7,
+      "avg_confidence": 0.752216,
+      "actual_hit_rate": 0.571429
     },
     {
       "bin": "80-90",

@@ -71,10 +71,10 @@ match_id,match_no,stage,group,date,team_a_id,team_b_id,status,winner_advances_to
 1970-01-01_match-70,70,group,K,1970-01-01,COD,UZB,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-congo-dr-vs-uzbekistan-jun-27-2026-game-boxscore-647685?tab=boxscore; https://www.11v11.com/matches/congo-dr-v-uzbekistan-27-june-2026-393598/
 1970-01-01_match-71,71,group,J,1970-01-01,DZA,AUT,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-algeria-vs-austria-jun-27-2026-game-boxscore-647687?tab=boxscore; https://www.11v11.com/matches/algeria-v-austria-27-june-2026-393591/
 1970-01-01_match-72,72,group,J,1970-01-01,JOR,ARG,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-jordan-vs-argentina-jun-27-2026-game-boxscore-647686?tab=boxscore; https://www.11v11.com/matches/jordan-v-argentina-27-june-2026-393592/
-2026-06-28_CAN_RSA,73,group,R16,2026-06-28,CAN,RSA,completed,,,manual_28jun2026_r16_can_1_rsa_0_eustaquio_min92
-2026-06-29_BRA_JPN,74,group,R16,2026-06-29,BRA,JPN,scheduled,,,manual_calendar_r16_2026
-2026-06-29_GER_PAR,75,group,R16,2026-06-29,GER,PAR,scheduled,,,manual_calendar_r16_2026
-2026-06-29_NED_MAR,76,group,R16,2026-06-29,NED,MAR,scheduled,,,manual_calendar_r16_2026
+2026-06-28_match-73,73,group,16vos,2026-06-28,RSA,CAN,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-2a-vs-2b-jun-28-2026-game-boxscore-607903?tab=boxscore
+2026-06-29_match-74,74,group,16vos,2026-06-29,GER,PAR,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-germany-vs-paraguay-jun-29-2026-game-boxscore-607904?tab=boxscore
+2026-06-29_match-75,75,group,16vos,2026-06-29,NED,MAR,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-1f-vs-2c-jun-29-2026-game-boxscore-607905?tab=boxscore
+2026-06-29_match-76,76,group,16vos,2026-06-29,BRA,JPN,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-1c-vs-2f-jun-29-2026-game-boxscore-607906?tab=boxscore
 2026-06-30_CIV_NOR,77,group,R16,2026-06-30,CIV,NOR,scheduled,,,manual_calendar_r16_2026
 2026-06-30_FRA_SWE,78,group,R16,2026-06-30,FRA,SWE,scheduled,,,manual_calendar_r16_2026
 2026-06-30_MEX_ECU,79,group,R16,2026-06-30,MEX,ECU,scheduled,,,manual_calendar_r16_2026

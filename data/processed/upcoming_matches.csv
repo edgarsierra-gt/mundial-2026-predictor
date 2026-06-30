@@ -1,7 +1,4 @@
 match_id,date,time_local,group,team_a_id,team_b_id,team_a_name,team_b_name,status,venue,source_url
-2026-06-29_BRA_JPN,2026-06-29,TBD,R16,BRA,JPN,Brasil,Japón,scheduled,TBD,manual_calendar_r16_2026
-2026-06-29_GER_PAR,2026-06-29,TBD,R16,GER,PAR,Alemania,Paraguay,scheduled,TBD,manual_calendar_r16_2026
-2026-06-29_NED_MAR,2026-06-29,TBD,R16,NED,MAR,Países Bajos,Marruecos,scheduled,TBD,manual_calendar_r16_2026
 2026-06-30_CIV_NOR,2026-06-30,11:00 AM,R16,CIV,NOR,Costa de Marfil,Noruega,scheduled,AT&T Stadium,manual_calendar_r16_2026
 2026-06-30_FRA_SWE,2026-06-30,3:00 PM,R16,FRA,SWE,Francia,Suecia,scheduled,MetLife Stadium,manual_calendar_r16_2026
 2026-06-30_MEX_ECU,2026-06-30,7:00 PM,R16,MEX,ECU,México,Ecuador,scheduled,Estadio Banorte,manual_calendar_r16_2026
