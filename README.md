@@ -97,6 +97,16 @@ Al correr `python scripts/update_all.py --skip-build` (o solo `python scripts/00
 4. recalcula standings, simulación y auditoría usando el resultado real ya cargado;
 5. deja en `resultados_nuevos.csv` únicamente las filas que no pudo emparejar, para corregirlas y volver a correr.
 
+**Paso adicional obligatorio — redirección 301 en el sitio:**
+Cuando un partido sale de `upcoming_matches.csv`, su página `/mundial-2026/partido/<slug>/` deja de generarse en el próximo build. Si esa URL ya estaba publicada (fue indexada o compartida), hay que agregar una redirección permanente en `edgarsierra.com/vercel.json` antes de hacer deploy, para evitar 404. Agregar dos entradas por partido (con y sin trailing slash):
+
+```json
+{ "source": "/mundial-2026/partido/<slug>",  "destination": "/mundial-2026/predicciones-hoy/", "permanent": true },
+{ "source": "/mundial-2026/partido/<slug>/", "destination": "/mundial-2026/predicciones-hoy/", "permanent": true }
+```
+
+El `<slug>` es `{team_a.slug}-vs-{team_b.slug}` tal como aparece en la URL — por ejemplo `brasil-vs-japon`. Si el partido nunca tuvo página pública (no fue indexado ni compartido) la redirección es opcional, pero agregarla igual no tiene costo.
+
 No es necesario editar a mano `group_standings_current.csv`, `match_results_real.csv` ni `tournament_schedule.csv`: se regeneran siempre a partir de `matches_current.csv`. Cada partido ingerido queda además registrado en `data/processed/results_ingest_log.csv` con fecha de ingesta.
 
 ## Outputs
@@ -163,9 +173,10 @@ Pasos manuales equivalentes (lo que hacía este comando antes de existir, por si
 1. Colocar el Excel en `edgarsierra.com/_planning/Mundial_2026/`.
 2. En `edgarsierra.com`: `npm run sync:estadisticas`, luego `npm run build`, commit + push.
 3. Copiar el mismo Excel a `data/raw/` de este repo (`src/config.py` toma el más reciente automáticamente).
-4. Aquí: `python scripts/update_all.py`, `python -m ruff check .`, `python -m pytest`, commit + push.
-5. Copiar `data/outputs/*.json` a `edgarsierra.com/src/data/mundial-2026/`.
-6. En `edgarsierra.com`: `npm run build`, commit + push.
+4. **Antes de correr el pipeline**: si el Excel incluye resultados de partidos que tenían página `/partido/<slug>/` publicada, eliminar esos partidos de `upcoming_matches.csv` y agregar sus redirecciones 301 en `edgarsierra.com/vercel.json` (ver "Paso adicional obligatorio" en la sección anterior).
+5. Aquí: `python scripts/update_all.py`, `python -m ruff check .`, `python -m pytest`, commit + push.
+6. Copiar `data/outputs/*.json` a `edgarsierra.com/src/data/mundial-2026/`.
+7. En `edgarsierra.com`: `npm run build`, commit + push.
 
 ### Por qué la automatización programada (abajo) no cubre esto todavía
 
@@ -220,4 +231,4 @@ Este modelo no adivina el futuro. Estima probabilidades y se audita públicament
 
 Edgar Sierra  
 Head of BI & Data Science  
-https://edgarsierra.com
+[edgarsierra.com](https://edgarsierra.com)
