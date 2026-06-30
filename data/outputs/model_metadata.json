@@ -1,6 +1,6 @@
 {
   "model_version": "2.0.0",
-  "generated_at": "2026-06-30T09:25:40.434868+00:00",
+  "generated_at": "2026-06-30T16:37:40.041823+00:00",
   "model_mode": "goals_only",
   "parameters": {
     "G_eff": 3.1,
@@ -9,8 +9,8 @@
     "rho_dixon_coles": 0.0
   },
   "data_sources": {
-    "current_worldcup_matches": "mundial_fifa_2026_actualizado_NOT_FOUND.xlsx",
-    "team_history": "Estadisticas_ultimos20_NOT_FOUND.xlsx"
+    "current_worldcup_matches": "mundial_fifa_2026_actualizado_27_jun_2026_jornada_27_06.xlsx",
+    "team_history": "Estadisticas_ultimos20_selecciones_Mundial2026_v5_48selecciones_FINAL.xlsx"
   },
   "handoff_to_astro": {
     "contract_outputs_dir": "data/outputs",

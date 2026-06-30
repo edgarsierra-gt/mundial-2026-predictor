@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T09:23:13.263828+00:00",
+  "generated_at": "2026-06-30T16:34:06.292363+00:00",
   "model_version": "2.0.0",
   "model_mode": "goals_only",
   "matches": [
@@ -171,9 +171,9 @@
     {
       "match_id": "2026-06-30_CIV_NOR",
       "date": "2026-06-30",
-      "time_local": "TBD",
+      "time_local": "11:00 AM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "AT&T Stadium",
       "team_a": {
         "id": "CIV",
         "name": "Costa de Marfil",
@@ -226,9 +226,9 @@
     {
       "match_id": "2026-06-30_FRA_SWE",
       "date": "2026-06-30",
-      "time_local": "TBD",
+      "time_local": "3:00 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "MetLife Stadium",
       "team_a": {
         "id": "FRA",
         "name": "Francia",
@@ -281,9 +281,9 @@
     {
       "match_id": "2026-06-30_MEX_ECU",
       "date": "2026-06-30",
-      "time_local": "TBD",
+      "time_local": "7:00 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "Estadio Banorte",
       "team_a": {
         "id": "MEX",
         "name": "México",
@@ -334,66 +334,11 @@
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
-      "match_id": "2026-07-01_BEL_SEN",
-      "date": "2026-07-01",
-      "time_local": "TBD",
-      "group": "R16",
-      "venue": "TBD",
-      "team_a": {
-        "id": "BEL",
-        "name": "Bélgica",
-        "slug": "belgica"
-      },
-      "team_b": {
-        "id": "SEN",
-        "name": "Senegal",
-        "slug": "senegal"
-      },
-      "expected_goals": {
-        "team_a": 1.799161,
-        "team_b": 0.98928
-      },
-      "probabilities": {
-        "team_a_win": 0.563848,
-        "draw": 0.230543,
-        "team_b_win": 0.205609
-      },
-      "predicted_result": "team_a_win",
-      "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.110691
-      },
-      "top_scores": [
-        {
-          "score": "1-0",
-          "probability": 0.110691
-        },
-        {
-          "score": "1-1",
-          "probability": 0.109505
-        },
-        {
-          "score": "2-0",
-          "probability": 0.099576
-        },
-        {
-          "score": "2-1",
-          "probability": 0.098508
-        },
-        {
-          "score": "0-0",
-          "probability": 0.061524
-        }
-      ],
-      "confidence_label": "Media",
-      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
-    },
-    {
       "match_id": "2026-07-01_ENG_COD",
       "date": "2026-07-01",
-      "time_local": "TBD",
+      "time_local": "10:00 AM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "Mercedes-Benz Stadium",
       "team_a": {
         "id": "ENG",
         "name": "Inglaterra",
@@ -444,11 +389,66 @@
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
+      "match_id": "2026-07-01_BEL_SEN",
+      "date": "2026-07-01",
+      "time_local": "2:00 PM",
+      "group": "R16",
+      "venue": "Lumen Field",
+      "team_a": {
+        "id": "BEL",
+        "name": "Bélgica",
+        "slug": "belgica"
+      },
+      "team_b": {
+        "id": "SEN",
+        "name": "Senegal",
+        "slug": "senegal"
+      },
+      "expected_goals": {
+        "team_a": 1.799161,
+        "team_b": 0.98928
+      },
+      "probabilities": {
+        "team_a_win": 0.563848,
+        "draw": 0.230543,
+        "team_b_win": 0.205609
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-0",
+        "probability": 0.110691
+      },
+      "top_scores": [
+        {
+          "score": "1-0",
+          "probability": 0.110691
+        },
+        {
+          "score": "1-1",
+          "probability": 0.109505
+        },
+        {
+          "score": "2-0",
+          "probability": 0.099576
+        },
+        {
+          "score": "2-1",
+          "probability": 0.098508
+        },
+        {
+          "score": "0-0",
+          "probability": 0.061524
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
       "match_id": "2026-07-01_USA_BIH",
       "date": "2026-07-01",
-      "time_local": "TBD",
+      "time_local": "6:00 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "Levi's Stadium",
       "team_a": {
         "id": "USA",
         "name": "Estados Unidos",
@@ -501,9 +501,9 @@
     {
       "match_id": "2026-07-02_ESP_AUT",
       "date": "2026-07-02",
-      "time_local": "TBD",
+      "time_local": "1:00 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "SoFi Stadium",
       "team_a": {
         "id": "ESP",
         "name": "España",
@@ -556,9 +556,9 @@
     {
       "match_id": "2026-07-02_POR_CRO",
       "date": "2026-07-02",
-      "time_local": "TBD",
+      "time_local": "5:00 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "BMO Field",
       "team_a": {
         "id": "POR",
         "name": "Portugal",
@@ -611,9 +611,9 @@
     {
       "match_id": "2026-07-02_SUI_DZA",
       "date": "2026-07-02",
-      "time_local": "TBD",
+      "time_local": "9:00 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "BC Place",
       "team_a": {
         "id": "SUI",
         "name": "Suiza",
@@ -664,66 +664,11 @@
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
-      "match_id": "2026-07-03_ARG_CPV",
-      "date": "2026-07-03",
-      "time_local": "TBD",
-      "group": "R16",
-      "venue": "TBD",
-      "team_a": {
-        "id": "ARG",
-        "name": "Argentina",
-        "slug": "argentina"
-      },
-      "team_b": {
-        "id": "CPV",
-        "name": "Cabo Verde",
-        "slug": "cabo-verde"
-      },
-      "expected_goals": {
-        "team_a": 2.18358,
-        "team_b": 0.296384
-      },
-      "probabilities": {
-        "team_a_win": 0.813781,
-        "draw": 0.147436,
-        "team_b_win": 0.038782
-      },
-      "predicted_result": "team_a_win",
-      "most_likely_score": {
-        "score": "2-0",
-        "probability": 0.199741
-      },
-      "top_scores": [
-        {
-          "score": "2-0",
-          "probability": 0.199741
-        },
-        {
-          "score": "1-0",
-          "probability": 0.182948
-        },
-        {
-          "score": "3-0",
-          "probability": 0.145383
-        },
-        {
-          "score": "0-0",
-          "probability": 0.083784
-        },
-        {
-          "score": "4-0",
-          "probability": 0.079364
-        }
-      ],
-      "confidence_label": "Muy alta",
-      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
-    },
-    {
       "match_id": "2026-07-03_AUS_EGY",
       "date": "2026-07-03",
-      "time_local": "TBD",
+      "time_local": "12:00 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "AT&T Stadium",
       "team_a": {
         "id": "AUS",
         "name": "Australia",
@@ -774,11 +719,66 @@
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
+      "match_id": "2026-07-03_ARG_CPV",
+      "date": "2026-07-03",
+      "time_local": "4:00 PM",
+      "group": "R16",
+      "venue": "Hard Rock Stadium",
+      "team_a": {
+        "id": "ARG",
+        "name": "Argentina",
+        "slug": "argentina"
+      },
+      "team_b": {
+        "id": "CPV",
+        "name": "Cabo Verde",
+        "slug": "cabo-verde"
+      },
+      "expected_goals": {
+        "team_a": 2.18358,
+        "team_b": 0.296384
+      },
+      "probabilities": {
+        "team_a_win": 0.813781,
+        "draw": 0.147436,
+        "team_b_win": 0.038782
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "2-0",
+        "probability": 0.199741
+      },
+      "top_scores": [
+        {
+          "score": "2-0",
+          "probability": 0.199741
+        },
+        {
+          "score": "1-0",
+          "probability": 0.182948
+        },
+        {
+          "score": "3-0",
+          "probability": 0.145383
+        },
+        {
+          "score": "0-0",
+          "probability": 0.083784
+        },
+        {
+          "score": "4-0",
+          "probability": 0.079364
+        }
+      ],
+      "confidence_label": "Muy alta",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
       "match_id": "2026-07-03_COL_GHA",
       "date": "2026-07-03",
-      "time_local": "TBD",
+      "time_local": "7:30 PM",
       "group": "R16",
-      "venue": "TBD",
+      "venue": "GEHA Field at Arrowhead Stadium",
       "team_a": {
         "id": "COL",
         "name": "Colombia",

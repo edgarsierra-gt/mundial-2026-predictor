@@ -2,15 +2,15 @@ match_id,date,time_local,group,team_a_id,team_b_id,team_a_name,team_b_name,statu
 2026-06-29_BRA_JPN,2026-06-29,TBD,R16,BRA,JPN,Brasil,Japón,scheduled,TBD,manual_calendar_r16_2026
 2026-06-29_GER_PAR,2026-06-29,TBD,R16,GER,PAR,Alemania,Paraguay,scheduled,TBD,manual_calendar_r16_2026
 2026-06-29_NED_MAR,2026-06-29,TBD,R16,NED,MAR,Países Bajos,Marruecos,scheduled,TBD,manual_calendar_r16_2026
-2026-06-30_CIV_NOR,2026-06-30,TBD,R16,CIV,NOR,Costa de Marfil,Noruega,scheduled,TBD,manual_calendar_r16_2026
-2026-06-30_FRA_SWE,2026-06-30,TBD,R16,FRA,SWE,Francia,Suecia,scheduled,TBD,manual_calendar_r16_2026
-2026-06-30_MEX_ECU,2026-06-30,TBD,R16,MEX,ECU,México,Ecuador,scheduled,TBD,manual_calendar_r16_2026
-2026-07-01_ENG_COD,2026-07-01,TBD,R16,ENG,COD,Inglaterra,DR Congo,scheduled,TBD,manual_calendar_r16_2026
-2026-07-01_BEL_SEN,2026-07-01,TBD,R16,BEL,SEN,Bélgica,Senegal,scheduled,TBD,manual_calendar_r16_2026
-2026-07-01_USA_BIH,2026-07-01,TBD,R16,USA,BIH,Estados Unidos,Bosnia y Herzegovina,scheduled,TBD,manual_calendar_r16_2026
-2026-07-02_ESP_AUT,2026-07-02,TBD,R16,ESP,AUT,España,Austria,scheduled,TBD,manual_calendar_r16_2026
-2026-07-02_POR_CRO,2026-07-02,TBD,R16,POR,CRO,Portugal,Croacia,scheduled,TBD,manual_calendar_r16_2026
-2026-07-02_SUI_DZA,2026-07-02,TBD,R16,SUI,DZA,Suiza,Argelia,scheduled,TBD,manual_calendar_r16_2026
-2026-07-03_AUS_EGY,2026-07-03,TBD,R16,AUS,EGY,Australia,Egipto,scheduled,TBD,manual_calendar_r16_2026
-2026-07-03_ARG_CPV,2026-07-03,TBD,R16,ARG,CPV,Argentina,Cabo Verde,scheduled,TBD,manual_calendar_r16_2026
-2026-07-03_COL_GHA,2026-07-03,TBD,R16,COL,GHA,Colombia,Ghana,scheduled,TBD,manual_calendar_r16_2026
+2026-06-30_CIV_NOR,2026-06-30,11:00 AM,R16,CIV,NOR,Costa de Marfil,Noruega,scheduled,AT&T Stadium,manual_calendar_r16_2026
+2026-06-30_FRA_SWE,2026-06-30,3:00 PM,R16,FRA,SWE,Francia,Suecia,scheduled,MetLife Stadium,manual_calendar_r16_2026
+2026-06-30_MEX_ECU,2026-06-30,7:00 PM,R16,MEX,ECU,México,Ecuador,scheduled,Estadio Banorte,manual_calendar_r16_2026
+2026-07-01_ENG_COD,2026-07-01,10:00 AM,R16,ENG,COD,Inglaterra,DR Congo,scheduled,Mercedes-Benz Stadium,manual_calendar_r16_2026
+2026-07-01_BEL_SEN,2026-07-01,2:00 PM,R16,BEL,SEN,Bélgica,Senegal,scheduled,Lumen Field,manual_calendar_r16_2026
+2026-07-01_USA_BIH,2026-07-01,6:00 PM,R16,USA,BIH,Estados Unidos,Bosnia y Herzegovina,scheduled,Levi's Stadium,manual_calendar_r16_2026
+2026-07-02_ESP_AUT,2026-07-02,1:00 PM,R16,ESP,AUT,España,Austria,scheduled,SoFi Stadium,manual_calendar_r16_2026
+2026-07-02_POR_CRO,2026-07-02,5:00 PM,R16,POR,CRO,Portugal,Croacia,scheduled,BMO Field,manual_calendar_r16_2026
+2026-07-02_SUI_DZA,2026-07-02,9:00 PM,R16,SUI,DZA,Suiza,Argelia,scheduled,BC Place,manual_calendar_r16_2026
+2026-07-03_AUS_EGY,2026-07-03,12:00 PM,R16,AUS,EGY,Australia,Egipto,scheduled,AT&T Stadium,manual_calendar_r16_2026
+2026-07-03_ARG_CPV,2026-07-03,4:00 PM,R16,ARG,CPV,Argentina,Cabo Verde,scheduled,Hard Rock Stadium,manual_calendar_r16_2026
+2026-07-03_COL_GHA,2026-07-03,7:30 PM,R16,COL,GHA,Colombia,Ghana,scheduled,GEHA Field at Arrowhead Stadium,manual_calendar_r16_2026
