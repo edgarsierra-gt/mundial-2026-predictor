@@ -75,15 +75,21 @@ match_id,match_no,stage,group,date,team_a_id,team_b_id,status,winner_advances_to
 2026-06-29_match-74,74,group,16vos,2026-06-29,GER,PAR,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-germany-vs-paraguay-jun-29-2026-game-boxscore-607904?tab=boxscore
 2026-06-29_match-75,75,group,16vos,2026-06-29,NED,MAR,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-1f-vs-2c-jun-29-2026-game-boxscore-607905?tab=boxscore
 2026-06-29_match-76,76,group,16vos,2026-06-29,BRA,JPN,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-1c-vs-2f-jun-29-2026-game-boxscore-607906?tab=boxscore
-2026-06-30_CIV_NOR,77,group,R16,2026-06-30,CIV,NOR,scheduled,,,manual_calendar_r16_2026
-2026-06-30_FRA_SWE,78,group,R16,2026-06-30,FRA,SWE,scheduled,,,manual_calendar_r16_2026
-2026-06-30_MEX_ECU,79,group,R16,2026-06-30,MEX,ECU,scheduled,,,manual_calendar_r16_2026
-2026-07-01_ENG_COD,80,group,R16,2026-07-01,ENG,COD,scheduled,,,manual_calendar_r16_2026
-2026-07-01_BEL_SEN,81,group,R16,2026-07-01,BEL,SEN,scheduled,,,manual_calendar_r16_2026
-2026-07-01_USA_BIH,82,group,R16,2026-07-01,USA,BIH,scheduled,,,manual_calendar_r16_2026
-2026-07-02_ESP_AUT,83,group,R16,2026-07-02,ESP,AUT,scheduled,,,manual_calendar_r16_2026
-2026-07-02_POR_CRO,84,group,R16,2026-07-02,POR,CRO,scheduled,,,manual_calendar_r16_2026
-2026-07-02_SUI_DZA,85,group,R16,2026-07-02,SUI,DZA,scheduled,,,manual_calendar_r16_2026
-2026-07-03_AUS_EGY,86,group,R16,2026-07-03,AUS,EGY,scheduled,,,manual_calendar_r16_2026
-2026-07-03_ARG_CPV,87,group,R16,2026-07-03,ARG,CPV,scheduled,,,manual_calendar_r16_2026
-2026-07-03_COL_GHA,88,group,R16,2026-07-03,COL,GHA,scheduled,,,manual_calendar_r16_2026
+1970-01-01_match-77,77,group,16vos,1970-01-01,CIV,NOR,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-ivory-coast-vs-norway-jun-30-2026-game-boxscore-607908?tab=boxscore; https://www.11v11.com/matches/ivory-coast-v-norway-30-june-2026-393756/
+1970-01-01_match-78,78,group,16vos,1970-01-01,FRA,SWE,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-france-vs-sweden-jun-30-2026-game-boxscore-607907?tab=boxscore; https://www.11v11.com/matches/france-v-sweden-30-june-2026-393757/
+1970-01-01_match-79,79,group,16vos,1970-01-01,MEX,ECU,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-mexico-vs-ecuador-jun-30-2026-game-boxscore-607909?tab=boxscore; https://www.11v11.com/matches/mexico-v-ecuador-30-june-2026-393758/
+1970-01-01_match-80,80,group,16vos,1970-01-01,ENG,COD,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-england-vs-dr-congo-jul-01-2026-game-boxscore-607912?tab=boxscore; https://www.11v11.com/matches/england-v-congo-dr-01-july-2026-393759/; https://www.fifa.com/en/match-centre/match/17/285023/289287/400021512
+1970-01-01_match-81,81,group,16vos,1970-01-01,BEL,SEN,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-belgium-vs-senegal-jul-01-2026-game-boxscore-607911?tab=boxscore; https://www.11v11.com/matches/belgium-v-senegal-01-july-2026-393760/
+1970-01-01_match-82,82,group,16vos,1970-01-01,USA,BIH,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-united-states-vs-bosnia-and-herzegovina-jul-01-2026-game-boxscore-607910?tab=boxscore; https://www.11v11.com/matches/usa-v-bosnia-and-herzegovina-01-july-2026-393761/
+2026-06-30_CIV_NOR,83,group,R16,2026-06-30,CIV,NOR,scheduled,,,manual_calendar_r16_2026
+2026-06-30_FRA_SWE,84,group,R16,2026-06-30,FRA,SWE,scheduled,,,manual_calendar_r16_2026
+2026-06-30_MEX_ECU,85,group,R16,2026-06-30,MEX,ECU,scheduled,,,manual_calendar_r16_2026
+2026-07-01_ENG_COD,86,group,R16,2026-07-01,ENG,COD,scheduled,,,manual_calendar_r16_2026
+2026-07-01_BEL_SEN,87,group,R16,2026-07-01,BEL,SEN,scheduled,,,manual_calendar_r16_2026
+2026-07-01_USA_BIH,88,group,R16,2026-07-01,USA,BIH,scheduled,,,manual_calendar_r16_2026
+2026-07-02_ESP_AUT,89,group,R16,2026-07-02,ESP,AUT,scheduled,,,manual_calendar_r16_2026
+2026-07-02_POR_CRO,90,group,R16,2026-07-02,POR,CRO,scheduled,,,manual_calendar_r16_2026
+2026-07-02_SUI_DZA,91,group,R16,2026-07-02,SUI,DZA,scheduled,,,manual_calendar_r16_2026
+2026-07-03_AUS_EGY,92,group,R16,2026-07-03,AUS,EGY,scheduled,,,manual_calendar_r16_2026
+2026-07-03_ARG_CPV,93,group,R16,2026-07-03,ARG,CPV,scheduled,,,manual_calendar_r16_2026
+2026-07-03_COL_GHA,94,group,R16,2026-07-03,COL,GHA,scheduled,,,manual_calendar_r16_2026
