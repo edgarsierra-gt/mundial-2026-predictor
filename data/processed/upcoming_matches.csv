@@ -1,10 +1,4 @@
 match_id,date,time_local,group,team_a_id,team_b_id,team_a_name,team_b_name,status,venue,source_url
-2026-06-30_CIV_NOR,2026-06-30,11:00 AM,R16,CIV,NOR,Costa de Marfil,Noruega,scheduled,AT&T Stadium,manual_calendar_r16_2026
-2026-06-30_FRA_SWE,2026-06-30,3:00 PM,R16,FRA,SWE,Francia,Suecia,scheduled,MetLife Stadium,manual_calendar_r16_2026
-2026-06-30_MEX_ECU,2026-06-30,7:00 PM,R16,MEX,ECU,México,Ecuador,scheduled,Estadio Banorte,manual_calendar_r16_2026
-2026-07-01_ENG_COD,2026-07-01,10:00 AM,R16,ENG,COD,Inglaterra,DR Congo,scheduled,Mercedes-Benz Stadium,manual_calendar_r16_2026
-2026-07-01_BEL_SEN,2026-07-01,2:00 PM,R16,BEL,SEN,Bélgica,Senegal,scheduled,Lumen Field,manual_calendar_r16_2026
-2026-07-01_USA_BIH,2026-07-01,6:00 PM,R16,USA,BIH,Estados Unidos,Bosnia y Herzegovina,scheduled,Levi's Stadium,manual_calendar_r16_2026
 2026-07-02_ESP_AUT,2026-07-02,1:00 PM,R16,ESP,AUT,España,Austria,scheduled,SoFi Stadium,manual_calendar_r16_2026
 2026-07-02_POR_CRO,2026-07-02,5:00 PM,R16,POR,CRO,Portugal,Croacia,scheduled,BMO Field,manual_calendar_r16_2026
 2026-07-02_SUI_DZA,2026-07-02,9:00 PM,R16,SUI,DZA,Suiza,Argelia,scheduled,BC Place,manual_calendar_r16_2026
