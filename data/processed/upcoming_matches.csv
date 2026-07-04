@@ -1,7 +1,9 @@
 match_id,date,time_local,group,team_a_id,team_b_id,team_a_name,team_b_name,status,venue,source_url
-2026-07-02_ESP_AUT,2026-07-02,1:00 PM,R16,ESP,AUT,España,Austria,scheduled,SoFi Stadium,manual_calendar_r16_2026
-2026-07-02_POR_CRO,2026-07-02,5:00 PM,R16,POR,CRO,Portugal,Croacia,scheduled,BMO Field,manual_calendar_r16_2026
-2026-07-02_SUI_DZA,2026-07-02,9:00 PM,R16,SUI,DZA,Suiza,Argelia,scheduled,BC Place,manual_calendar_r16_2026
-2026-07-03_AUS_EGY,2026-07-03,12:00 PM,R16,AUS,EGY,Australia,Egipto,scheduled,AT&T Stadium,manual_calendar_r16_2026
-2026-07-03_ARG_CPV,2026-07-03,4:00 PM,R16,ARG,CPV,Argentina,Cabo Verde,scheduled,Hard Rock Stadium,manual_calendar_r16_2026
-2026-07-03_COL_GHA,2026-07-03,7:30 PM,R16,COL,GHA,Colombia,Ghana,scheduled,GEHA Field at Arrowhead Stadium,manual_calendar_r16_2026
+2026-07-04_CAN_MAR,2026-07-04,1:00 PM,R16,CAN,MAR,Canadá,Marruecos,scheduled,Houston Stadium,manual_calendar_r16_2026
+2026-07-04_PAR_FRA,2026-07-04,5:00 PM,R16,PAR,FRA,Paraguay,Francia,scheduled,Philadelphia Stadium,manual_calendar_r16_2026
+2026-07-05_BRA_NOR,2026-07-05,4:00 PM,R16,BRA,NOR,Brasil,Noruega,scheduled,New York New Jersey Stadium,manual_calendar_r16_2026
+2026-07-05_MEX_ENG,2026-07-05,8:00 PM,R16,MEX,ENG,México,Inglaterra,scheduled,Mexico City Stadium,manual_calendar_r16_2026
+2026-07-06_ESP_POR,2026-07-06,3:00 PM,R16,ESP,POR,España,Portugal,scheduled,Dallas Stadium,manual_calendar_r16_2026
+2026-07-06_BEL_USA,2026-07-06,8:00 PM,R16,BEL,USA,Bélgica,Estados Unidos,scheduled,Seattle Stadium,manual_calendar_r16_2026
+2026-07-07_EGY_COL,2026-07-07,12:00 PM,R16,EGY,COL,Egipto,Colombia,scheduled,Atlanta Stadium,manual_calendar_r16_2026
+2026-07-07_SUI_ARG,2026-07-07,4:00 PM,R16,SUI,ARG,Suiza,Argentina,scheduled,Vancouver Stadium,manual_calendar_r16_2026

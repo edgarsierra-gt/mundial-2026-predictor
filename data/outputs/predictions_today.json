@@ -1,336 +1,446 @@
 {
-  "generated_at": "2026-07-04T15:25:52.818021+00:00",
+  "generated_at": "2026-07-04T15:35:04.170487+00:00",
   "model_version": "2.0.0",
   "model_mode": "goals_only",
   "matches": [
     {
-      "match_id": "2026-07-02_ESP_AUT",
-      "date": "2026-07-02",
+      "match_id": "2026-07-04_CAN_MAR",
+      "date": "2026-07-04",
       "time_local": "1:00 PM",
       "group": "R16",
-      "venue": "SoFi Stadium",
+      "venue": "Houston Stadium",
       "team_a": {
-        "id": "ESP",
-        "name": "España",
-        "slug": "espana"
+        "id": "CAN",
+        "name": "Canadá",
+        "slug": "canada"
       },
       "team_b": {
-        "id": "AUT",
-        "name": "Austria",
-        "slug": "austria"
+        "id": "MAR",
+        "name": "Marruecos",
+        "slug": "marruecos"
       },
       "expected_goals": {
-        "team_a": 1.723673,
-        "team_b": 0.477695
+        "team_a": 0.7823,
+        "team_b": 0.828773
       },
       "probabilities": {
-        "team_a_win": 0.680595,
-        "draw": 0.222341,
-        "team_b_win": 0.097064
+        "team_a_win": 0.310893,
+        "draw": 0.351689,
+        "team_b_win": 0.337418
       },
-      "predicted_result": "team_a_win",
-      "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.190743
-      },
-      "top_scores": [
-        {
-          "score": "1-0",
-          "probability": 0.190743
-        },
-        {
-          "score": "2-0",
-          "probability": 0.164389
-        },
-        {
-          "score": "0-0",
-          "probability": 0.110661
-        },
-        {
-          "score": "3-0",
-          "probability": 0.094451
-        },
-        {
-          "score": "1-1",
-          "probability": 0.091117
-        }
-      ],
-      "confidence_label": "Alta",
-      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
-    },
-    {
-      "match_id": "2026-07-02_POR_CRO",
-      "date": "2026-07-02",
-      "time_local": "5:00 PM",
-      "group": "R16",
-      "venue": "BMO Field",
-      "team_a": {
-        "id": "POR",
-        "name": "Portugal",
-        "slug": "portugal"
-      },
-      "team_b": {
-        "id": "CRO",
-        "name": "Croacia",
-        "slug": "croacia"
-      },
-      "expected_goals": {
-        "team_a": 1.709628,
-        "team_b": 0.867968
-      },
-      "probabilities": {
-        "team_a_win": 0.57299,
-        "draw": 0.238073,
-        "team_b_win": 0.188937
-      },
-      "predicted_result": "team_a_win",
-      "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.129867
-      },
-      "top_scores": [
-        {
-          "score": "1-0",
-          "probability": 0.129867
-        },
-        {
-          "score": "1-1",
-          "probability": 0.11272
-        },
-        {
-          "score": "2-0",
-          "probability": 0.111012
-        },
-        {
-          "score": "2-1",
-          "probability": 0.096355
-        },
-        {
-          "score": "0-0",
-          "probability": 0.075962
-        }
-      ],
-      "confidence_label": "Media",
-      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
-    },
-    {
-      "match_id": "2026-07-02_SUI_DZA",
-      "date": "2026-07-02",
-      "time_local": "9:00 PM",
-      "group": "R16",
-      "venue": "BC Place",
-      "team_a": {
-        "id": "SUI",
-        "name": "Suiza",
-        "slug": "suiza"
-      },
-      "team_b": {
-        "id": "DZA",
-        "name": "Argelia",
-        "slug": "argelia"
-      },
-      "expected_goals": {
-        "team_a": 1.701321,
-        "team_b": 0.737569
-      },
-      "probabilities": {
-        "team_a_win": 0.604695,
-        "draw": 0.236303,
-        "team_b_win": 0.159002
-      },
-      "predicted_result": "team_a_win",
-      "most_likely_score": {
-        "score": "1-0",
-        "probability": 0.148464
-      },
-      "top_scores": [
-        {
-          "score": "1-0",
-          "probability": 0.148464
-        },
-        {
-          "score": "2-0",
-          "probability": 0.126292
-        },
-        {
-          "score": "1-1",
-          "probability": 0.109502
-        },
-        {
-          "score": "2-1",
-          "probability": 0.093149
-        },
-        {
-          "score": "0-0",
-          "probability": 0.087264
-        }
-      ],
-      "confidence_label": "Alta",
-      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
-    },
-    {
-      "match_id": "2026-07-03_AUS_EGY",
-      "date": "2026-07-03",
-      "time_local": "12:00 PM",
-      "group": "R16",
-      "venue": "AT&T Stadium",
-      "team_a": {
-        "id": "AUS",
-        "name": "Australia",
-        "slug": "australia"
-      },
-      "team_b": {
-        "id": "EGY",
-        "name": "Egipto",
-        "slug": "egipto"
-      },
-      "expected_goals": {
-        "team_a": 0.786505,
-        "team_b": 0.924159
-      },
-      "probabilities": {
-        "team_a_win": 0.292647,
-        "draw": 0.338013,
-        "team_b_win": 0.36934
-      },
-      "predicted_result": "team_b_win",
+      "predicted_result": "draw",
       "most_likely_score": {
         "score": "0-0",
-        "probability": 0.180746
+        "probability": 0.199673
       },
       "top_scores": [
         {
           "score": "0-0",
-          "probability": 0.180746
+          "probability": 0.199673
         },
         {
           "score": "0-1",
-          "probability": 0.167038
+          "probability": 0.165484
         },
         {
           "score": "1-0",
-          "probability": 0.142157
+          "probability": 0.156204
         },
         {
           "score": "1-1",
-          "probability": 0.131376
+          "probability": 0.129458
         },
         {
           "score": "0-2",
-          "probability": 0.077185
+          "probability": 0.068574
         }
       ],
       "confidence_label": "Baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
-      "match_id": "2026-07-03_ARG_CPV",
-      "date": "2026-07-03",
-      "time_local": "4:00 PM",
+      "match_id": "2026-07-04_PAR_FRA",
+      "date": "2026-07-04",
+      "time_local": "5:00 PM",
       "group": "R16",
-      "venue": "Hard Rock Stadium",
+      "venue": "Philadelphia Stadium",
       "team_a": {
-        "id": "ARG",
-        "name": "Argentina",
-        "slug": "argentina"
+        "id": "PAR",
+        "name": "Paraguay",
+        "slug": "paraguay"
       },
       "team_b": {
-        "id": "CPV",
-        "name": "Cabo Verde",
-        "slug": "cabo-verde"
+        "id": "FRA",
+        "name": "Francia",
+        "slug": "francia"
       },
       "expected_goals": {
-        "team_a": 2.158618,
-        "team_b": 0.327251
+        "team_a": 0.393692,
+        "team_b": 2.29342
       },
       "probabilities": {
-        "team_a_win": 0.802315,
-        "draw": 0.153365,
-        "team_b_win": 0.04432
+        "team_a_win": 0.048901,
+        "draw": 0.144984,
+        "team_b_win": 0.806115
       },
-      "predicted_result": "team_a_win",
+      "predicted_result": "team_b_win",
       "most_likely_score": {
-        "score": "2-0",
-        "probability": 0.194044
+        "score": "0-2",
+        "probability": 0.179148
       },
       "top_scores": [
         {
-          "score": "2-0",
-          "probability": 0.194044
+          "score": "0-2",
+          "probability": 0.179148
         },
         {
-          "score": "1-0",
-          "probability": 0.179786
+          "score": "0-1",
+          "probability": 0.156228
         },
         {
-          "score": "3-0",
-          "probability": 0.139622
+          "score": "0-3",
+          "probability": 0.136954
         },
         {
-          "score": "0-0",
-          "probability": 0.083287
+          "score": "0-4",
+          "probability": 0.078523
         },
         {
-          "score": "4-0",
-          "probability": 0.075348
+          "score": "1-2",
+          "probability": 0.070529
         }
       ],
       "confidence_label": "Muy alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
-      "match_id": "2026-07-03_COL_GHA",
-      "date": "2026-07-03",
-      "time_local": "7:30 PM",
+      "match_id": "2026-07-05_BRA_NOR",
+      "date": "2026-07-05",
+      "time_local": "4:00 PM",
       "group": "R16",
-      "venue": "GEHA Field at Arrowhead Stadium",
+      "venue": "New York New Jersey Stadium",
       "team_a": {
-        "id": "COL",
-        "name": "Colombia",
-        "slug": "colombia"
+        "id": "BRA",
+        "name": "Brasil",
+        "slug": "brasil"
       },
       "team_b": {
-        "id": "GHA",
-        "name": "Ghana",
-        "slug": "ghana"
+        "id": "NOR",
+        "name": "Noruega",
+        "slug": "noruega"
       },
       "expected_goals": {
-        "team_a": 1.600881,
-        "team_b": 0.383082
+        "team_a": 1.48001,
+        "team_b": 1.154265
       },
       "probabilities": {
-        "team_a_win": 0.679735,
-        "draw": 0.235719,
-        "team_b_win": 0.084547
+        "team_a_win": 0.44662,
+        "draw": 0.257827,
+        "team_b_win": 0.295554
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.122612
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.122612
+        },
+        {
+          "score": "1-0",
+          "probability": 0.106225
+        },
+        {
+          "score": "2-1",
+          "probability": 0.090733
+        },
+        {
+          "score": "0-1",
+          "probability": 0.082845
+        },
+        {
+          "score": "2-0",
+          "probability": 0.078607
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-07-05_MEX_ENG",
+      "date": "2026-07-05",
+      "time_local": "8:00 PM",
+      "group": "R16",
+      "venue": "Mexico City Stadium",
+      "team_a": {
+        "id": "MEX",
+        "name": "México",
+        "slug": "mexico"
+      },
+      "team_b": {
+        "id": "ENG",
+        "name": "Inglaterra",
+        "slug": "inglaterra"
+      },
+      "expected_goals": {
+        "team_a": 0.514521,
+        "team_b": 1.045656
+      },
+      "probabilities": {
+        "team_a_win": 0.179257,
+        "draw": 0.339279,
+        "team_b_win": 0.481464
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.219692
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.219692
+        },
+        {
+          "score": "0-0",
+          "probability": 0.210099
+        },
+        {
+          "score": "0-2",
+          "probability": 0.114861
+        },
+        {
+          "score": "1-1",
+          "probability": 0.113036
+        },
+        {
+          "score": "1-0",
+          "probability": 0.1081
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-07-06_ESP_POR",
+      "date": "2026-07-06",
+      "time_local": "3:00 PM",
+      "group": "R16",
+      "venue": "Dallas Stadium",
+      "team_a": {
+        "id": "ESP",
+        "name": "España",
+        "slug": "espana"
+      },
+      "team_b": {
+        "id": "POR",
+        "name": "Portugal",
+        "slug": "portugal"
+      },
+      "expected_goals": {
+        "team_a": 1.257292,
+        "team_b": 0.633716
+      },
+      "probabilities": {
+        "team_a_win": 0.515165,
+        "draw": 0.297351,
+        "team_b_win": 0.187484
       },
       "predicted_result": "team_a_win",
       "most_likely_score": {
         "score": "1-0",
-        "probability": 0.220168
+        "probability": 0.189751
       },
       "top_scores": [
         {
           "score": "1-0",
-          "probability": 0.220168
-        },
-        {
-          "score": "2-0",
-          "probability": 0.176232
+          "probability": 0.189751
         },
         {
           "score": "0-0",
-          "probability": 0.137529
-        },
-        {
-          "score": "3-0",
-          "probability": 0.094042
+          "probability": 0.150921
         },
         {
           "score": "1-1",
-          "probability": 0.084342
+          "probability": 0.120248
+        },
+        {
+          "score": "2-0",
+          "probability": 0.119286
+        },
+        {
+          "score": "0-1",
+          "probability": 0.095641
         }
       ],
-      "confidence_label": "Alta",
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-07-06_BEL_USA",
+      "date": "2026-07-06",
+      "time_local": "8:00 PM",
+      "group": "R16",
+      "venue": "Seattle Stadium",
+      "team_a": {
+        "id": "BEL",
+        "name": "Bélgica",
+        "slug": "belgica"
+      },
+      "team_b": {
+        "id": "USA",
+        "name": "Estados Unidos",
+        "slug": "estados-unidos"
+      },
+      "expected_goals": {
+        "team_a": 1.482891,
+        "team_b": 1.100156
+      },
+      "probabilities": {
+        "team_a_win": 0.459774,
+        "draw": 0.259162,
+        "team_b_win": 0.281064
+      },
+      "predicted_result": "team_a_win",
+      "most_likely_score": {
+        "score": "1-1",
+        "probability": 0.123246
+      },
+      "top_scores": [
+        {
+          "score": "1-1",
+          "probability": 0.123246
+        },
+        {
+          "score": "1-0",
+          "probability": 0.112026
+        },
+        {
+          "score": "2-1",
+          "probability": 0.09138
+        },
+        {
+          "score": "0-1",
+          "probability": 0.083112
+        },
+        {
+          "score": "2-0",
+          "probability": 0.083061
+        }
+      ],
+      "confidence_label": "Media-baja",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-07-07_EGY_COL",
+      "date": "2026-07-07",
+      "time_local": "12:00 PM",
+      "group": "R16",
+      "venue": "Atlanta Stadium",
+      "team_a": {
+        "id": "EGY",
+        "name": "Egipto",
+        "slug": "egipto"
+      },
+      "team_b": {
+        "id": "COL",
+        "name": "Colombia",
+        "slug": "colombia"
+      },
+      "expected_goals": {
+        "team_a": 0.628711,
+        "team_b": 1.379204
+      },
+      "probabilities": {
+        "team_a_win": 0.169849,
+        "draw": 0.278506,
+        "team_b_win": 0.551644
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.185186
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.185186
+        },
+        {
+          "score": "0-0",
+          "probability": 0.13427
+        },
+        {
+          "score": "0-2",
+          "probability": 0.127705
+        },
+        {
+          "score": "1-1",
+          "probability": 0.116429
+        },
+        {
+          "score": "1-0",
+          "probability": 0.084417
+        }
+      ],
+      "confidence_label": "Media",
+      "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
+    },
+    {
+      "match_id": "2026-07-07_SUI_ARG",
+      "date": "2026-07-07",
+      "time_local": "4:00 PM",
+      "group": "R16",
+      "venue": "Vancouver Stadium",
+      "team_a": {
+        "id": "SUI",
+        "name": "Suiza",
+        "slug": "suiza"
+      },
+      "team_b": {
+        "id": "ARG",
+        "name": "Argentina",
+        "slug": "argentina"
+      },
+      "expected_goals": {
+        "team_a": 0.646822,
+        "team_b": 1.425408
+      },
+      "probabilities": {
+        "team_a_win": 0.169011,
+        "draw": 0.271653,
+        "team_b_win": 0.559335
+      },
+      "predicted_result": "team_b_win",
+      "most_likely_score": {
+        "score": "0-1",
+        "probability": 0.179469
+      },
+      "top_scores": [
+        {
+          "score": "0-1",
+          "probability": 0.179469
+        },
+        {
+          "score": "0-2",
+          "probability": 0.127908
+        },
+        {
+          "score": "0-0",
+          "probability": 0.125907
+        },
+        {
+          "score": "1-1",
+          "probability": 0.116084
+        },
+        {
+          "score": "1-2",
+          "probability": 0.082734
+        }
+      ],
+      "confidence_label": "Media",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     }
   ]

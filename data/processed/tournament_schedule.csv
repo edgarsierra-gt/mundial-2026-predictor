@@ -87,9 +87,11 @@ match_id,match_no,stage,group,date,team_a_id,team_b_id,status,winner_advances_to
 1970-01-01_match-86,86,group,16vos,1970-01-01,AUS,EGY,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-australia-vs-egypt-jul-03-2026-game-boxscore-607916?tab=boxscore; https://www.skysports.com/football/australia-vs-egypt/549851; https://www.espn.com/soccer/match/_/gameId/760499; https://www.theguardian.com/football/2026/jul/03/australia-egypt-world-cup-2026-last-32-match-report
 1970-01-01_match-87,87,group,16vos,1970-01-01,ARG,CPV,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-argentina-vs-cape-verde-jul-03-2026-game-boxscore-607918?tab=boxscore; https://www.11v11.com/matches/argentina-v-cape-verde-islands-03-july-2026-393766/; https://www.skysports.com/football/argentina-vs-cape-verde/549852; https://www.theguardian.com/football/live/2026/jul/03/argentina-v-cape-verde-world-cup-2026-last-32-live
 1970-01-01_match-88,88,group,16vos,1970-01-01,COL,GHA,completed,,,https://www.foxsports.com/soccer/fifa-world-cup-men-colombia-vs-ghana-jul-03-2026-game-boxscore-607917?tab=boxscore; https://www.fifa.com/en/match-centre/match/17/285023/289287/400021517; https://www.skysports.com/football/colombia-vs-ghana/549853; https://www.kansascity.com/sports/fifa-world-cup/article316378169.html
-2026-07-02_ESP_AUT,89,group,R16,2026-07-02,ESP,AUT,scheduled,,,manual_calendar_r16_2026
-2026-07-02_POR_CRO,90,group,R16,2026-07-02,POR,CRO,scheduled,,,manual_calendar_r16_2026
-2026-07-02_SUI_DZA,91,group,R16,2026-07-02,SUI,DZA,scheduled,,,manual_calendar_r16_2026
-2026-07-03_AUS_EGY,92,group,R16,2026-07-03,AUS,EGY,scheduled,,,manual_calendar_r16_2026
-2026-07-03_ARG_CPV,93,group,R16,2026-07-03,ARG,CPV,scheduled,,,manual_calendar_r16_2026
-2026-07-03_COL_GHA,94,group,R16,2026-07-03,COL,GHA,scheduled,,,manual_calendar_r16_2026
+2026-07-04_CAN_MAR,89,group,R16,2026-07-04,CAN,MAR,scheduled,,,manual_calendar_r16_2026
+2026-07-04_PAR_FRA,90,group,R16,2026-07-04,PAR,FRA,scheduled,,,manual_calendar_r16_2026
+2026-07-05_BRA_NOR,91,group,R16,2026-07-05,BRA,NOR,scheduled,,,manual_calendar_r16_2026
+2026-07-05_MEX_ENG,92,group,R16,2026-07-05,MEX,ENG,scheduled,,,manual_calendar_r16_2026
+2026-07-06_ESP_POR,93,group,R16,2026-07-06,ESP,POR,scheduled,,,manual_calendar_r16_2026
+2026-07-06_BEL_USA,94,group,R16,2026-07-06,BEL,USA,scheduled,,,manual_calendar_r16_2026
+2026-07-07_EGY_COL,95,group,R16,2026-07-07,EGY,COL,scheduled,,,manual_calendar_r16_2026
+2026-07-07_SUI_ARG,96,group,R16,2026-07-07,SUI,ARG,scheduled,,,manual_calendar_r16_2026
