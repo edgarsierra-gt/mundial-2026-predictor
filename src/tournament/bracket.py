@@ -224,14 +224,14 @@ def simulate_bracket(
         winners_r32[m] = simulate_knockout_match(team_a, team_b, features, rng, cache)
         
     # Simulate Round of 16
-    w89 = simulate_knockout_match(winners_r32[74], winners_r32[77], features, rng, cache)
+    w89 = simulate_knockout_match(winners_r32[74], winners_r32[78], features, rng, cache)
     w90 = simulate_knockout_match(winners_r32[73], winners_r32[75], features, rng, cache)
-    w91 = simulate_knockout_match(winners_r32[76], winners_r32[78], features, rng, cache)
+    w91 = simulate_knockout_match(winners_r32[76], winners_r32[77], features, rng, cache)
     w92 = simulate_knockout_match(winners_r32[79], winners_r32[80], features, rng, cache)
     w93 = simulate_knockout_match(winners_r32[83], winners_r32[84], features, rng, cache)
     w94 = simulate_knockout_match(winners_r32[81], winners_r32[82], features, rng, cache)
-    w95 = simulate_knockout_match(winners_r32[86], winners_r32[88], features, rng, cache)
-    w96 = simulate_knockout_match(winners_r32[85], winners_r32[87], features, rng, cache)
+    w95 = simulate_knockout_match(winners_r32[86], winners_r32[87], features, rng, cache)
+    w96 = simulate_knockout_match(winners_r32[85], winners_r32[88], features, rng, cache)
     
     # Simulate Quarterfinals
     w97 = simulate_knockout_match(w89, w90, features, rng, cache)
@@ -249,11 +249,11 @@ def simulate_bracket(
     # Assemble outputs matching the format
     round_of_32 = []
     round_of_32.extend(pairs_r32[74])
-    round_of_32.extend(pairs_r32[77])
+    round_of_32.extend(pairs_r32[78])
     round_of_32.extend(pairs_r32[73])
     round_of_32.extend(pairs_r32[75])
     round_of_32.extend(pairs_r32[76])
-    round_of_32.extend(pairs_r32[78])
+    round_of_32.extend(pairs_r32[77])
     round_of_32.extend(pairs_r32[79])
     round_of_32.extend(pairs_r32[80])
     round_of_32.extend(pairs_r32[83])
@@ -261,19 +261,19 @@ def simulate_bracket(
     round_of_32.extend(pairs_r32[81])
     round_of_32.extend(pairs_r32[82])
     round_of_32.extend(pairs_r32[86])
-    round_of_32.extend(pairs_r32[88])
-    round_of_32.extend(pairs_r32[85])
     round_of_32.extend(pairs_r32[87])
+    round_of_32.extend(pairs_r32[85])
+    round_of_32.extend(pairs_r32[88])
     
     round_of_16 = [
-        winners_r32[74], winners_r32[77],
+        winners_r32[74], winners_r32[78],
         winners_r32[73], winners_r32[75],
-        winners_r32[76], winners_r32[78],
+        winners_r32[76], winners_r32[77],
         winners_r32[79], winners_r32[80],
         winners_r32[83], winners_r32[84],
         winners_r32[81], winners_r32[82],
-        winners_r32[86], winners_r32[88],
-        winners_r32[85], winners_r32[87]
+        winners_r32[86], winners_r32[87],
+        winners_r32[85], winners_r32[88]
     ]
     quarterfinal = [w89, w90, w91, w92, w93, w94, w95, w96]
     semifinal = [w97, w98, w99, w100]
