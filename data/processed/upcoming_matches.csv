@@ -5,5 +5,5 @@ match_id,date,time_local,group,team_a_id,team_b_id,team_a_name,team_b_name,statu
 2026-07-05_MEX_ENG,2026-07-05,8:00 PM,R16,MEX,ENG,México,Inglaterra,scheduled,Mexico City Stadium,manual_calendar_r16_2026
 2026-07-06_ESP_POR,2026-07-06,3:00 PM,R16,ESP,POR,España,Portugal,scheduled,Dallas Stadium,manual_calendar_r16_2026
 2026-07-06_BEL_USA,2026-07-06,8:00 PM,R16,BEL,USA,Bélgica,Estados Unidos,scheduled,Seattle Stadium,manual_calendar_r16_2026
-2026-07-07_EGY_COL,2026-07-07,12:00 PM,R16,EGY,COL,Egipto,Colombia,scheduled,Atlanta Stadium,manual_calendar_r16_2026
-2026-07-07_SUI_ARG,2026-07-07,4:00 PM,R16,SUI,ARG,Suiza,Argentina,scheduled,Vancouver Stadium,manual_calendar_r16_2026
+2026-07-07_ARG_EGY,2026-07-07,12:00 PM,R16,ARG,EGY,Argentina,Egipto,scheduled,Atlanta Stadium,manual_calendar_r16_2026
+2026-07-07_SUI_COL,2026-07-07,4:00 PM,R16,SUI,COL,Suiza,Colombia,scheduled,Vancouver Stadium,manual_calendar_r16_2026

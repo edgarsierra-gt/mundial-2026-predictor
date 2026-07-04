@@ -93,5 +93,5 @@ match_id,match_no,stage,group,date,team_a_id,team_b_id,status,winner_advances_to
 2026-07-05_MEX_ENG,92,group,R16,2026-07-05,MEX,ENG,scheduled,,,manual_calendar_r16_2026
 2026-07-06_ESP_POR,93,group,R16,2026-07-06,ESP,POR,scheduled,,,manual_calendar_r16_2026
 2026-07-06_BEL_USA,94,group,R16,2026-07-06,BEL,USA,scheduled,,,manual_calendar_r16_2026
-2026-07-07_EGY_COL,95,group,R16,2026-07-07,EGY,COL,scheduled,,,manual_calendar_r16_2026
-2026-07-07_SUI_ARG,96,group,R16,2026-07-07,SUI,ARG,scheduled,,,manual_calendar_r16_2026
+2026-07-07_ARG_EGY,95,group,R16,2026-07-07,ARG,EGY,scheduled,,,manual_calendar_r16_2026
+2026-07-07_SUI_COL,96,group,R16,2026-07-07,SUI,COL,scheduled,,,manual_calendar_r16_2026

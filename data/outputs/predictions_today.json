@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T15:35:04.170487+00:00",
+  "generated_at": "2026-07-04T15:52:13.948549+00:00",
   "model_version": "2.0.0",
   "model_mode": "goals_only",
   "matches": [
@@ -334,62 +334,62 @@
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
-      "match_id": "2026-07-07_EGY_COL",
+      "match_id": "2026-07-07_ARG_EGY",
       "date": "2026-07-07",
       "time_local": "12:00 PM",
       "group": "R16",
       "venue": "Atlanta Stadium",
       "team_a": {
+        "id": "ARG",
+        "name": "Argentina",
+        "slug": "argentina"
+      },
+      "team_b": {
         "id": "EGY",
         "name": "Egipto",
         "slug": "egipto"
       },
-      "team_b": {
-        "id": "COL",
-        "name": "Colombia",
-        "slug": "colombia"
-      },
       "expected_goals": {
-        "team_a": 0.628711,
-        "team_b": 1.379204
+        "team_a": 1.717016,
+        "team_b": 0.425665
       },
       "probabilities": {
-        "team_a_win": 0.169849,
-        "draw": 0.278506,
-        "team_b_win": 0.551644
+        "team_a_win": 0.693834,
+        "draw": 0.22012,
+        "team_b_win": 0.086046
       },
-      "predicted_result": "team_b_win",
+      "predicted_result": "team_a_win",
       "most_likely_score": {
-        "score": "0-1",
-        "probability": 0.185186
+        "score": "1-0",
+        "probability": 0.20149
       },
       "top_scores": [
         {
-          "score": "0-1",
-          "probability": 0.185186
+          "score": "1-0",
+          "probability": 0.20149
+        },
+        {
+          "score": "2-0",
+          "probability": 0.172981
         },
         {
           "score": "0-0",
-          "probability": 0.13427
+          "probability": 0.117349
         },
         {
-          "score": "0-2",
-          "probability": 0.127705
+          "score": "3-0",
+          "probability": 0.099004
         },
         {
           "score": "1-1",
-          "probability": 0.116429
-        },
-        {
-          "score": "1-0",
-          "probability": 0.084417
+          "probability": 0.085767
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Alta",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     },
     {
-      "match_id": "2026-07-07_SUI_ARG",
+      "match_id": "2026-07-07_SUI_COL",
       "date": "2026-07-07",
       "time_local": "4:00 PM",
       "group": "R16",
@@ -400,47 +400,47 @@
         "slug": "suiza"
       },
       "team_b": {
-        "id": "ARG",
-        "name": "Argentina",
-        "slug": "argentina"
+        "id": "COL",
+        "name": "Colombia",
+        "slug": "colombia"
       },
       "expected_goals": {
-        "team_a": 0.646822,
-        "team_b": 1.425408
+        "team_a": 0.955362,
+        "team_b": 1.144968
       },
       "probabilities": {
-        "team_a_win": 0.169011,
-        "draw": 0.271653,
-        "team_b_win": 0.559335
+        "team_a_win": 0.302569,
+        "draw": 0.29771,
+        "team_b_win": 0.39972
       },
       "predicted_result": "team_b_win",
       "most_likely_score": {
         "score": "0-1",
-        "probability": 0.179469
+        "probability": 0.140163
       },
       "top_scores": [
         {
           "score": "0-1",
-          "probability": 0.179469
-        },
-        {
-          "score": "0-2",
-          "probability": 0.127908
-        },
-        {
-          "score": "0-0",
-          "probability": 0.125907
+          "probability": 0.140163
         },
         {
           "score": "1-1",
-          "probability": 0.116084
+          "probability": 0.133906
         },
         {
-          "score": "1-2",
-          "probability": 0.082734
+          "score": "0-0",
+          "probability": 0.122416
+        },
+        {
+          "score": "1-0",
+          "probability": 0.116952
+        },
+        {
+          "score": "0-2",
+          "probability": 0.080241
         }
       ],
-      "confidence_label": "Media",
+      "confidence_label": "Baja",
       "notes": "Prediccion inicial basada en indices de ataque/defensa y matriz Poisson."
     }
   ]
