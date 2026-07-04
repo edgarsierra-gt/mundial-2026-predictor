@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T08:31:25.929743+00:00",
+  "generated_at": "2026-07-04T15:29:33.323490+00:00",
   "model_version": "2.0.0",
   "ranking_type": "team_power_ranking",
   "not_a_champion_probability": true,
@@ -8,11 +8,11 @@
       "team_id": "ARG",
       "name": "Argentina",
       "group": "J",
-      "attack_index": 1.4946,
-      "defense_index": 0.2859,
+      "attack_index": 1.4618,
+      "defense_index": 0.3197,
       "weighted_goals_for_pg": 2.4566,
       "weighted_goals_against_pg": 0.3554,
-      "current_tournament_xg_diff_pg": 1.1967,
+      "current_tournament_xg_diff_pg": 1.185,
       "data_quality_score": 1.0
     },
     {
@@ -30,11 +30,11 @@
       "team_id": "ESP",
       "name": "España",
       "group": "H",
-      "attack_index": 1.31,
-      "defense_index": 0.3566,
+      "attack_index": 1.3302,
+      "defense_index": 0.3471,
       "weighted_goals_for_pg": 2.4094,
       "weighted_goals_against_pg": 0.8124,
-      "current_tournament_xg_diff_pg": 0.9867,
+      "current_tournament_xg_diff_pg": 1.19,
       "data_quality_score": 1.0
     },
     {
@@ -46,6 +46,17 @@
       "weighted_goals_for_pg": 2.4385,
       "weighted_goals_against_pg": 1.0301,
       "current_tournament_xg_diff_pg": 1.26,
+      "data_quality_score": 1.0
+    },
+    {
+      "team_id": "COL",
+      "name": "Colombia",
+      "group": "K",
+      "attack_index": 1.1742,
+      "defense_index": 0.4722,
+      "weighted_goals_for_pg": 2.1414,
+      "weighted_goals_against_pg": 1.0902,
+      "current_tournament_xg_diff_pg": 0.9475,
       "data_quality_score": 1.0
     },
     {
@@ -93,14 +104,14 @@
       "data_quality_score": 1.0
     },
     {
-      "team_id": "COL",
-      "name": "Colombia",
-      "group": "K",
-      "attack_index": 1.1291,
-      "defense_index": 0.5207,
-      "weighted_goals_for_pg": 2.1414,
-      "weighted_goals_against_pg": 1.0902,
-      "current_tournament_xg_diff_pg": 0.61,
+      "team_id": "SUI",
+      "name": "Suiza",
+      "group": "B",
+      "attack_index": 1.3053,
+      "defense_index": 0.6291,
+      "weighted_goals_for_pg": 2.0116,
+      "weighted_goals_against_pg": 1.1242,
+      "current_tournament_xg_diff_pg": 1.36,
       "data_quality_score": 1.0
     },
     {
@@ -115,17 +126,6 @@
       "data_quality_score": 1.0
     },
     {
-      "team_id": "POR",
-      "name": "Portugal",
-      "group": "K",
-      "attack_index": 1.114,
-      "defense_index": 0.5642,
-      "weighted_goals_for_pg": 2.2501,
-      "weighted_goals_against_pg": 0.9882,
-      "current_tournament_xg_diff_pg": 0.2833,
-      "data_quality_score": 1.0
-    },
-    {
       "team_id": "MEX",
       "name": "México",
       "group": "A",
@@ -137,14 +137,14 @@
       "data_quality_score": 1.0
     },
     {
-      "team_id": "SUI",
-      "name": "Suiza",
-      "group": "B",
-      "attack_index": 1.2734,
-      "defense_index": 0.6597,
-      "weighted_goals_for_pg": 2.0116,
-      "weighted_goals_against_pg": 1.1242,
-      "current_tournament_xg_diff_pg": 1.27,
+      "team_id": "POR",
+      "name": "Portugal",
+      "group": "K",
+      "attack_index": 1.1779,
+      "defense_index": 0.6098,
+      "weighted_goals_for_pg": 2.2501,
+      "weighted_goals_against_pg": 0.9882,
+      "current_tournament_xg_diff_pg": 0.475,
       "data_quality_score": 1.0
     },
     {
@@ -225,17 +225,6 @@
       "data_quality_score": 1.0
     },
     {
-      "team_id": "AUT",
-      "name": "Austria",
-      "group": "J",
-      "attack_index": 0.9875,
-      "defense_index": 0.7334,
-      "weighted_goals_for_pg": 2.4323,
-      "weighted_goals_against_pg": 0.6689,
-      "current_tournament_xg_diff_pg": -0.2467,
-      "data_quality_score": 1.0
-    },
-    {
       "team_id": "ECU",
       "name": "Ecuador",
       "group": "E",
@@ -280,47 +269,47 @@
       "data_quality_score": 1.0
     },
     {
-      "team_id": "CRO",
-      "name": "Croacia",
-      "group": "L",
-      "attack_index": 0.924,
-      "defense_index": 0.8322,
-      "weighted_goals_for_pg": 2.0926,
-      "weighted_goals_against_pg": 1.3981,
-      "current_tournament_xg_diff_pg": -0.5067,
-      "data_quality_score": 1.0
-    },
-    {
-      "team_id": "DZA",
-      "name": "Argelia",
-      "group": "J",
-      "attack_index": 0.8083,
-      "defense_index": 0.7315,
-      "weighted_goals_for_pg": 1.9367,
-      "weighted_goals_against_pg": 0.6808,
-      "current_tournament_xg_diff_pg": -0.0767,
-      "data_quality_score": 1.0
-    },
-    {
       "team_id": "EGY",
       "name": "Egipto",
       "group": "G",
-      "attack_index": 0.8624,
-      "defense_index": 0.811,
+      "attack_index": 0.859,
+      "defense_index": 0.7578,
       "weighted_goals_for_pg": 1.2347,
       "weighted_goals_against_pg": 0.8534,
-      "current_tournament_xg_diff_pg": 0.1733,
+      "current_tournament_xg_diff_pg": 0.285,
+      "data_quality_score": 1.0
+    },
+    {
+      "team_id": "AUT",
+      "name": "Austria",
+      "group": "J",
+      "attack_index": 0.8879,
+      "defense_index": 0.836,
+      "weighted_goals_for_pg": 2.4323,
+      "weighted_goals_against_pg": 0.6689,
+      "current_tournament_xg_diff_pg": -0.635,
+      "data_quality_score": 1.0
+    },
+    {
+      "team_id": "CRO",
+      "name": "Croacia",
+      "group": "L",
+      "attack_index": 0.9183,
+      "defense_index": 0.9364,
+      "weighted_goals_for_pg": 2.0926,
+      "weighted_goals_against_pg": 1.3981,
+      "current_tournament_xg_diff_pg": -0.6425,
       "data_quality_score": 1.0
     },
     {
       "team_id": "AUS",
       "name": "Australia",
       "group": "D",
-      "attack_index": 0.7081,
-      "defense_index": 0.67,
+      "attack_index": 0.6696,
+      "defense_index": 0.6941,
       "weighted_goals_for_pg": 1.574,
       "weighted_goals_against_pg": 0.7521,
-      "current_tournament_xg_diff_pg": -0.16,
+      "current_tournament_xg_diff_pg": -0.275,
       "data_quality_score": 1.0
     },
     {
@@ -332,6 +321,17 @@
       "weighted_goals_for_pg": 2.3178,
       "weighted_goals_against_pg": 1.5602,
       "current_tournament_xg_diff_pg": -0.4975,
+      "data_quality_score": 1.0
+    },
+    {
+      "team_id": "DZA",
+      "name": "Argelia",
+      "group": "J",
+      "attack_index": 0.7564,
+      "defense_index": 0.8409,
+      "weighted_goals_for_pg": 1.9367,
+      "weighted_goals_against_pg": 0.6808,
+      "current_tournament_xg_diff_pg": -0.465,
       "data_quality_score": 1.0
     },
     {
@@ -368,17 +368,6 @@
       "data_quality_score": 1.0
     },
     {
-      "team_id": "CPV",
-      "name": "Cabo Verde",
-      "group": "H",
-      "attack_index": 0.6834,
-      "defense_index": 0.9008,
-      "weighted_goals_for_pg": 1.4358,
-      "weighted_goals_against_pg": 0.7468,
-      "current_tournament_xg_diff_pg": -0.4067,
-      "data_quality_score": 1.0
-    },
-    {
       "team_id": "CZE",
       "name": "República Checa",
       "group": "A",
@@ -390,14 +379,14 @@
       "data_quality_score": 1.0
     },
     {
-      "team_id": "GHA",
-      "name": "Ghana",
-      "group": "L",
-      "attack_index": 0.5805,
-      "defense_index": 0.7854,
-      "weighted_goals_for_pg": 1.3028,
-      "weighted_goals_against_pg": 1.1182,
-      "current_tournament_xg_diff_pg": -0.2667,
+      "team_id": "CPV",
+      "name": "Cabo Verde",
+      "group": "H",
+      "attack_index": 0.6604,
+      "defense_index": 0.9527,
+      "weighted_goals_for_pg": 1.4358,
+      "weighted_goals_against_pg": 0.7468,
+      "current_tournament_xg_diff_pg": -0.5925,
       "data_quality_score": 1.0
     },
     {
@@ -409,6 +398,17 @@
       "weighted_goals_for_pg": 1.2727,
       "weighted_goals_against_pg": 0.9791,
       "current_tournament_xg_diff_pg": -0.44,
+      "data_quality_score": 1.0
+    },
+    {
+      "team_id": "GHA",
+      "name": "Ghana",
+      "group": "L",
+      "attack_index": 0.5234,
+      "defense_index": 0.8796,
+      "weighted_goals_for_pg": 1.3028,
+      "weighted_goals_against_pg": 1.1182,
+      "current_tournament_xg_diff_pg": -0.69,
       "data_quality_score": 1.0
     },
     {
