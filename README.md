@@ -178,15 +178,15 @@ Pasos manuales equivalentes (lo que hacía este comando antes de existir, por si
 6. Copiar `data/outputs/*.json` a `edgarsierra.com/src/data/mundial-2026/`.
 7. En `edgarsierra.com`: `npm run build`, commit + push.
 
-### Por qué la automatización programada (abajo) no cubre esto todavía
+### Por qué la automatización programada (abajo) nunca cubrió esto
 
-El cron de este repo solo corre `update_all.py --skip-build`, es decir, únicamente procesa `data/raw/resultados_nuevos.csv`. Nunca relee el Excel completo porque el Excel ni siquiera existe en el entorno de GitHub Actions (los crudos no se publican). Mientras `resultados_nuevos.csv` esté vacío, el cron simplemente reconfirma los mismos números con timestamp nuevo — no es un bug, es la consecuencia esperada de no alimentarlo.
+El cron de este repo (activo hasta el 18 de septiembre de 2026) solo corría `update_all.py --skip-build`, es decir, únicamente procesaba `data/raw/resultados_nuevos.csv`. Nunca releía el Excel completo porque el Excel ni siquiera existe en el entorno de GitHub Actions (los crudos no se publican). Con `resultados_nuevos.csv` vacío, el cron simplemente reconfirmaba los mismos números con timestamp nuevo — no es un bug, es la consecuencia esperada de no alimentarlo.
 
 `refresh_and_publish.py` (arriba) ya resuelve la fricción manual, pero alguien sigue teniendo que dispararlo cuando llega un Excel nuevo. Para que el cron mismo lo cubra sin intervención humana faltaría, en orden de esfuerzo: (a) alimentar `resultados_nuevos.csv` incrementalmente partido por partido — el cron ya sabe consumir eso solo, cero código nuevo; o (b) reemplazar el Excel manual por una fuente de datos en vivo (scraper/API) que el propio cron pueda llamar — automatización real de punta a punta, pero la pieza más grande y la más riesgosa de mantener.
 
 ## Automatización
 
-`.github/workflows/update-manual.yml` corre con botón (`workflow_dispatch`) y también automático dos veces al día (`cron: "0 6,18 * * *"`, hora UTC). En cada corrida:
+`.github/workflows/update-manual.yml` corre **solo con botón** (`workflow_dispatch`). En cada corrida:
 
 1. corre `ruff` y `pytest`;
 2. corre `python scripts/update_all.py --skip-build` (ingesta de `resultados_nuevos.csv` incluida);
@@ -194,6 +194,15 @@ El cron de este repo solo corre `update_all.py --skip-build`, es decir, únicame
 4. si existe el secret `SITE_SYNC_TOKEN`, abre un Pull Request en `edgarsierra-gt/edgarsierra.com` con los JSON nuevos copiados a `src/data/mundial-2026/`.
 
 Sin `SITE_SYNC_TOKEN` configurado, el workflow sigue corriendo y commiteando normal en este repo; solo se omiten los pasos 4 en adelante.
+
+### El cron programado se retiró (18 de septiembre de 2026)
+
+El workflow tenía además `cron: "0 6,18 * * *"` (UTC, dos corridas diarias). Se quitó por dos razones:
+
+1. **Ya no tenía nada que hacer.** El torneo terminó el 4 de julio de 2026 y el laboratorio quedó archivado. Con `resultados_nuevos.csv` vacío, cada corrida solo reescribía los mismos números con timestamp nuevo.
+2. **Llevaba semanas fallando y mandando correos.** `ruff` estaba sin pinear en las dependencias `dev`, así que CI instalaba la versión más nueva en cada corrida. Una release posterior activó reglas nuevas por default (`RUF059` entre otras) y el paso `Run tests` empezó a salir en rojo — 29 hallazgos — sin que cambiara una sola línea de código. Desde finales de julio de 2026 **todas** las corridas programadas fallaron, dos veces al día. Ahora `ruff` está pineado (`ruff==0.15.18`) para que la corrida manual vuelva a pasar; súbelo a propósito, no por accidente.
+
+Para reactivar el pipeline en otro torneo: devolver el bloque `schedule:` al workflow (el comentario en el archivo indica dónde) y revisar el pin de `ruff` antes.
 
 ### Configurar `SITE_SYNC_TOKEN` (una sola vez)
 

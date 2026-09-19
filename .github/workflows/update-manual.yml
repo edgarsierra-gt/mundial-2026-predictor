@@ -1,9 +1,11 @@
 name: Update World Cup Model
 
+# Manual trigger only. The scheduled run (cron "0 6,18 * * *") was removed on
+# 2026-09-18: the tournament ended 2026-07-04 and the lab is archived, so every
+# run was a no-op that only re-timestamped identical outputs. Restore the
+# schedule block here if the pipeline is ever reactivated for another tournament.
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: "0 6,18 * * *"
 
 permissions:
   contents: write

@@ -14,7 +14,11 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
   "pytest",
-  "ruff",
+  # ruff is pinned on purpose: it was unpinned, so CI installed the newest
+  # release on every run and a later version enabled new default rules (RUF059
+  # and others). That turned "Run tests" red twice a day without a single line
+  # of code changing. Bump this deliberately, not by accident.
+  "ruff==0.15.18",
   "black"
 ]
 
